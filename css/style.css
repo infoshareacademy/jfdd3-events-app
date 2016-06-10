@@ -1,5 +1,6 @@
 .buttons-months {
-    float: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #tab-map {
@@ -15,3 +16,4 @@
     width: 75vw;
     height: 100vh;
 }
+
