@@ -1,4 +1,4 @@
-'use scripts'
+'use strict';
 
 $('#tab-calendar a:first').tab('show')
 
