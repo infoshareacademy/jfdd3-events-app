@@ -1,85 +1,63 @@
-'use strict',
-var all
-var allEvents= [
-    {
-        name:'B-party',
-        place:'Sopot',
-        price:50,
-        picture:'event-image01'},
+'use strict';
 
-    {
-        name:'5-urodziny klubu',
-        place:'Gdansk',
-        price:'free',
-        picture:'event-image02'},
-
-    {
-        name:'Disco Party',
-        place:'Gdynia',
-        price:25,
-        picture:'event-image03'},
-
-    {
-        name:'18-Antka',
-        place:'Sopot',
-        price:'free',
-        picture:'event-image04'},
-
-    {
-        name:'Biba do samego rana',
-        place:'Gdynia',
-        price:'50',
-        picture:'event-image05'},
-
-    {
-        name:'House Party',
-        place:'Gdansk',
-        price:'19',
-        picture:'event-image02'},
-
-    {
-        name:'18-Antka',
-        place:'Gdynia',
-        price:'free',
-        picture:'event-image02'},
-
-    {
-        name:'18-Antka',
-        place:'Gdynia',
-        price:'free',
-        picture:'event-image02'},
-
-    {
-        name:'18-Antka',
-        place:'Gdynia',
-        price:'free',
-        picture:'event-image02'},
-
-    {
-        name:'18-Antka',
-        place:'Gdynia',
-        price:'free',
-        picture:'event-image02'},
-
-    {
-        name:'18-Antka',
-        place:'Gdynia',
-        price:'free',
-        picture:'event-image02'},
-
-
+var allClub=[
+    {name:"Bunkier", city:"Gdansk"},
+    {name:'Desdemona', city:'Gdynia'},
+    {name:'Mewa Towarzyska', city:'Sopot'},
+    {name:'Absinthe', city:'Gdansk'},
+    {name:'Pokład', city:'Gdynia'},
+    {name:'Parlament', city:'Gdansk'},
+    {name:'Sfinx 700', city:'Sopot'},
+    {name:'Kwadratowa', city:'Gdansk'},
+    {name:'Dream Club', city:'Sopot'},
+    {name:'Atlantic', city:'Gdynia'},
+    {name:'Ucho', city:'Gdynia'},
+    {name:'Bunkier', city:'Gdansk'},
+    {name:'Makahik', city:'Sopot'},
+    {name:'Blues Club', city:'Gdynia'},
+    {name:'Universal', city:'Gdynia'},
+    {name:'Redlight', city:'Gdansk'},
+    {name:"B90", city:"Gdansk"},
+    {name:'Czekoladowa', city:'Sopot'},
+    {name:'SPATiF', city:'Sopot'},
+    {name:'Protokultura', city:'Gdansk'},
+    {name:'Atelier', city:'Sopot'},
+    {name:'Żak', city:'Gdansk'},
+    {name:'HAH', city:'Sopot'},
+    {name:'Lawendowa 8', city:'Gdansk'},
+    {name:'3 siostry', city:'Sopot'},
+    {name:'Lustra', city:'Gdynia'},
+    {name:'Wtedy', city:'Sopot'},
+    {name:'Stacja delux', city:'Gdansk'},
+    {name:'Unique', city:'Sopot'},
+    {name:'Dwie zmiany', city:'Sopot'},
+    {name:'Scena', city:'Sopot'},
+    {name:'TAN', city:'Sopot'},
+    {name:'Libation ', city:'Sopot'},
 ];
-
-
-function createEvent(name, place, date, description, picture) {
-    return {
-        name: name,
-        place: place,
-        date: date,
-        description: description,
-        picture: picture
-    }
-}
-
-
-
+var allEvents=[
+    {name:'Ludzie ulicy', photo:''},
+    {name:'Otwarcie ogródka', photo:''},
+    {name:'Zaćmienie', photo:''},
+    {name:'Cudawianki', photo:''},
+    {name:'Pozytwynie wpłynie TECHNO', photo:''},
+   {name:'Ziemia to za mało', photo:''},
+   {name:'Festiwal trafik', photo:''},
+   {name:'Garden party', photo:''},
+   {name:'Wieczor piwa ', photo:''},
+   {name:'Techno Night', photo:''},
+   {name:'House Time', photo:''},
+   {name:'Muzyka elektroniczna', photo:''},
+   {name:'Destroy music', photo:''},
+   {name:'Rozpoczecie seonu', photo:''},
+   {name:'Zmiana miejsc', photo:''},
+   {name:'Wystywa Fotografi', photo:''},
+   {name:'Koncert na dachu', photo:''},
+   {name:'Scena odkryć', photo:''},
+   {name:'VHS HELL', photo:''},
+   {name:'CD HEAVEN', photo:''},
+   {name:'Wieczór', photo:''},
+   {name:'Boat Party', photo:''},
+   {name:'Disco 80', photo:''},
+   {name:'Dance Time', photo:''},
+]
