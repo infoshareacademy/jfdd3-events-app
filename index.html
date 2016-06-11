@@ -16,14 +16,14 @@
 </div>
 
 <ul class="nav nav-tabs">
-    <li role="presentation" class="active" id="button-calendar"><a href="#tab-calendar">Kalendarz</a></li>
-    <li role="presentation" id="button-map"><a href="#tab-map">Mapa</a></li>
+    <li role="presentation" class="active"><a href="#tab-calendar" class="tab-control">Kalendarz</a></li>
+    <li role="presentation"><a href="#tab-map" class ="tab-control">Mapa</a></li>
 </ul>
 
 <!--Zakładka z kalendarzem-->
 
 <main>
-<div id="tab-calendar">
+<div id="tab-calendar" class="tab-panel active">
 
     <!--Kafelki z miesiącami-->
     <div class="container-fluid buttons-months">
@@ -282,21 +282,22 @@
 
 
 <!--Zakładka z mapą-->
+<div class="tab-panel" id="tab-map">
+    <div class="container">
 
-<div class="container" id="tab-map">
-
-    <div class="col-xs-4 col-md-2 col-lg-1" id="mapa"></div>
-    <script>
-        var map;
-        function initMap() {
-            map = new google.maps.Map(document.getElementById("mapa"), {
-                center: {lat: 54.3950255, lng: 18.5731431},
-                zoom: 10
-            });
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
-            async defer></script>
+        <div class="col-xs-4 col-md-2 col-lg-1" id="mapa"></div>
+        <script>
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById("mapa"), {
+                    center: {lat: 54.3950255, lng: 18.5731431},
+                    zoom: 10
+                });
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
+                async defer></script>
+    </div>
 </div>
 </main>
 

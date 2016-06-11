@@ -17,3 +17,10 @@
     height: 100vh;
 }
 
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+}
