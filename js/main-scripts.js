@@ -74,8 +74,8 @@ function generateEvents(events, clubs) {
         club.eventName = event['name'];
         club.eventPhoto = event.photo;
         club.eventData = event.data;
-        
-        //console.log(JSON.stringify(club));
+
+       //
 
         newEvents.push(club);
 
@@ -84,4 +84,7 @@ function generateEvents(events, clubs) {
     //console.log(newEvents);
     return newEvents;
 }
+var events = generateEvents(allEvents,allClubs);
+console.log(events);
+
 
