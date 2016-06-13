@@ -60,4 +60,30 @@ var allEvents=[
            {name:'Boat Party', photo:'', data:''},
            {name:'Disco 80', photo:'', data:''},
            {name:'Dance Time', photo:'', data:''},
+<<<<<<< Updated upstream
 ];
+=======
+];
+
+
+function generateEvents (findEvents, findClub){
+    var newEvents=[];
+
+    for ( var i =0; i < 25; i++) {
+        var club= Math.round(Math.random()*allClubs.length-1);
+
+        var event=Math.round(Math.random()*allEvents.length-1);
+
+        club.eventName=event.name;
+        club.eventPhoto=event.photo;
+        club.eventData=event.data;
+
+        newEvents.push(club);
+
+
+
+    }
+    console.log(newEvents);
+    return newEvents;
+}
+>>>>>>> Stashed changes
