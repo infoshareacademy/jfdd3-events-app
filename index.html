@@ -271,21 +271,34 @@
 
 <!--Zakładka z mapą-->
 <div class="tab-panel" id="tab-map">
-    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
 
-        <div class="col-xs-4 col-md-2 col-lg-1" id="mapa"></div>
-        <script>
-            var map;
-            function initMap() {
-                map = new google.maps.Map(document.getElementById("mapa"), {
-                    center: {lat: 54.3950255, lng: 18.5731431},
-                    zoom: 10
-                });
-            }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
-                async defer></script>
+                <div class="col-xs-12 col-md-8" id="mapa"></div>
+                <script>
+                    var map;
+                    function initMap() {
+                        var center = {lat: 54.443499, lng: 18.564406};
+                        map = new google.maps.Map(document.getElementById("mapa"), {
+                            center: center,
+                            zoom:16
+                        });
+                        google.maps.event.addDomListener(window, 'resize', function() {
+                            map.setCenter(center);
+                        });
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
+                        async defer></script>
+
+                <div class="col-xs-12 col-md-4">
+                    div na info o lokalach
+                </div>
+
+            </div>
+
     </div>
+
 </div>
 </main>
 
