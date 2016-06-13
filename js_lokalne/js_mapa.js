@@ -3,11 +3,6 @@
 Skrypt przełączający między kalendarzem a mapą
 */
 
-
-
-
-
-
 $('.nav-tabs').each(function () {
     var $this = $(this);
     var $tab = $this.find('li.active');
@@ -27,7 +22,6 @@ $('.nav-tabs').each(function () {
             $tab = $link.parent().addClass('active');
         }
     });
-
 });
 
 
