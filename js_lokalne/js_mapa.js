@@ -11,6 +11,7 @@ $('.nav-tabs').each(function () {
 
     $this.on('click', '.tab-control', function (e) {
         e.preventDefault();
+
         var $link = $(this);
         var id = this.hash;
 
@@ -20,6 +21,9 @@ $('.nav-tabs').each(function () {
 
             $panel = $(id).addClass('active');
             $tab = $link.parent().addClass('active');
+
+            google.maps.event.trigger(map, 'resize');
+            map.setZoom( map.getZoom() );
         }
     });
 });
