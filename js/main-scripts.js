@@ -64,23 +64,24 @@ var allEvents = [
 ];
 
 
-function generateEvents(findEvents, findClub) {
+function generateEvents(events, clubs) {
+
     var newEvents = [];
 
     for (var i = 0; i < 25; i++) {
-        var club = Math.round(Math.random() * allClubs.length - 1);
-
-        var event = Math.round(Math.random() * allEvents.length - 1);
-
-        club.eventName = event.name;
+        var club = clubs[Math.round(Math.random() * allClubs.length - 1)];
+        var event = events[Math.round(Math.random() * allEvents.length - 1)];
+        club.eventName = event['name'];
         club.eventPhoto = event.photo;
         club.eventData = event.data;
+        
+        //console.log(JSON.stringify(club));
 
         newEvents.push(club);
 
 
     }
-    console.log(newEvents);
+    //console.log(newEvents);
     return newEvents;
 }
 
