@@ -29,6 +29,29 @@ $('.nav-tabs').each(function () {
 });
 
 
+var map;
+function initMap() {
+    var center = {lat: 54.443499, lng: 18.564406};
+    map = new google.maps.Map(document.getElementById("mapa"), {
+        center: center,
+        zoom:16
+    });
+    var marker = new google.maps.Marker({
+        position: {lat: 54.443499, lng: 18.564406},
+        map: map,
+        title: 'nazwa klubu'
+    });
+    var marker = new google.maps.Marker({
+        position: {lat: 54.443670, lng: 18.566250},
+        map: map,
+        title: 'nazwa klubu'
+    });
+    google.maps.event.addDomListener(window, 'resize', function() {
+        map.setCenter(center);
+    });
+}
+
+
 
 
 

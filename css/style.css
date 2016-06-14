@@ -24,3 +24,9 @@
 .tab-panel.active {
     display: block;
 }
+
+.localEvent {
+    height: 20%;
+    border-color: #0f0f0f;
+    background-color: yellow;
+}

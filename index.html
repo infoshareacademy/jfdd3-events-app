@@ -272,28 +272,65 @@
 <!--Zakładka z mapą-->
 <div class="tab-panel" id="tab-map">
         <div class="container-fluid">
-            <div class="row">
 
-                <div class="col-xs-12 col-md-8" id="mapa"></div>
-                <script>
-                    var map;
-                    function initMap() {
-                        var center = {lat: 54.443499, lng: 18.564406};
-                        map = new google.maps.Map(document.getElementById("mapa"), {
-                            center: center,
-                            zoom:16
-                        });
-                        google.maps.event.addDomListener(window, 'resize', function() {
-                            map.setCenter(center);
-                        });
-                    }
-                </script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
-                        async defer></script>
 
                 <div class="col-xs-12 col-md-4">
                     div na info o lokalach
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="thumbnail">
+                                <img src="..." alt="...">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <p>...</p>
+                                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="thumbnail">
+                                <img src="..." alt="...">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <p>...</p>
+                                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="thumbnail">
+                                <img src="..." alt="...">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <p>...</p>
+                                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="thumbnail">
+                                <img src="..." alt="...">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <p>...</p>
+                                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
+                <div class="col-xs-12 col-md-8" id="mapa"></div>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
+                        async defer></script>
 
             </div>
 
