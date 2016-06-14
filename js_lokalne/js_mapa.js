@@ -36,16 +36,23 @@ function initMap() {
         center: center,
         zoom:16
     });
-    var marker = new google.maps.Marker({
-        position: {lat: 54.443499, lng: 18.564406},
-        map: map,
-        title: 'nazwa klubu'
+    eventList.forEach(function (place) {
+        var marker = new google.maps.Marker({
+            position: place.position,
+            map: map,
+            title: 'nazwa klubu'
+        });
     });
-    var marker = new google.maps.Marker({
-        position: {lat: 54.443670, lng: 18.566250},
-        map: map,
-        title: 'nazwa klubu'
-    });
+    //var marker = new google.maps.Marker({
+    //    position: {lat: 54.443499, lng: 18.564406},
+    //    map: map,
+    //    title: 'nazwa klubu'
+    //});
+    //var marker = new google.maps.Marker({
+    //    position: {lat: 54.443670, lng: 18.566250},
+    //    map: map,
+    //    title: 'nazwa klubu'
+    //});
     google.maps.event.addDomListener(window, 'resize', function() {
         map.setCenter(center);
     });
