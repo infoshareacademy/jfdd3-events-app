@@ -51,11 +51,15 @@ function initMap() {
             var $entertainment = $('<h4 class="media-heading">').text(place.nameEvent);
             /*var $photo = $('<img class="media-object" src="..." alt="...">')*/
 
-            var $events = $('<div class="panel-body"><div class="media"><div class="media-left media-middle"><a href="#"><img class="media-object" src = "..." alt= "..."></a></div><div class="media-body" ><h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4></div></div></div>');
+            var $events = $('<div class="panel-body"><div class="media"><div class="media-left media-middle"><a href="#"><img class="media-object" id="eventImage"></a></div><div class="media-body" ><h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4></div></div></div>');
 
             $events.find('.media-heading').text(place.nameEvent);
 
+            /*http://api.jquery.com/attr/*/
+
+
             $('#clubInfo').empty().append($header).append($events);
+            $( "#eventImage" ).attr('src', place.photo);
         });
 
     });
