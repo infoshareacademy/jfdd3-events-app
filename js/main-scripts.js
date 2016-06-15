@@ -87,7 +87,7 @@ var eventList=[
     {name: 'Kwadratowa', city: 'Gdansk', position: {lat: 54.370941, lng: 18.615147}, nameEvent:'Festival trafik', photo: 'images/mini/4.jpg', data: '2016-7-9', idEvent:"ev-04"},
     {name: 'Dream Club', city: 'Sopot', position: {lat: 54.444478, lng: 18.566645}, nameEvent:'Pozytywnie wpłynie techno', photo: 'images/mini/5.jpg', data: '2016-7-12', idEvent:"ev-05"},
     {name: 'Bunkier', city: 'Gdansk', position: {lat: 54.354750, lng: 18.654678}, nameEvent:'Garden party', photo: 'images/mini/6.jpg', data: '2016-7-14', idEvent:"ev-06"},
-    {name: "B90", city: "Gdansk", nameEvent:'Techno night', photo: 'images/mini/17.jpg', data: '2016-7-10', idEvent:"ev-07"},
+    {name: "B90", city: "Gdansk", position: {lat: 54.364774, lng: 18.648552}, nameEvent:'Techno night', photo: 'images/mini/17.jpg', data: '2016-7-10', idEvent:"ev-07"},
     {name: 'Czekoladowa', city: 'Sopot', position: {lat: 54.454168, lng: 18.554595}, nameEvent:'House Time', photo: 'images/mini/7.jpg', data: '2016-7-8', idEvent:"ev-08"},
     {name: 'SPATiF', city: 'Sopot', position: {lat: 54.444402, lng: 18.567747}, nameEvent:'Destyroy Music', photo: 'images/mini/8.jpg', data: '2016-7-9', idEvent:"ev-09"},
     {name: 'Protokultura', city: 'Gdansk', position: {lat: 54.443701, lng: 18.567403}, nameEvent:'Sunrise', photo: 'images/mini/9.jpg', data: '2016-7-11', idEvent:"ev-10"},

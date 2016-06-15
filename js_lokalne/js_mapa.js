@@ -36,12 +36,28 @@ function initMap() {
         center: center,
         zoom:16
     });
+
+
+
     eventList.forEach(function (place) {
         var marker = new google.maps.Marker({
             position: place.position,
             map: map,
-            title: place.name,
+            title: place.name
         });
+        marker.addListener('click', function() {
+
+            var $header = $('<div class="panel-heading">').text(place.name);
+            var $entertainment = $('<h4 class="media-heading">').text(place.nameEvent);
+            /*var $photo = $('<img class="media-object" src="..." alt="...">')*/
+
+            var $events = $('<div class="panel-body"><div class="media"><div class="media-left media-middle"><a href="#"><img class="media-object" src = "..." alt= "..."></a></div><div class="media-body" ><h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4></div></div></div>');
+
+            $events.find('.media-heading').text(place.nameEvent);
+
+            $('#clubInfo').empty().append($header).append($events);
+        });
+
     });
 
     google.maps.event.addDomListener(window, 'resize', function() {
