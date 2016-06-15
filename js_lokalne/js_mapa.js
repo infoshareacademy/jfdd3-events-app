@@ -50,15 +50,16 @@ function initMap() {
             var $header = $('<div class="panel-heading">').text(place.name);
             /*var $entertainment = $('<h4 class="media-heading">').text(place.nameEvent);*/
             
-            var $events = $('<div class="panel-body"><div class="media"><div class="media-left media-middle"><a href="#"><img class="media-object" id="eventImage"></a></div><div class="media-body" ><h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4></div></div></div>');
+            var $events = $('<div class="panel-body"><div class="media"><div class="media-left media-middle"><a href="#"><img class="media-object" id="eventImage"></a></div><div class="media-body" ><h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4></div><div id="eventDate" class="pull-right eventDate">miejsce na datę imprezy</div></div></div>');
 
             $events.find('.media-heading').text(place.nameEvent);
-            var $eventDate = $('#eventDate').text(place.data);
+            $events.find('#eventDate').text(place.data);
+            /*var $eventDate = $('#eventDate').text(place.data);*/
 
             /*http://api.jquery.com/attr/*/
 
 
-            $('#clubInfo').empty().append($header).append($events).append($eventDate);
+            $('#clubInfo').empty().append($header).append($events)/*.append($eventDate)*/;
             $( "#eventImage" ).attr('src', place.photo);
         });
 
