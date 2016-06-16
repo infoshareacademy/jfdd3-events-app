@@ -1,0 +1,51 @@
+.header-container {
+    height: 4%;
+    width: 100%;
+}
+
+.calendar-title {
+    float: right;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-right: 0.5em;
+}
+
+.menu-months {
+    font-size: 2em;
+    height: 14%;
+    color: rgb(180, 180, 180);
+    padding-top: 1%;
+}
+
+.calendar-button {
+    border: 2px solid;
+    border-color: rgb(180, 180, 180);
+    background-color: black;
+    color: rgb(180, 180, 180);
+    font-size: 1em;
+    padding: 0.5em 1em;
+    margin: 0.6em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.calendar-button:hover {
+    border-color: white;
+    color: white;
+}
+
+.calendar-arrow {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    padding-top: 20px;
+}
+
+.calendar-arrow:hover {
+    color: white;
+}
