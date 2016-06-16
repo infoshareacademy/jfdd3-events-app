@@ -38,19 +38,19 @@ function initMap() {
     });
 
 
-
     eventList.forEach(function (place) {
         var marker = new google.maps.Marker({
             position: place.position,
             map: map,
             title: place.name
+
         });
         marker.addListener('click', function() {
 
             var $header = $('<div class="panel-heading">').text(place.name);
             /*var $entertainment = $('<h4 class="media-heading">').text(place.nameEvent);*/
             
-            var $events = $('<div class="panel-body"><div class="media"><div class="media-left media-middle"><a href="#"><img class="media-object" id="eventImage"></a></div><div class="media-body" ><h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4></div><div id="eventDate" class="pull-right eventDate">miejsce na datę imprezy</div></div></div>');
+            var $events = $('<div class="panel-body"><div class="media"><div class="media-left media-middle"><a href="#"><img class="media-object" id="eventImage"></a></div><div class="media-body" ><h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4></div><div id=eventDate class="media-right media-middle"><div>data</div></div></div></div></div>');
 
             $events.find('.media-heading').text(place.nameEvent);
             $events.find('#eventDate').text(place.data);

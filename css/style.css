@@ -38,3 +38,8 @@
 .eventName {
     background-color: red;
 }
+
+#eventImage {
+    max-width:64px;
+    max-height: 64px;
+}
