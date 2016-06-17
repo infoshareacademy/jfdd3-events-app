@@ -54,11 +54,17 @@ body {
     color: white;
 }
 
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .banner-right {
     background-color: black;
 }
 
 .footer i {
+    padding-top: 0.35em;
     color: white;
     font-size: 2.5em;
     margin-right: 0.5em;
@@ -106,4 +112,9 @@ body {
 .event-thumbnail:hover p {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+a:link, a:visited, a:active {
+    color: rgb(180, 180, 180);
+    text-decoration: none;
 }

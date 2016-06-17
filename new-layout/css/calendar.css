@@ -13,9 +13,9 @@
 
 .menu-months {
     font-size: 2em;
-    height: 14%;
     color: rgb(180, 180, 180);
-    padding-top: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .calendar-button {

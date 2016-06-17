@@ -1,0 +1,47 @@
+
+/*.tab-panel {*/
+    /*display: none;*/
+/*}*/
+
+/*.tab-panel.active {*/
+    /*display: block;*/
+/*}*/
+
+
+.map-container {
+    height: 85vh;
+    margin-bottom: 60px;
+}
+
+.event-panel-body {
+ background-color: black;
+    padding: 2em;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    color: white;
+}
+
+.event-panel-heading {
+    background-color: white;
+    font-family: 'Open Sans', sans serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.pull-right2 {
+    float: right;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+.event-img {
+    width: 70px;
+    height: auto;
+    display: inline;
+}
+
+#eventInfo {
+    margin: 0;
+}
