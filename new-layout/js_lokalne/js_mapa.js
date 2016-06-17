@@ -42,7 +42,8 @@ function initMap() {
         var marker = new google.maps.Marker({
             position: place.position,
             map: map,
-            title: place.name
+            title: place.name,
+            icon: place.icon
 
         });
         marker.addListener('click', function() {
