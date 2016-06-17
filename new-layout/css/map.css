@@ -17,8 +17,9 @@
  background-color: black;
     padding: 2em;
     margin-bottom: 20px;
-    border: 2px solid white;
+    border: 1px solid white;
     color: white;
+    height: 80vh;
 }
 
 .event-panel-heading {
