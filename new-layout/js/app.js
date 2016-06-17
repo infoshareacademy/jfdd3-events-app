@@ -1,11 +1,12 @@
 (function (){
     var app= angular.module('nazwaApp', []);
 
-    app.controller('nazwaControllera', ctrl);
-    app.directive('eventCard', eventCardDirective);
+    app.controller('EventList', ctrl);
+    //app.directive('eventCard', eventCardDirective);
+
 
     function ctrl($scope){
-        $scope.eventList=[
+        $scope.allEvent=[
             {name: "Bunkier", city: "Gdansk", position: {lat: 54.354750, lng: 18.654678}, nameEvent:'Ludzie ulicy', photo:'img/foto-event-mini/17.jpg', date: '2016-7-1', idEvent:"ev-00"},
             {name: 'Mewa Towarzyska', city: 'Sopot', position: {lat: 54.443701, lng: 18.567403}, nameEvent:'Otwarcie ogródka', photo: 'img/foto-event-mini/1.jpg', date: '2016-7-3', idEvent:"ev-01"},
             {name: 'Absinthe', city: 'Gdansk', position: {lat: 54.351231, lng: 18.648594}, nameEvent:'Zaćmienie', photo: 'img/foto-event-mini/2.jpg', date: '2016-7-5', idEvent:"ev-02"},
@@ -27,17 +28,22 @@
             {name: 'ColorFun', city: 'Sopot', position: {lat: 54.454168, lng: 18.554595}, nameEvent:'House Time', photo: 'img/foto-event-mini/17.jpg', date: '2016-7-8', idEvent:"ev-19"},
             {name: 'Day-Mus', city: 'Sopot', position: {lat: 54.454168, lng: 18.554595}, nameEvent:'Time pre', photo: 'img/foto-event-mini/18.jpg', date: '2016-7-8', idEvent:"ev-18"}
         ]
-    }
+        $scope.changeEvent=changeEvent;
 
-
-
-    function eventCardDirective(){
-        return {
-            restrict: 'E',
-            templateUrl:'template-ng/eventCard.html'
+        function changeEvent(eventList){
+            $scope.changeEvent=eventList;
         }
 
     }
+
+
+    //function eventCardDirective(){
+    //    return {
+    //        restrict: 'E',
+    //        templateUrl:'template-ng/eventCard.html'
+    //    }
+    //
+    //}
 
 
 })();

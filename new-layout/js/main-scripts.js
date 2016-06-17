@@ -98,6 +98,7 @@ var eventList=[
 ];
 //
 var eventList=events;
+
 var container = $('#eventContainer');
 eventList.forEach(function (event) {
     var card = $("<div class='thumbnail col-xs-6 col-sm-6 col-md-3 col-lg-2'></div>");
@@ -116,5 +117,8 @@ eventList.forEach(function (event) {
 
 
 });
+
+
+
 
 
