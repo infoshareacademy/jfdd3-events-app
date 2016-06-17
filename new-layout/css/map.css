@@ -10,6 +10,7 @@
     border: 1px solid white;
     color: white;
     height: 80vh;
+
 }
 
 .event-panel-heading {
@@ -35,4 +36,10 @@
 
 #eventInfo {
     margin: 0;
+    font-size: 4em;
+}
+
+#eventInfo2 {
+    margin: 0;
+    font-size: 3em;
 }
