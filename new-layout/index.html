@@ -1,471 +1,295 @@
 <!DOCTYPE html>
-<html ng-app="nazwaApp">
-<head>
-    <title>Event calendar</title>
-    <meta name="By 50/50" content="Event calendar">
-    <meta charset="UTF-8">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="gridster/css/jquery.gridster.css">
-    <link rel="stylesheet" type="text/css" href="gridster/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/banner.css">
-    <link rel="stylesheet" type="text/css" href="css/event-thumbnails.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    //przeniesione ze starego projektu
-</head>
-
-<body ng-controller="nazwaControllera">
-
-<div class="container-fluid">
-
-
-
-    <div class="col-xs-3 banner-left">
-        <h1 class="banner-title">ZNAJDŹ SWÓJ EVENT</h1>
-        <button class="banner-button"><a href="#tab-map">MAPA</a></button>
-        <button class="banner-button">KALENDARZ</button>
-
-        <div ng-show="changeEvent">
-            <p>{{allEvent.nameEvent}}</p>
-            <p>{{allEvent.name}}</p>
-            <p>{{allEvent.city}}</p>
-            <p>{{allEvent.date}}</p>
-            <p>{{allEvent.photo}}</p>
-        </div>
-    </div>
-
-    <!--<div class="col-xs-9 banner-right">-->
-        <!--<div class="gridster">-->
-            <!--<ul>-->
-                <!--<li class="event-thumbnail" id="img1" data-row="2" data-col="1" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p>-->
-                <!--</li>-->
-                <!--<li class="event-thumbnail" id="img2" data-row="2" data-col="1" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p>-->
-                <!--</li>-->
-                <!--<li class="event-thumbnail" id="img3" data-row="3" data-col="1" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img4" data-row="4" data-col="1" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img5" data-row="5" data-col="1" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img6" data-row="6" data-col="1" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img7" data-row="7" data-col="1" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img8" data-row="8" data-col="1" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-                <!--<li class="event-thumbnail" id="img9" data-row="1" data-col="2" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img10" data-row="2" data-col="2" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img11" data-row="3" data-col="2" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img12" data-row="4" data-col="2" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img13" data-row="5" data-col="2" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img14" data-row="6" data-col="2" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img15" data-row="7" data-col="2" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img16" data-row="8" data-col="2" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-                <!--<li class="event-thumbnail" id="img17" data-row="1" data-col="3" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img18" data-row="2" data-col="3" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img19" data-row="3" data-col="3" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img20" data-row="4" data-col="3" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img21" data-row="5" data-col="3" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img22" data-row="6" data-col="3" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img23" data-row="7" data-col="3" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img24" data-row="8" data-col="3" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-
-                <!--<li class="event-thumbnail" id="img25" data-row="1" data-col="4" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img26" data-row="2" data-col="4" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img27" data-row="3" data-col="4" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img28" data-row="4" data-col="4" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img29" data-row="5" data-col="4" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img30" data-row="6" data-col="4" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img1" data-row="7" data-col="4" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img2" data-row="8" data-col="4" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-                <!--<li class="event-thumbnail" id="img3" data-row="1" data-col="5" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img4" data-row="2" data-col="5" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img5" data-row="3" data-col="5" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img6" data-row="4" data-col="5" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img7" data-row="5" data-col="5" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img8" data-row="6" data-col="5" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img9" data-row="7" data-col="5" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img10" data-row="8" data-col="5" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-                <!--<li class="event-thumbnail" id="img11" data-row="1" data-col="6" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img12" data-row="2" data-col="6" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img13" data-row="3" data-col="6" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img14" data-row="4" data-col="6" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img15" data-row="5" data-col="6" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img16" data-row="6" data-col="6" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img17" data-row="7" data-col="6" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img18" data-row="8" data-col="6" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-                <!--<li class="event-thumbnail" id="img19" data-row="1" data-col="7" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img20" data-row="2" data-col="7" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img21" data-row="3" data-col="7" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img22" data-row="4" data-col="7" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img23" data-row="5" data-col="7" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img25" data-row="6" data-col="7" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img26" data-row="7" data-col="7" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img26" data-row="8" data-col="7" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-                <!--<li class="event-thumbnail" id="img27" data-row="1" data-col="8" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img28" data-row="2" data-col="8" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img29" data-row="3" data-col="8" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img30" data-row="4" data-col="8" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img1" data-row="5" data-col="8" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img2" data-row="6" data-col="8" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img3" data-row="7" data-col="8" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img4" data-row="8" data-col="8" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-                <!--<li class="event-thumbnail" id="img5" data-row="1" data-col="9" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img6" data-row="2" data-col="9" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img7" data-row="3" data-col="9" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img8" data-row="4" data-col="9" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img9" data-row="5" data-col="9" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img10" data-row="6" data-col="9" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img11" data-row="7" data-col="9" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img12" data-row="8" data-col="9" data-sizex="1" data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-                <!--<li class="event-thumbnail" id="img13" data-row="1" data-col="10" data-sizex="1"-->
-                    <!--data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p>-->
-                <!--</li>-->
-                <!--<li class="event-thumbnail" id="img14" data-row="2" data-col="10" data-sizex="1"-->
-                    <!--data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img15" data-row="3" data-col="10" data-sizex="1"-->
-                    <!--data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img16" data-row="4" data-col="10" data-sizex="1"-->
-                    <!--data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img17" data-row="5" data-col="10" data-sizex="1"-->
-                    <!--data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img18" data-row="6" data-col="10" data-sizex="1"-->
-                    <!--data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img19" data-row="7" data-col="10" data-sizex="1"-->
-                    <!--data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-                <!--<li class="event-thumbnail" id="img20" data-row="8" data-col="10" data-sizex="1"-->
-                    <!--data-sizey="1">-->
-                    <!--<p class="halo"><span>Halo techno</span></p>-->
-
-                    <!--<p>// 21.06<br>// Sfinks 700</p></li>-->
-
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</div>-->
-
-
-</div>
-
-
-
-<footer class="footer">
-    <div class="container row">
-        <p>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-
-        </p>
-
-        <p class="footer-right">
-            Event calendar by 50/50
-        </p>
-
-    </div>
-</footer>
-
-<div class="tab-panel" id="tab-map">
-    <div class="container-fluid">
-
-
-        <div class="col-xs-12 col-md-4">
-            div na info o lokalach
-            <div class="panel panel-default" id="clubInfo">
-                <div class="panel-heading" id="eventHeading">Wstaw nazwę lokalu z tablicy</div>
-                <div class="panel-body">
-                    <div class="media">
-                        <div class="media-left media-middle">
-                            <a href="#">
-                                <img class="media-object" id="eventImage" src="..." alt="...">
-                            </a>
-                        </div>
-                        <div class="media-body eventName">
-                            <h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4>
-                        </div>
-                        <div id="eventDate" class="pull-right eventDate">
-                            miejsce na datę imprezy
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-md-8" id="mapa"></div>
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
-                async defer></script>
-
-    </div>
-
-</div>
-
-
-<!--linki do skryptów przeniesione ze starego projektu-->
-<script type="text/javascript" src="js/angular.min.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
-
-<script type="text/javascript" src="js_lokalne/jquery-2.2.3.min.js"></script>
-<script type="text/javascript" src="js/moment.js"></script>
-<script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
-
-<script src="js/main-scripts.js" type="text/javascript"></script>
-<script type="text/javascript" src="js_lokalne/js_mapa.js"></script>
-<script src="js/main.js"></script>
-<script type="text/javascript" src="gridster/jquery.js"></script>
-<script type="text/javascript" src="gridster/jquery.gridster.js" charset="utf-8"></script>
-<script type="text/javascript">
-    var gridster;
-
-    $(function () {
-        gridtster = $(".gridster > ul").gridster({
-            widget_margins: [0, 0],
-            widget_base_dimensions: [180, 180],
-            min_cols: 10
-        }).data('gridster');
-    });
-</script>
-</body>
+<html>
+	<head>
+		<title>Event calendar</title>
+		<meta name="By 50/50" content="Event calendar">
+		<meta charset="UTF-8">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="gridster/css/jquery.gridster.css">
+		<link rel="stylesheet" type="text/css" href="gridster/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/banner.css">
+		<link rel="stylesheet" type="text/css" href="css/event-thumbnails.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+		<!--<link rel="stylesheet" href="../css/style.css"> //przeniesione ze starego projektu-->
+
+	</head>
+
+	<body>
+
+	<div class="container-fluid">
+
+		<div class="col-xs-3 banner-left">
+			<h1 class="banner-title">ZNAJDŹ SWÓJ EVENT</h1>
+			<button class="banner-button"><a href="#tab-map">MAPA</a></button>
+			<button class="banner-button">KALENDARZ</button>
+		</div>
+
+		<div class="col-xs-9 banner-right">
+			<div class="gridster">
+				<ul>
+					<li class="event-thumbnail" id="img1" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p>
+					</li>
+					<li class="event-thumbnail" id="img2" data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p>
+					</li>
+					<li class="event-thumbnail" id="img3" data-row="3" data-col="1" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img4" data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img5" data-row="5" data-col="1" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img6" data-row="6" data-col="1" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img7" data-row="7" data-col="1" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img8" data-row="8" data-col="1" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+					<li class="event-thumbnail" id="img9" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img10" data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img11" data-row="3" data-col="2" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img12" data-row="4" data-col="2" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img13" data-row="5" data-col="2" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img14" data-row="6" data-col="2" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img15" data-row="7" data-col="2" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img16" data-row="8" data-col="2" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+					<li class="event-thumbnail" id="img17" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img18" data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img19" data-row="3" data-col="3" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img20" data-row="4" data-col="3" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img21" data-row="5" data-col="3" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img22" data-row="6" data-col="3" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img23" data-row="7" data-col="3" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img24" data-row="8" data-col="3" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+
+					<li class="event-thumbnail" id="img25" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img26" data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img27" data-row="3" data-col="4" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img28" data-row="4" data-col="4" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img29" data-row="5" data-col="4" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img30" data-row="6" data-col="4" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img1" data-row="7" data-col="4" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img2" data-row="8" data-col="4" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+					<li class="event-thumbnail" id="img3" data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img4" data-row="2" data-col="5" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img5" data-row="3" data-col="5" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img6" data-row="4" data-col="5" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img7" data-row="5" data-col="5" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img8" data-row="6" data-col="5" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img9" data-row="7" data-col="5" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img10" data-row="8" data-col="5" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+					<li class="event-thumbnail" id="img11" data-row="1" data-col="6" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img12" data-row="2" data-col="6" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img13" data-row="3" data-col="6" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img14" data-row="4" data-col="6" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img15" data-row="5" data-col="6" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img16" data-row="6" data-col="6" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img17" data-row="7" data-col="6" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img18" data-row="8" data-col="6" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+					<li class="event-thumbnail" id="img19" data-row="1" data-col="7" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img20" data-row="2" data-col="7" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img21" data-row="3" data-col="7" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img22" data-row="4" data-col="7" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img23" data-row="5" data-col="7" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img25" data-row="6" data-col="7" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img26" data-row="7" data-col="7" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img26" data-row="8" data-col="7" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+					<li class="event-thumbnail" id="img27" data-row="1" data-col="8" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img28" data-row="2" data-col="8" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img29" data-row="3" data-col="8" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img30" data-row="4" data-col="8" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img1" data-row="5" data-col="8" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img2" data-row="6" data-col="8" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img3" data-row="7" data-col="8" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img4" data-row="8" data-col="8" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+					<li class="event-thumbnail" id="img5" data-row="1" data-col="9" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img6" data-row="2" data-col="9" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img7" data-row="3" data-col="9" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img8" data-row="4" data-col="9" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img9" data-row="5" data-col="9" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img10" data-row="6" data-col="9" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img11" data-row="7" data-col="9" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img12" data-row="8" data-col="9" data-sizex="1" data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+					<li class="event-thumbnail" id="img13" data-row="1" data-col="10" data-sizex="1"
+						data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p>
+					</li>
+					<li class="event-thumbnail" id="img14" data-row="2" data-col="10" data-sizex="1"
+						data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img15" data-row="3" data-col="10" data-sizex="1"
+						data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img16" data-row="4" data-col="10" data-sizex="1"
+						data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img17" data-row="5" data-col="10" data-sizex="1"
+						data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img18" data-row="6" data-col="10" data-sizex="1"
+						data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img19" data-row="7" data-col="10" data-sizex="1"
+						data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+					<li class="event-thumbnail" id="img20" data-row="8" data-col="10" data-sizex="1"
+						data-sizey="1">
+						<p class="halo"><span>Halo techno</span></p><p>// 21.06<br>// Sfinks 700</p></li>
+
+				</ul>
+			</div>
+		</div>
+
+
+	</div>
+		<footer class="footer">
+			<div class="container row">
+				<p>
+					<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+					<a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+				</p>
+
+				<p class="footer-right">
+					Event calendar by 50/50
+				</p>
+
+			</div>
+		</footer>
+
+	<!--<div class="tab-panel" id="tab-map">-->
+		<!--<div class="container-fluid">-->
+
+
+			<!--<div class="col-xs-12 col-md-4">-->
+				<!--div na info o lokalach-->
+				<!--<div class="panel panel-default" id="clubInfo">-->
+					<!--<div class="panel-heading" id="eventHeading">Wstaw nazwę lokalu z tablicy</div>-->
+					<!--<div class="panel-body">-->
+						<!--<div class="media">-->
+							<!--<div class="media-left media-middle">-->
+								<!--<a href="#">-->
+									<!--<img class="media-object" id="eventImage" src = "..." alt= "...">-->
+								<!--</a>-->
+							<!--</div>-->
+							<!--<div class="media-body eventName">-->
+								<!--<h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4>-->
+							<!--</div>-->
+							<!--<div id="eventDate" class="pull-right eventDate">-->
+								<!--miejsce na datę imprezy-->
+							<!--</div>-->
+						<!--</div>-->
+
+					<!--</div>-->
+				<!--</div>-->
+			<!--</div>-->
+
+			<!--<div class="col-xs-12 col-md-8" id="mapa"></div>-->
+
+			<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"-->
+					<!--async defer></script>-->
+
+		<!--</div>-->
+
+	<!--</div>-->
+
+
+	<!--linki do skryptów przeniesione ze starego projektu-->
+		<script type="text/javascript" src="js_lokalne/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+
+		<script src="js/main-scripts.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js_lokalne/js_mapa.js"></script>
+		<script src="js/main.js"></script>
+
+		<script type="text/javascript" src="gridster/jquery.js"></script>
+		<script type="text/javascript" src="gridster/jquery.gridster.js" charset="utf-8"></script>
+		<script type="text/javascript">
+			var gridster;
+
+			$(function() {
+				gridtster = $(".gridster > ul").gridster({
+					widget_margins: [0, 0],
+					widget_base_dimensions: [180, 180],
+					min_cols: 10
+				}).data('gridster');
+			});
+		</script>
+	</body>
 </html>
