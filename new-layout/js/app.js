@@ -36,16 +36,6 @@
 
     }
 
-
-    //function eventCardDirective(){
-    //    return {
-    //        restrict: 'E',
-    //        templateUrl:'template-ng/eventCard.html'
-    //    }
-    //
-    //}
-
-
-})();
+    })();
 
 
