@@ -98,12 +98,14 @@ var events = generateEvents(allEvents,allClubs);
 var eventList=events;
 var container = $('#gridster');
 eventList.forEach(function (event) {
-    var card = $("<div class='event-thumbnail'></div>");
+
+    var card = $("<li class=''></li>");
     var image = $("<img>").attr("src", event.photo);
     var caption = $("<div class='caption'>");
     var eventTitle = $("<h3>").text(event.nameEvent);
     var eventDescription = $("<p>").text(event.name);
     var eventDate=$("<p>").text(event.date);
+
 
     card.append(image);
     caption.append(eventTitle);
