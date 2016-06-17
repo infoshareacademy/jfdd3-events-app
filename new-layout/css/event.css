@@ -1,0 +1,47 @@
+.event-main-container {
+    height: 100vh;
+    background-image: url("../img/foto-event/3.jpg");
+    background-size: 100% auto;
+    /*position: absolute;*/
+}
+
+.header-container {
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.banner-button {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.calendar-title {
+    margin-top: 10px;
+}
+
+.event-container {
+    padding: 3em;
+}
+
+.event-title {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.event-date {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.event-description {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+    margin-top: 20vh;
+}
