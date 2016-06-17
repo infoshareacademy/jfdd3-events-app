@@ -48,16 +48,16 @@ function initMap() {
         });
         marker.addListener('click', function() {
 
-            var $header = $('<div class="panel-heading">').text(place.name);
-            /*var $entertainment = $('<h4 class="media-heading">').text(place.nameEvent);*/
+            var $header = $("#eventHeading").text(place.name);
+
             
-            var $events = $('<div class="panel-body"><div class="media"><div class="media-left media-middle"><a href="#"><img class="media-object" id="eventImage"></a></div><div class="media-body" ><h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4></div><div id=eventDate class="media-right media-middle"><div>data</div></div></div></div></div>');
+            var $events = $('<div class="col-xs-12 col-md-12" id="clubInfo"><div class="event-panel-heading" id="eventHeading"></div><div class="event-panel-body"><div class="pull-left"><img class="event-img" id="eventImage" src="img/foto-event-mini/1.jpg"></div><div class="pull-right2"><h1 id="eventInfo">Nazwa imprezy</h1><p id="eventDate"> Data imprezy</p></div></div></div>');
 
-            $events.find('.media-heading').text(place.nameEvent);
+            $events.find('#eventInfo').text(place.nameEvent);
             $events.find('#eventDate').text(place.data);
-            /*var $eventDate = $('#eventDate').text(place.data);*/
 
-            /*http://api.jquery.com/attr/*/
+
+
 
 
             $('#clubInfo').empty().append($header).append($events)/*.append($eventDate)*/;
