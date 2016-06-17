@@ -96,16 +96,14 @@ var events = generateEvents(allEvents,allClubs);
 //];
 
 var eventList=events;
-var container = $('#gridster');
+var container = $('#eventContainer');
 eventList.forEach(function (event) {
-
-    var card = $("<li class=''></li>");
+    var card = $("<div class='thumbnail col-xs-6 col-sm-6 col-md-3 col-lg-2'></div>");
     var image = $("<img>").attr("src", event.photo);
     var caption = $("<div class='caption'>");
     var eventTitle = $("<h3>").text(event.nameEvent);
     var eventDescription = $("<p>").text(event.name);
     var eventDate=$("<p>").text(event.date);
-
 
     card.append(image);
     caption.append(eventTitle);
@@ -114,4 +112,7 @@ eventList.forEach(function (event) {
     card.append(caption);
     container.append(card);
 
+
 });
+
+
