@@ -54,7 +54,7 @@ function generateEvents(events, clubs) {
 
     var newEvents = [];
 
-    for (var i = 0; i < 50; i++) {
+    for (var i = 0; i < 100; i++) {
 
         var club = clubs[Math.round(Math.random() * (clubs.length - 1))];
         var event = events[Math.round(Math.random() * (events.length - 1))];
