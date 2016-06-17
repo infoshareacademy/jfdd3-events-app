@@ -12,6 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/banner.css">
 		<link rel="stylesheet" type="text/css" href="css/event-thumbnails.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css"> //przeniesione ze starego projektu
 	</head>
 
 	<body>
@@ -31,7 +32,7 @@
 
 		<div class="col-xs-3 banner-left">
 			<h1 class="banner-title">ZNAJDŹ SWÓJ EVENT</h1>
-			<button class="banner-button">MAPA</button>
+			<button class="banner-button"><a href="#tab-map">MAPA</a></button>
 			<button class="banner-button">KALENDARZ</button>
 		</div>
 
@@ -224,6 +225,8 @@
 			</div>
 		</div>
 
+
+	</div>
 		<footer class="footer">
 			<div class="container row">
 				<p>
@@ -240,9 +243,51 @@
 			</div>
 		</footer>
 
+	<div class="tab-panel" id="tab-map">
+		<div class="container-fluid">
+
+
+			<div class="col-xs-12 col-md-4">
+				div na info o lokalach
+				<div class="panel panel-default" id="clubInfo">
+					<div class="panel-heading" id="eventHeading">Wstaw nazwę lokalu z tablicy</div>
+					<div class="panel-body">
+						<div class="media">
+							<div class="media-left media-middle">
+								<a href="#">
+									<img class="media-object" id="eventImage" src = "..." alt= "...">
+								</a>
+							</div>
+							<div class="media-body eventName">
+								<h4 class="media-heading" id="eventInfo">Wstaw nazwę imprezy z tablicy</h4>
+							</div>
+							<div id="eventDate" class="pull-right eventDate">
+								miejsce na datę imprezy
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-8" id="mapa"></div>
+
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
+					async defer></script>
+
+		</div>
+
 	</div>
 
 
+	<!--linki do skryptów przeniesione ze starego projektu-->
+		<script type="text/javascript" src="js_lokalne/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="js/moment.js"></script>
+		<script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+
+		<script src="js/main-scripts.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js_lokalne/js_mapa.js"></script>
+		<script src="js/main.js"></script>
 
 		<script type="text/javascript" src="gridster/jquery.js"></script>
 		<script type="text/javascript" src="gridster/jquery.gridster.js" charset="utf-8"></script>
