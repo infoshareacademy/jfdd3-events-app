@@ -1,5 +1,6 @@
 .header-container {
     width: 100%;
+    padding-bottom: 1%;
 }
 
 .calendar-title {
@@ -73,6 +74,12 @@
 
 #background {
     background-size: 100vw auto;
+}
+
+@media screen and (max-width: 1000px) {
+    #background {
+        background-size: auto 100vh;
+    }
 }
 
 .event-info {
