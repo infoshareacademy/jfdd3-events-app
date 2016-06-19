@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="gridster/css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/calendar.css">
 		<link rel="stylesheet" type="text/css" href="css/banner.css">
+		<link rel="stylesheet" type="text/css" href="css/event.css">
 		<link rel="stylesheet" type="text/css" href="css/event-thumbnails.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
 	</head>
@@ -124,9 +125,15 @@
 				</ul>
 			</div>
 
-	<div class="event-description hide">
+	<div class="event-info hide container-fluid" id="background">
 		<button class="backward-button"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
-		<p class="banner-title">tu piękny opis imprezy</p>
+		<div class="col-xs-5 e1">
+		<p class="event-title">nazwa imprezy</p>
+		<p class="event-date">data i miejsce imprezy</p>
+		</div>
+		<div class="col-xs-6 e2">
+			<p class="event-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. </p>
+		</div>
 	</div>
 
 		<footer class="footer">
@@ -149,7 +156,8 @@
 		<script type="text/javascript" src="js_lokalne/jquery-2.2.3.min.js"></script>
 		<script type="text/javascript" src="gridster/jquery.gridster.js" charset="utf-8"></script>
 		<script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/calendar-script.js"></script>
+		<script type="text/javascript" src="js/calendar-script.js"></script>
+		<script type="text/javascript" src="js/calendar-background.js"></script>
 		<script type="text/javascript">
 			var gridster;
 
