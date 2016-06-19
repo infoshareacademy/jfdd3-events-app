@@ -5,17 +5,17 @@ app.config(function($routeProvider) {
             templateUrl:'index.html'
             })
         .when ('/allevents',{
-            templateUrl:'allevents.html'
+            templateUrl:'page/allevents.html'
             })
         .when ('/calendar', {
-            templateUrl:'calendar.html'
+            templateUrl:'page/calendar.html'
             })
-        .when ('event', {
-            templateUrl:'event.html',
+        .when ('/event', {
+            templateUrl:'page/event.html',
             controller:'eventCtrl'
         })
-            .when ('map',{
-            templateUrl: 'map.html'
+        .when ('/map',{
+            templateUrl: 'page/map.html'
         })
 });
 
