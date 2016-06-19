@@ -1,6 +1,6 @@
 
-{{rrrrr}}
-<div class="event-main-container">
+
+<div class="event-main-container" ng-controller="eventCtrl">
 <!--<div class="event-main-container" ng-controller="eventCtrl" >-->
 
 
@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="container-row">
-        <div class="col-xs-7 col-xs-offset-4" ng-show="cardEvents">
+        <div class="col-xs-7" ng-show="cardEvents">
             <p class="event-title">{{cardEvents.name}}</p>
             <p class="event-date">//{{cardEvents.nameClub}}<br>//{{cardEvents.date}}<br>//{{cardEvents.city}}<br> </p>
             <img src="{{cardEvents.photo1}}" class="img-responsive">
