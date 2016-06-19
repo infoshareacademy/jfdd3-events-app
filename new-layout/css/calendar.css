@@ -76,7 +76,7 @@
     background-size: 100vw auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     #background {
         background-size: auto 100vh;
     }
