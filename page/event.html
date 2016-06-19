@@ -1,0 +1,25 @@
+
+{{rrrrr}}
+<div class="event-main-container">
+<!--<div class="event-main-container" ng-controller="eventCtrl" >-->
+
+
+
+    <div class="event-container">
+
+        <div class="container-fluid">
+            <div class="col-xs-5" ng-repeat="events in events" ng-click="updateEvents(events)">
+                <p class="event-title">//{{events.name}}</p>
+                <p class="event-date">//{{events.date}}</p>
+            </div>
+        </div>
+        <div class="container-row">
+        <div class="col-xs-7 col-xs-offset-4" ng-show="cardEvents">
+            <p class="event-title">{{cardEvents.name}}</p>
+            <p class="event-date">//{{cardEvents.nameClub}}<br>//{{cardEvents.date}}<br>//{{cardEvents.city}}<br> </p>
+            <img src="{{cardEvents.photo1}}" class="img-responsive">
+        </div>
+    </div>
+        </div>
+    </div>
+
