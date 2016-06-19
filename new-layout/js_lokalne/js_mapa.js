@@ -38,7 +38,7 @@ function initMap() {
     });
 
 
-    eventList.forEach(function (place) {
+    eventList2.forEach(function (place) {
         var marker = new google.maps.Marker({
             position: place.position,
             map: map,
@@ -54,7 +54,7 @@ function initMap() {
             var $events = $('<div class="col-xs-12 col-md-12" id="clubInfo"><div class="event-panel-heading" id="eventHeading"></div><div class="event-panel-body"><div class="pull-left"><img class="event-img" id="eventImage" src="img/foto-event-mini/1.jpg"></div><div class="pull-right2"><h1 id="eventInfo">Nazwa imprezy</h1><p id="eventDate"> Data imprezy</p></div></div></div>');
 
             $events.find('#eventInfo').text(place.nameEvent);
-            $events.find('#eventDate').text(place.data);
+            $events.find('#eventDate').text(place.date);
 
 
 
