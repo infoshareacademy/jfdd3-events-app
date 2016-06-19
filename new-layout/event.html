@@ -20,7 +20,7 @@
 
 <body>
 
-<div class="event-main-container" ng-controller="ctrl1">
+<div class="event-main-container" ng-controller="ctrl1" >
 
     <div class="header-container">
         <button class="banner-button"><a href="index.html">HOME</a></button>
@@ -36,20 +36,12 @@
             <div class="col-xs-5" ng-repeat="events in events" ng-click="updateEvents(events)">
                 <p class="event-title">//{{events.name}}</p>
                 <p class="event-date">//{{events.date}}</p>
-
             </div>
         </div>
-        div class="container-row">
+        <div class="container-row">
         <div class="col-xs-7 col-xs-offset-4" ng-show="cardEvents">
             <p class="event-title">{{cardEvents.name}}</p>
-            <p class="event-date">//{{cardEvents.nameClub}}<br>//{{cardEvents.date}}<br>//{{cardEvents.city}}<br>{{cardEvents.photo}}
-            </p>
-            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius
-                dignissim neque in lacinia. Praesent in nisi eros. Quisque egestas mattis imperdiet. Etiam
-                vestibulum neque in pharetra pulvinar. Pellentesque justo neque, euismod vitae tellus eget,
-                facilisis ullamcorper ipsum. Morbi eget semper neque. Aliquam erat volutpat. Fusce et pellentesque
-                massa, vehicula rhoncus nisl. Maecenas ut orci ut elit fermentum blandit.
-            </p>
+            <p class="event-date">//{{cardEvents.nameClub}}<br>//{{cardEvents.date}}<br>//{{cardEvents.city}}<br> </p>
             <img src="{{cardEvents.photo1}}" class="img-responsive">
         </div>
     </div>
