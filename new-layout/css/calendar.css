@@ -48,3 +48,15 @@
 .calendar-arrow:hover {
     color: white;
 }
+
+.calendar-description {
+    background-color: orange;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
