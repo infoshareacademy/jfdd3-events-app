@@ -36,7 +36,12 @@ body {
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 10em;
-    margin: 1em;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.banner-title2 {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 5em;
 }
 
 .banner-button {
@@ -58,7 +63,7 @@ body {
     border-color: rgb(180, 180, 180);
     color: rgb(180, 180, 180);
     background-color: rgba(0, 0, 0, 0);
-    font-size: 1em;
+    font-size: 1.3em;
     padding: 0.5em 1em;
     margin: 0.6em;
     text-align: center;
@@ -75,9 +80,10 @@ body {
 .banner-button-big:hover {
     border-color: white;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
-a:hover {
+.banner-button-big:hover a {
     color: white;
     text-decoration: none;
 }
