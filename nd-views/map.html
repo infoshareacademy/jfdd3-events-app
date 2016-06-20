@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event calendar / map</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../gridster/css/jquery.gridster.css">
+    <link rel="stylesheet" type="text/css" href="../gridster/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/banner.css">
+    <link rel="stylesheet" type="text/css" href="../css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="../css/map.css">
+    <link rel="stylesheet" type="text/css" href="../css/event-thumbnails.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.css">
+</head>
+
+<body class="map-body">
+
+<div class="header-container container-fluid">
+    <button class="banner-button"><a href="../index.html">HOME</a></button>
+    <button class="banner-button"><a href="calendar.html">KALENDARZ</a></button>
+    <button class="banner-button"><a href="event.html">EVENT</a></button>
+    <h1 class="calendar-title">MAPA EVENTÓW</h1>
+</div>
+
+<div class="container-fluid" id="tab-map">
+    <div class="col-xs-12 col-sm-4" id="clubInfo">
+
+            <div class="container-fluid event-panel-heading" id="eventHeading"> Wyszukaj imprezę</div>
+
+            <div class="event-panel-body">
+
+                <!--<div class="pull-left">
+                    <img class="event-img" id="eventImage" src="img/foto-event-mini/1.jpg">
+                </div>-->
+
+                <div class="eventInfo">
+                    <p>ZNAJDŹ SWÓJ</p>
+                    <p>ULUBIONY LOKAL</p>
+
+                </div>
+                <div>
+                    <p class="eventInfo2">SPRAWDŹ, CO SIĘ BĘDZIE DZIAŁO W NAJBLIŻSZYCH DNIACH</p>
+
+                </div>
+
+            </div>
+
+    </div>
+
+        <div class="col-xs-12 col-sm-8 map-container" id="mapa">
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
+                    async defer></script>
+        </div>
+
+    </div>
+
+<footer class="footer">
+    <div class="container row">
+
+        <p>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </p>
+
+        <p class="footer-right">
+            Event calendar by 50/50
+        </p>
+
+    </div>
+</footer>
+
+<!--Wszystkie przekopiowane skrypty z index.html-->
+
+<script type="text/javascript" src="../js_lokalne/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
+
+<script src="../js/main-scripts.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js_lokalne/js_mapa.js"></script>
+
+<script type="text/javascript" src="../gridster/jquery.js"></script>
+<script type="text/javascript" src="../gridster/jquery.gridster.js" charset="utf-8"></script>
+
+</body>
+</html>

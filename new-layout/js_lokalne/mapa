@@ -1,3 +1,0 @@
-$('#eventHeading').text(place.name);
-            $('#eventInfo').text(place.nameEvent);
-            $('#eventPhoto').text(place.photo)
