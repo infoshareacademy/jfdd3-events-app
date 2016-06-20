@@ -59,9 +59,8 @@ body {
 }
 
 .banner-button-big {
-    border: 4px solid;
-    border-color: rgb(180, 180, 180);
-    color: rgb(180, 180, 180);
+    border: 4px solid white;
+    color: white;
     background-color: rgba(0, 0, 0, 0);
     font-size: 1.3em;
     padding: 0.5em 1em;

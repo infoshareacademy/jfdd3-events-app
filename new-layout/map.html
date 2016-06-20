@@ -27,34 +27,29 @@
 <div class="container-fluid" id="tab-map">
     <div class="col-xs-12 col-sm-4" id="clubInfo">
 
-            <div class="container-fluid event-panel-heading" id="eventHeading"> Wyszukaj imprezę</div>
+        <div class="container-fluid event-panel-heading" id="eventHeading"> Wyszukaj imprezę</div>
 
-            <div class="event-panel-body">
+        <div class="event-panel-body">
 
-                <!--<div class="pull-left">
-                    <img class="event-img" id="eventImage" src="img/foto-event-mini/1.jpg">
-                </div>-->
+            <div class="eventInfo">
+                <p>ZNAJDŹ LOKAL NA MAPIE</p>
 
-                <div class="eventInfo">
-                    <p>ZNAJDŹ SWÓJ</p>
-                    <p>ULUBIONY LOKAL</p>
-
-                </div>
-                <div>
-                    <p class="eventInfo2">SPRAWDŹ, CO SIĘ BĘDZIE DZIAŁO W NAJBLIŻSZYCH DNIACH</p>
-
-                </div>
+            </div>
+            <div>
+                <p class="eventInfo2">KLIKNIJ NA WYBRANE MIEJSCE, ŻEBY ZOBACZYĆ NAJBLIŻSZE IMPREZY</p>
 
             </div>
 
-    </div>
-
-        <div class="col-xs-12 col-sm-8 map-container" id="mapa">
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
-                    async defer></script>
         </div>
 
     </div>
+
+    <div class="col-xs-12 col-sm-8 map-container" id="mapa">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT66Tj1a4YjAv4mP__P4gXa7-08gPtjMk&callback=initMap"
+                async defer></script>
+    </div>
+
+</div>
 
 <footer class="footer">
     <div class="container row">
@@ -71,8 +66,6 @@
 
     </div>
 </footer>
-
-<!--Wszystkie przekopiowane skrypty z index.html-->
 
 <script type="text/javascript" src="js_lokalne/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
