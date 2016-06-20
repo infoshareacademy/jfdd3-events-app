@@ -58,3 +58,8 @@
 .event-title:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+.contScroll {
+    overflow-y: scroll;
+    height: 80vh;
+}
