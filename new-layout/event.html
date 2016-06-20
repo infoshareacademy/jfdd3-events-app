@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
     <title>Event calendar / event</title>
@@ -20,7 +20,7 @@
 
 <body>
 
-<div class="event-main-container">
+<div class="event-main-container" ng-controller="ctrl1" >
 
     <div class="header-container">
         <button class="banner-button"><a href="index.html">HOME</a></button>
@@ -29,41 +29,45 @@
         <h1 class="calendar-title">KALENDARZ EVENTÓW</h1>
     </div>
 
+
     <div class="event-container">
 
         <div class="container-fluid">
-            <div class="col-xs-5">
-                <p class="event-title">FAJNA IMPREZA</p>
-
-                <p class="event-date">//20.06<br>//Mewa Towarzyska, Sopot</p>
+            <div class="col-xs-5" ng-repeat="events in events" ng-click="updateEvents(events)">
+                <p class="event-title">//{{events.name}}</p>
+                <p class="event-date">//{{events.date}}</p>
             </div>
         </div>
-
         <div class="container-row">
-            <div class="col-xs-7 col-xs-offset-4">
-                <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius dignissim neque in lacinia. Praesent in nisi eros. Quisque egestas mattis imperdiet. Etiam vestibulum neque in pharetra pulvinar. Pellentesque justo neque, euismod vitae tellus eget, facilisis ullamcorper ipsum. Morbi eget semper neque. Aliquam erat volutpat. Fusce et pellentesque massa, vehicula rhoncus nisl. Maecenas ut orci ut elit fermentum blandit.
-
-                    Curabitur mollis quam non diam malesuada lacinia. Pellentesque quis finibus libero. Donec maximus dolor in faucibus tincidunt. Integer quis ante eleifend, semper arcu et, finibus ipsum. Ut sagittis nibh sed laoreet vestibulum. Pellentesque fermentum dignissim aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-
-                    Etiam laoreet, lorem id vestibulum euismod, nunc tellus dignissim dui, at ullamcorper ipsum turpis nec quam.
-
-                </p>
-            </div>
+        <div class="col-xs-7 col-xs-offset-4" ng-show="cardEvents">
+            <p class="event-title">{{cardEvents.name}}</p>
+            <p class="event-date">//{{cardEvents.nameClub}}<br>//{{cardEvents.date}}<br>//{{cardEvents.city}}<br> </p>
+            <img src="{{cardEvents.photo1}}" class="img-responsive">
         </div>
     </div>
 
-<footer class="footer">
-    <div class="container row">
-        <p>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        </p>
-        <p class="footer-right">
-            Event calendar by 50/50
-        </p>
-    </div>
-</footer>
+
+    <footer class="footer">
+        <div class="container row">
+            <p>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"
+                                                                       aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </p>
+            <p class="footer-right">
+                Event calendar by 50/50
+            </p>
+        </div>
+    </footer>
 </div>
+
+<script type="text/javascript" src="js_lokalne/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="gridster/jquery.gridster.js" charset="utf-8"></script>
+<script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/main-scripts.js"></script>
+<script type="text/javascript" src="js_lokalne/js_mapa.js"></script>
 </body>
 </html>

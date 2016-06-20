@@ -34,12 +34,16 @@
     display: inline;
 }
 
-#eventInfo {
+.eventInfo {
     margin: 0;
     font-size: 4em;
+    text-align: center;
+    padding-top: 1.5em;
 }
 
-#eventInfo2 {
+.eventInfo2 {
     margin: 0;
     font-size: 3em;
+    text-align: center;
+    padding-top: 1em;
 }
