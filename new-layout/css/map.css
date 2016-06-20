@@ -1,3 +1,9 @@
+@media screen and (max-width: 768px) {
+    .map-body {
+        overflow-y: visible;
+    }
+}
+
 .map-container {
     height: 85vh;
     margin-bottom: 60px;
@@ -46,4 +52,10 @@
     font-size: 3em;
     text-align: center;
     padding-top: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        position: relative;
+    }
 }
