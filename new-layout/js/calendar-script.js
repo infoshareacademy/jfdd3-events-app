@@ -1,6 +1,9 @@
 'use strict';
 
-$('.event-thumbnail').click(function() {
+$('.event-thumbnail').mouseup(function() {
+    if ($(this).hasClass('dragging')) {
+        return;
+    }
     $('.gridster').removeClass('show');
     $('.gridster').addClass('hide');
     $('.menu-months').removeClass('show');
