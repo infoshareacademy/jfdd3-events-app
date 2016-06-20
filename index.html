@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="EventCalendar">
+<html ng-app="eventCalendarApp">
 <head>
     <title>Event calendar</title>
     <meta name="By 50/50" content="Event calendar">
@@ -10,68 +10,28 @@
     <link rel="stylesheet" type="text/css" href="gridster/css/jquery.gridster.css">
     <link rel="stylesheet" type="text/css" href="gridster/css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/banner.css">
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="css/event.css">
     <link rel="stylesheet" type="text/css" href="css/event-thumbnails.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
-    <!--<link rel="stylesheet" href="../css/style.css"> //przeniesione ze starego projektu-->
+    <link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
 
 </head>
-
+<header ng-include="'nd-views/header.html'"></header>
+<main ng-view></main>
+<footer ng-include="'nd-views/footer.html'"></footer>
 <body>
 
-<div class="container-fluid">
 
-		<div class="banner-container">
-            <video loop autoplay id="bgvid">
-                <source src="img/video2.mp4" type="video/mp4">
-            </video>
-			<p class="banner-title">NUDNY WIECZÓR W DOMU?</p>
-            <p class="banner-title2">NOT ANYMORE</p>
-			<button class="banner-button-big"><a href="map.html">MAPA LOKALI</a></button>
-			<button class="banner-button-big"><a href="calendar.html">KALENDARZ EVENTÓW</a></button>
-            <button class="banner-button-big"><a href="event.html">EVENT</a></button>
-		</div>
-
-</div>
-
-    <!--stara wersja-->
-    <div class="container-fluid">
-        <div class="col-xs-3 banner-left">
-            <h1 class="banner-title">ZNAJDŹ SWÓJ EVENT</h1>
-            <button class="banner-button"><a href="map.html">MAPA</a></button>
-            <button class="banner-button"><a href="calendar.html">KALENDARZ</a></button>
-        </div>
-        <div class="col-xs-9 banner-right">
-            <div class="gridster">
-                <ul id="tiles">
-                </ul>
-            </div>
-        </div>
-
-        <!--koniec starej wersji-->
-
-<footer class="footer">
-    <div class="container row">
-        <p>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-
-        </p>
-
-        <p class="footer-right">
-            Event calendar by 50/50
-        </p>
-
-    </div>
-</footer>
-
-<!--linki do skryptów przeniesione ze starego projektu-->
 <script type="text/javascript" src="js_lokalne/jquery-2.2.3.min.js"></script>
-<script type="text/javascript" src="gridster/jquery.gridster.js" charset="utf-8"></script>
+<script type="text/javascript" src="gridster/jquery.gridster.js"></script>
 <script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
-
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/angular-route.js"></script>
+<script type="text/javascript" src="js/ng-js/app.js"></script>
 <script type="text/javascript" src="js/main-scripts.js"></script>
 <script type="text/javascript" src="js_lokalne/js_mapa.js"></script>
-        </div>
+<script type="text/javascript" src="js/perfect-scrollbar.jquery.js"></script>
+<script type="text/javascript" src="js/scrollbar.js"></script>
 </body>
 </html>
