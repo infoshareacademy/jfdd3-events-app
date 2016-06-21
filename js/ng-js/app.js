@@ -3,9 +3,11 @@ var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute']);
 eventCalendarApp.config(['$routeProvider', function($routeProvider){
 
     $routeProvider
-       
+        .when('/home',{
+            templateUrl:'ng-views/home.html'
+        })
         .when('/calendar',{
-            templateUrl:'/ng-views/calendar.html'
+            templateUrl:'ng-views/calendar.html'
         })
         .when('/event',{
             templateUrl:'ng-views/event.html',
