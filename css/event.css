@@ -59,7 +59,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.contScroll {
+.extraScroll {
     overflow-y: scroll;
     height: 80vh;
 }

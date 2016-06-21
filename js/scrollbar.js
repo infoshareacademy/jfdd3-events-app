@@ -15,6 +15,6 @@
 //}
 
 $(function() {
-    $('.contScroll').perfectScrollbar();
+    $('.extraScroll').perfectScrollbar();
 
 });
