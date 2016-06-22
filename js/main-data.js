@@ -47,7 +47,7 @@ var allEvents = [
     {nameEvent: 'Disco 80', photoEvent: 'img/foto-event-mini/23.jpg',dateEvent: '2016-7-14'},
     {nameEvent: 'Dance Time', photoEvent:'img/foto-event-mini/24.jpg',dateEvent: '2016-7-20'},
     {nameEvent: 'Festiwal trafik', photoEvent: 'img/foto-event-mini/25.jpg',dateEvent: '2016-7-9'},
-    {nameEvent: 'Garden party', photoEvent: 'img/foto-event-mini/26.jpg',dateEvent: '2016-7-10'},
+    {nameEvent: 'Blow party', photoEvent: 'img/foto-event-mini/26.jpg',dateEvent: '2016-7-10'},
     {nameEvent: 'Wieczor piwa ', photoEvent: 'img/foto-event-mini/27.jpg',dateEvent: '2016-7-12'},
     {nameEvent: 'Techno Night', photoEvent: 'img/foto-event-mini/28.jpg',dateEvent: '2016-7-14'},
     {nameEvent: 'House Time', photoEvent: 'img/foto-event-mini/29.jpg',dateEvent: '2016-7-16'},
@@ -71,69 +71,25 @@ var allEvents = [
     {nameEvent: 'Garden party', photoEvent: 'img/foto-event-mini/47.jpg',dateEvent: '2016-7-10'},
     {nameEvent: 'Wieczor piwa ', photoEvent: 'img/foto-event-mini/48.jpg',dateEvent: '2016-7-12'},
     {nameEvent: 'Techno Night', photoEvent: 'img/foto-event-mini/49.jpg',dateEvent: '2016-7-14'},
-    {nameEvent: 'House Time', photoEvent: 'img/foto-event-mini/50.jpg',dateEvent: '2016-7-16'},
-    ];
+    {nameEvent: 'House Time', photoEvent: 'img/foto-event-mini/50.jpg',dateEvent: '2016-7-16'}
+];
 
+function newRandomEvent (allEvents){
+    var newRandomEvent= [];
+    for ( var i =0; i<50; i++){
 
-function generateEvents(events, clubs) {
+    var nEvent= allEvents[Math.round(Math.random()*(allEvents.length - 1))];
 
-    var newEvents = [];
-
-    for (var i = 0; i < 10; i++) {
-
-        var club = clubs[Math.round(Math.random() * (clubs.length - 1))];
-
-        var event = events[Math.round(Math.random() * (events.length - 1))];
-
-        club.name = event.name;
-        club.photo = event.photo;
-        club.date = event.date;
-        //console.log(clubs);
-        newEvents.push(club);
-
+        newRandomEvent.push(nEvent);
     }
+    return newRandomEvent;
+};
 
-    return newEvents;
+
+
+var noweEventy= newRandomEvent(allEvents);
+
+function addEventToClub (value, index, arr){
+
 }
-var events = generateEvents(allEvents,allClubs);
-
-var container = $('#tiles');
-events.forEach(function (event) {
-    //var card = $("<div class='thumbnail col-xs-6 col-sm-6 col-md-3 col-lg-2'></div>");
-    //var image = $("<img>").attr("src", event.photo);
-    //var caption = $("<div class='caption'>");
-    //var eventTitle = $("<h3>").text(event.nameEvent);
-    //var eventDescription = $("<p>").text(event.name);
-    //var eventDate=$("<p>").text(event.date);
-    //
-    //card.append(image);
-    //caption.append(eventTitle);
-    //caption.append(eventDescription);
-    //caption.append(eventDate);
-    //card.append(caption);
-    //container.append(card);
-
-    var $tile = $('<li class="event-thumbnail" data-row="1" data-col="1" data-sizex="1" data-sizey="1">tekst</li>"');
-
-    $tile.css({backgroundImage: 'url(' + event.photo + ')'})
-        .html('<p class="halo"><span>' + event.name + '</span></p> <p>//' + event.date + '</p> <p>//' + event.city + ' </p> <p>//' + event.nameClub + ' </p>');
-
-    container.append($tile);
-
-
-});
-
-
-$(function () {
-
-
-    $(".gridster > ul").gridster({
-        widget_margins: [0, 0],
-        widget_base_dimensions: [180, 180],
-        min_cols: 10
-    });
-});
-
-
-
 
