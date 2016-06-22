@@ -21,13 +21,19 @@ eventCalendarApp.config(['$routeProvider', function($routeProvider){
         })
 }]);
 
-eventCalendarApp.controller('eventController', function($scope){
-    
-    $scope.events = [];
-    $scope.updateEvents=updateEvents;
-    function updateEvents(events){
-        $scope.cardEvents=events;
+eventCalendarApp.controller('eventController', function($scope, $http){
+    $http.get('data/clubsWithEvents.json')
+        .then(function(res){
+            $scope.events=res.data;
+        });
+
+
+
+    $scope.updateClubs=updateClubs;
+    function updateClubs(events){
+        $scope.cardClubs=events;
     }
+
 });
 
 

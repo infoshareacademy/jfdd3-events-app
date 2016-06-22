@@ -5,22 +5,32 @@
 
         <div class="container-fluid">
             <div class="col-xs-6 extraScroll" id="idScroll">
-                <div ng-repeat="events in events" ng-click="updateEvents(events)">
+                <div ng-repeat="events in events" ng-click="updateClubs(events)">
                     <p class="event-title">//{{events.name}}</p>
 
-                    <p class="event-date">//{{events.date}}</p>
+                    <!--<p class="event-date">//{{events.date}}</p>-->
                 </div>
             </div>
-            <div class="col-xs-6">
-                <div ng-show="cardEvents">
-                    <p class="event-title">{{cardEvents.name}}</p>
-                    <p class="event-date">
-                        //{{cardEvents.nameClub}}<br>//{{cardEvents.date}}<br>//{{cardEvents.city}}<br></p>
-                    <img src="{{cardEvents.photo1}}" class="img-responsive">
+            <div class="col-xs-6" ng-show="cardClubs">
+                <div class="row">
+                    <div >
+                        <p class="event-title">{{cardClubs.name}}</p>
+                        <p class="event-date">
+                            //{{cardClubs.city}}<br>//{{cardClubs.position}}<br></p>
+                        <img src="{{cardClubs.photoClub}}" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row extraScroll">
+                    <div>
+                        <p class="event-title">{{cardClubs.events}} //</p>
+                        <p class="event-date">
+                            //{{cardClubs.events.nameEvent}}<br>//{{cardClubs.events.dateEvent}}<br>//{{cardClubs.events.photoEvent}}<br></p>
+                        <img src="{{cardClubs.events.photoEvent}}" class="img-responsive">
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
 
     </div>
 </div>
