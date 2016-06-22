@@ -54,6 +54,11 @@
     padding-top: 1em;
 }
 
+#tooltip {
+    width: 100px;
+    height: 10px;
+}
+
 @media screen and (max-width: 768px) {
     .footer {
         position: relative;
