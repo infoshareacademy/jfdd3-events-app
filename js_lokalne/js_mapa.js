@@ -3,7 +3,7 @@
 Skrypt przełączający między kalendarzem a mapą
 */
 
-$('.nav-tabs').each(function () {
+/*$('.nav-tabs').each(function () {
     var $this = $(this);
     var $tab = $this.find('li.active');
     var $link = $tab.find('a');
@@ -26,7 +26,7 @@ $('.nav-tabs').each(function () {
             map.setZoom( map.getZoom() );
         }
     });
-});
+});*/
 
 
 var map;
@@ -46,24 +46,36 @@ function initMap() {
             icon: place.icon
 
         });
-        marker.addListener('click', function() {
 
+        function showEventsList() {
             var $header = $("#eventHeading").text(place.name);
 
-            
             var $events = $('<div class="col-xs-12 col-md-12" id="clubInfo"><div class="event-panel-heading" id="eventHeading"></div><div class="event-panel-body"><div class="pull-left"><img class="event-img" id="eventImage" src="img/foto-event-mini/1.jpg"></div><div class="pull-right2"><h1 id="eventInfo">Nazwa imprezy</h1><p id="eventDate"> Data imprezy</p></div></div></div>');
 
             $events.find('#eventInfo').text(place.nameEvent);
             $events.find('#eventDate').text(place.date);
 
-
-
-
-
             $('#clubInfo').empty().append($header).append($events)/*.append($eventDate)*/;
             $( "#eventImage" ).attr('src', place.photo);
-        });
 
+            var content = '<div id="tooltip">' + place.name + '</div>' +
+                '<p>' + place.city + '</p>';
+
+            new google.maps.InfoWindow( {
+                content: content,
+                position: place.position,
+                map: map
+            });
+        }
+/*
+        function showTooltip() {
+
+        }*/
+
+        marker.addListener('click', function() {
+            showEventsList();
+            /*showTooltip();*/
+        });
     });
 
     google.maps.event.addDomListener(window, 'resize', function() {
