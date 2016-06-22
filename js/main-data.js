@@ -74,22 +74,23 @@ var allEvents = [
     {nameEvent: 'House Time', photoEvent: 'img/foto-event-mini/50.jpg',dateEvent: '2016-7-16'}
 ];
 
-function newRandomEvent (allEvents){
-    var newRandomEvent= [];
-    for ( var i =0; i<50; i++){
 
-    var nEvent= allEvents[Math.round(Math.random()*(allEvents.length - 1))];
+var clubsWithEvents = allClubs.map(function (club) {
+    var howMany = Math.round(Math.random() * 10) + 10;
+    var clubWithEvents = {
+        name: club.nameClub,
+        city: club.city,
+        photoClub: club.photoClub,
+        position: club.position,
+        events: []
+    };
 
-        newRandomEvent.push(nEvent);
+    for (var i = 0; i < howMany; i += 1){
+        clubWithEvents.events.push(allEvents[Math.round(Math.random()*(allEvents.length - 1))]);
     }
-    return newRandomEvent;
-};
+
+    return clubWithEvents;
+});
 
 
-
-var noweEventy= newRandomEvent(allEvents);
-
-function addEventToClub (value, index, arr){
-
-}
-
+clubsWithEvents
