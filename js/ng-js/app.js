@@ -1,3 +1,4 @@
+'use strict';
 var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute']);
 
 eventCalendarApp.config(['$routeProvider', function($routeProvider){
