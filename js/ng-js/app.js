@@ -19,7 +19,7 @@ eventCalendarApp.config(['$routeProvider', function($routeProvider){
         })
         .otherwise({
             redirectTo:'/home.html'
-        })
+        });
 }]);
 
 eventCalendarApp.controller('eventController', function($scope, $http){
