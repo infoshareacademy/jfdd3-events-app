@@ -1,0 +1,35 @@
+<div class="event-main-container">
+
+
+    <div class="event-container">
+
+        <div class="container-fluid">
+            <div class="col-xs-6 extraScroll" id="idScroll">
+                <div ng-repeat="club in clubsWithEvents" ng-click="updateClubs(club)">
+                    <p class="event-title">//{{club.name}}</p>
+
+                    <!--<p class="event-date">//{{events.date}}</p>-->
+                </div>
+            </div>
+            <div class="col-xs-6" ng-show="club">
+                <div class="row">
+                    <div >
+                        <p class="event-title">{{club.name}}</p>
+                        <p class="event-date">
+                            //{{club.city}}<br>//{{club.position}}<br></p>
+                        <img src="{{club.photoClub}}" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row extraScroll">
+                    <div ng-repeat="event in club.events">
+                        <p class="event-title">//{{event.nameEvent}}</p>
+                        <p class="event-date">//{{event.dateEvent}}<br></p>
+                        <img src="{{event.photoEvent}}" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>

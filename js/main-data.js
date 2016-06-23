@@ -92,5 +92,3 @@ var clubsWithEvents = allClubs.map(function (club) {
     return clubWithEvents;
 });
 
-
-clubsWithEvents
