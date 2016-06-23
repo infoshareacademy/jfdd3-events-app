@@ -10,8 +10,7 @@ eventCalendarApp.config(['$routeProvider', function($routeProvider){
             templateUrl:'ng-views/calendar.html'
         })
         .when('/event',{
-            templateUrl:'ng-views/event.html',
-            controller: 'eventController'
+            templateUrl:'ng-views/event.html'
         })
         .when('/map',{
             templateUrl:'ng-views/map.html'
@@ -33,6 +32,8 @@ eventCalendarApp.controller('eventController', function($scope, $http){
     function updateClubs(events){
         $scope.cardClubs=events;
     }
+
+
 
 });
 
