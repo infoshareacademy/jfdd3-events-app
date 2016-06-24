@@ -1,4 +1,5 @@
-var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute']);
+'use strict';
+var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar']);
 
 eventCalendarApp.config(['$routeProvider', function($routeProvider){
 
@@ -10,30 +11,29 @@ eventCalendarApp.config(['$routeProvider', function($routeProvider){
             templateUrl:'ng-views/calendar.html'
         })
         .when('/event',{
-            templateUrl:'ng-views/event.html'
+            templateUrl:'ng-views/club.html',
+            controller: 'eventController'
         })
         .when('/map',{
             templateUrl:'ng-views/map.html'
         })
         .otherwise({
             redirectTo:'/home.html'
-        })
+        });
 }]);
 
 eventCalendarApp.controller('eventController', function($scope, $http){
     $http.get('data/clubsWithEvents.json')
         .then(function(res){
-            $scope.events=res.data;
+            $scope.clubsWithEvents=res.data;
         });
 
 
 
     $scope.updateClubs=updateClubs;
-    function updateClubs(events){
-        $scope.cardClubs=events;
+    function updateClubs(club){
+        $scope.club = club;
     }
-
-
 
 });
 
