@@ -12,7 +12,7 @@
 //    createDays();
 //});
 
-
+/*
 var daty = new Array(30);
 daty[0] = "01.07";
 daty[1] = "02.07";
@@ -85,8 +85,9 @@ function sprawdz(nr)
 
 
 
-}
+}*/
 
+/*
 
 
 
@@ -112,6 +113,7 @@ $left.click(function () {
         $block.animate({"left": "-=150px"}, "slow");
     }
 });
+*/
 
 
 
@@ -135,26 +137,49 @@ function getDates(startDate, stopDate) {
     return dateArray;
 }
 
-var result = getDates(new Date('2016-07-01'), new Date('2016-07-31')).map(function (date, index) {
+var calendarDaysHTML = getDates(new Date('2016-07-01'), new Date('2016-07-31')).map(function (date, index) {
+
+    function createButton(buttonClasses) {
+        return $('<div>')
+            .addClass(buttonClasses)
+            .append( $('<button>')
+                .addClass('calendar-button')
+                .text(date)
+            )
+            .click(function() {
+                console.log('date click');
+            });
+    }
+
     if (index < 2) {
-        return $('<div class="col-xs-3 col-sm-2 col-md-2 col-lg-1"><button class="calendar-button"></button></div>').text(date).click(function () {
+
+        return createButton('col-xs-3 col-sm-2 col-md-2 col-lg-1');
+
+        //var dayElement =
+        //console.debug(dayElement);
+        //return dayElement;
+        //return $('<div class="col-xs-3 col-sm-2 col-md-2 col-lg-1"><button class="calendar-button"></button></div>').text(date).click(function () {
             //
-        });
+        //});
     };
     if (index >=2 && index < 4) {
-        return $('<div class="hidden-xs col-sm-2 col-md-2 col-lg-1"><button class="calendar-button"></button></div>').text(date).click(function () {
-            //
-        });
+        return createButton('hidden-xs col-sm-2 col-md-2 col-lg-1');
+
     };
     if (index >=4 && index < 10) {
-        return $('<div class="hidden-xs hidden-sm hidden-md col-lg-1"><button class="calendar-button"></button></div>').text(date).click(function () {
-            //
-        });
+
+        return createButton('hidden-xs hidden-sm hidden-md col-lg-1');
+
     };
     return date;
 });
 
-$('#navigation').append(result);
+//$('main div.block').append(result);
+$(document).ready(function() {
+    console.log($('header div a').length);
+});
+
+//$('#navigation').append(result);
 /*
 var dateArray = getDates(new Date(), (new Date()).addDays(6));
 for (i = 0; i < dateArray.length; i ++ ) {
