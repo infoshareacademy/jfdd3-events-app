@@ -1,0 +1,57 @@
+.event-main-container {
+  height: 100vh;
+  background-image: url("../img/foto-event/3.jpg");
+  background-size: 100% auto;
+  /*position: absolute;*/
+}
+
+.header-container {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner-button {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.event-container {
+  padding: 3em;
+}
+
+.event-title {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.event-date {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.event-description {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: right;
+  margin-top: 2vh;
+  padding: 0.6em;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.event-date:hover, .event-title:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.extraScroll {
+  overflow-y: scroll;
+  height: 80vh;
+}
