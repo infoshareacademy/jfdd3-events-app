@@ -79,7 +79,9 @@ body {
   color: #55acee; }
 
 .footer .fa-instagram:hover {
-  color: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00); }
+  background: linear-gradient(45deg, red, yellow, blue);
+  border-radius: 5px;
+  padding: 1px; }
 
 .event-thumbnail {
   background-size: 100% 100%;
