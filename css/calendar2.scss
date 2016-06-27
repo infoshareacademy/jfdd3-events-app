@@ -8,11 +8,15 @@
   padding-right: 0.5em;
 }
 
+
+
 .menu-months {
-  font-size: 2em;
+  font-size: 1.5em;
   color: rgb(180, 180, 180);
-  padding-top: 1%;
-  padding-bottom: 2%;
+  display: inline-block;
+  width: 100%;
+  //padding-top: 1%;
+  //padding-bottom: 2%;
 }
 
 .calendar-button {
@@ -37,7 +41,7 @@
   text-align: center;
   display: inline-block;
   vertical-align: middle;
-  float: none;
+  //float: none;
   padding-top: 20px;
   &:hover {
     color: white;
@@ -122,3 +126,14 @@
 .e2 {
   margin-top: 25%;
 }
+
+//.block {
+//  position: relative;
+//  z-index: 90;
+//}
+//#left, #right {
+//  position: relative;
+//  z-index: 103;
+//  height: 100%;
+//  background-color: black;
+//}
