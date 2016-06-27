@@ -2,7 +2,8 @@ body {
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 40px;
-  height: 100vh; }
+  height: 100vh;
+}
 
 .footer {
   position: absolute;
@@ -11,31 +12,39 @@ body {
   height: 40px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  padding-left: 2em; }
+  padding-left: 2em;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: black; }
+  background-color: black;
+}
 
 .banner-container {
   height: 100vh;
   text-align: center;
-  padding-top: 25vh; }
+  padding-top: 25vh;
+}
 
 @media screen and (max-width: 768px) {
   .banner-container {
-    padding-top: 5vh; } }
+    padding-top: 5vh;
+  }
+}
+
 .banner-title {
   color: white;
   padding: 0.4em;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 10em;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .banner-title2 {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 5em; }
+  font-size: 5em;
+}
 
 .banner-button {
   color: white;
@@ -45,70 +54,86 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+}
 
 .banner-button-big {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+}
 
 .banner-button:hover {
-  color: white; }
+  color: white;
+}
 
 .banner-button-big:hover {
-  background-color: black; }
-  .banner-button-big:hover a {
+  background-color: rgb(0, 0, 0);
+  a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+  }
+}
 
 .footer i {
   padding-top: 0.35em;
   color: white;
   font-size: 2.5em;
-  margin-right: 0.5em; }
+  margin-right: 0.5em;
+}
 
 .footer-right {
   position: absolute;
   bottom: 0;
   right: 2em;
   font-size: 1.2em;
-  font-style: italic; }
+  font-style: italic;
+}
 
 .footer .fa-facebook-square:hover {
-  color: #3b5998; }
+  color: #3b5998;
+}
 
 .footer .fa-twitter:hover {
-  color: #55acee; }
+  color: #55acee;
+}
 
 .footer .fa-instagram:hover {
   background: linear-gradient(45deg, red, yellow, blue);
   border-radius: 5px;
-  padding: 1px; }
+  padding: 2px;
+}
 
 .event-thumbnail {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 1em;
-  opacity: 0.7; }
-  .event-thumbnail p {
+  opacity: 0.7;
+  p {
     opacity: 0;
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.3em;
-    font-weight: 700; }
-  .event-thumbnail:hover {
-    opacity: 1; }
-    .event-thumbnail:hover span {
+    font-weight: 700;
+  }
+  &:hover {
+    opacity: 1;
+    span {
       opacity: 1;
       font-size: 2em;
       text-transform: uppercase;
       font-family: 'Open Sans Condensed', sans-serif;
-      font-weight: 700; }
-    .event-thumbnail:hover p {
+      font-weight: 700;
+    }
+    p {
       opacity: 1;
-      background-color: rgba(0, 0, 0, 0.4); }
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+  }
+}
 
 a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  }
 
 video#bgvid {
   position: fixed;
@@ -123,6 +148,5 @@ video#bgvid {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background-size: cover; }
-
-/*# sourceMappingURL=banner2.css.map */
+  background-size: cover;
+}

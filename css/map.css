@@ -1,66 +1,54 @@
 @media screen and (max-width: 768px) {
-    .map-body {
-        overflow-y: visible;
-    }
-}
-
+  .map-body {
+    overflow-y: visible; } }
 .map-container {
-    height: 85vh;
-    margin-bottom: 60px;
-}
+  height: 85vh;
+  margin-bottom: 60px; }
 
 .event-panel-body {
- background-color: black;
-    padding: 2em;
-    margin-bottom: 20px;
-    /*border: 1px solid white;*/
-    color: white;
-    height: 80vh;
-
-}
+  background-color: black;
+  padding: 2em;
+  margin-bottom: 20px;
+  /*border: 1px solid white;*/
+  color: white;
+  height: 80vh; }
 
 .event-panel-heading {
-    background-color: white;
-    font-family: 'Open Sans', sans serif;
-    font-weight: 700;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    color: black;
-}
+  background-color: white;
+  font-family: 'Open Sans', sans serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: black; }
 
 .pull-right2 {
-    float: right;
-    padding-bottom: 20px;
-    display: inline;
-}
+  float: right;
+  padding-bottom: 20px;
+  display: inline; }
 
 .event-img {
-    width: 70px;
-    height: auto;
-    display: inline;
-}
+  width: 70px;
+  height: auto;
+  display: inline; }
 
 .eventInfo {
-    margin: 0;
-    font-size: 4em;
-    text-align: center;
-    padding-top: 1.5em;
-}
+  margin: 0;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 1.5em; }
 
 .eventInfo2 {
-    margin: 0;
-    font-size: 3em;
-    text-align: center;
-    padding-top: 1em;
-}
+  margin: 0;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 1em; }
 
 #tooltip {
-    width: 100px;
-    height: 10px;
-}
+  width: 100px;
+  height: 10px; }
 
 @media screen and (max-width: 768px) {
-    .footer {
-        position: relative;
-    }
-}
+  .footer {
+    position: relative; } }
+
+/*# sourceMappingURL=map.css.map */
