@@ -37,46 +37,53 @@ function initMap() {
         zoom:16
     });
 
-
-    eventList2.forEach(function (place) {
-        var marker = new google.maps.Marker({
-            position: place.position,
-            map: map,
-            title: place.name,
-            icon: place.icon
-
-        });
-
-        function showEventsList() {
-            var $header = $("#eventHeading").text(place.name);
-
-            var $events = $('<div class="col-xs-12 col-md-12" id="clubInfo"><div class="event-panel-heading" id="eventHeading"></div><div class="event-panel-body"><div class="pull-left"><img class="event-img" id="eventImage" src="img/foto-event-mini/1.jpg"></div><div class="pull-right2"><h1 id="eventInfo">Nazwa imprezy</h1><p id="eventDate"> Data imprezy</p></div></div></div>');
-
-            $events.find('#eventInfo').text(place.nameEvent);
-            $events.find('#eventDate').text(place.date);
-
-            $('#clubInfo').empty().append($header).append($events)/*.append($eventDate)*/;
-            $( "#eventImage" ).attr('src', place.photo);
-
-            var content = '<div id="tooltip">' + place.name + '</div>' +
-                '<p>' + place.city + '</p>';
-
-            new google.maps.InfoWindow( {
-                content: content,
+    $.get('data/clubsWithEvents.json', function (clubs) {
+        clubs.forEach(function (place) {
+            var marker = new google.maps.Marker({
                 position: place.position,
-                map: map
+                map: map,
+                title: place.name
+
             });
-        }
-/*
-        function showTooltip() {
 
-        }*/
+            function showEventsList() {
+                var $header = $("#eventHeading").text(place.name);
+                var $eventsContainer = $('<div class="event-body">');
+                $('#clubInfo').empty().append($header).append($eventsContainer);
 
-        marker.addListener('click', function() {
-            showEventsList();
-            /*showTooltip();*/
+                place.events.forEach(function (event) {
+                    var $event = $('<div>')
+                        .append($('<img class="event-img">').attr('src', event.photoEvent))
+                        .append($('<h3 class="eventTitle">').text(event.nameEvent))
+                        .append($('<p class="eventDate">').text(event.dateEvent));
+
+                    $eventsContainer.append($event);
+
+                   /* var content = '<div id="tooltip">' + place.name + '</div>' +
+                        '<p>' + place.city + '</p>';
+
+                    new google.maps.InfoWindow( {
+                        content: content,
+                        position: place.position,
+                        map: map
+                    });*/
+                });
+
+
+            }
+            /*
+             function showTooltip() {
+
+             }*/
+
+            marker.addListener('click', function() {
+                showEventsList();
+                /*showTooltip();*/
+            });
         });
     });
+
+
 
     google.maps.event.addDomListener(window, 'resize', function() {
         map.setCenter(center);
