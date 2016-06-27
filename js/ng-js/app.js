@@ -8,7 +8,8 @@ eventCalendarApp.config(['$routeProvider', function($routeProvider){
             templateUrl:'ng-views/home.html'
         })
         .when('/calendar',{
-            templateUrl:'ng-views/calendar.html'
+            template: '<appcalendar></appcalendar>'
+            //templateUrl:'ng-views/calendar.html'
         })
         .when('/event',{
             templateUrl:'ng-views/club.html',
@@ -28,15 +29,12 @@ eventCalendarApp.controller('eventController', function($scope, $http){
             $scope.clubsWithEvents=res.data;
         });
 
-
     $scope.updateClubs=updateClubs;
     function updateClubs(club){
         $scope.club = club;
     }
 
 });
-
-
 
 
 
