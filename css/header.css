@@ -1,0 +1,36 @@
+.nav-button {
+  background-color: transparent;
+  padding: 0;
+  margin: 0; }
+
+.navbar-nav > li > a {
+  padding: 12px 20px !important;
+  color: white !important; }
+
+.nav-button {
+  color: white !important;
+  background-color: black;
+  font-size: 1.1em;
+  padding: 0.3em;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif; }
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  color: white;
+  border-color: transparent !important; }
+
+.navbar-header {
+  border-color: transparent; }
+
+.nav-button {
+  background-color: transparent;
+  padding: 0 !important; }
+
+.nav-button:hover {
+  background-color: black; }
+
+.navbar-toggle {
+  border-color: transparent; }
+
+/*# sourceMappingURL=header.css.map */
