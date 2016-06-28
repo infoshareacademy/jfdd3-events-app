@@ -1,12 +1,13 @@
 .event-main-container {
-  background-image: url("../img/foto-event/3.jpg");
-  background-size: cover;
-  height: 100vh;
-  padding-top: 20px;
-}
-
-.header-container {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("../img/foto-event-size/6.jpg");
+  //background-color: yellow;
+  background-size: 100% auto;
+  height: 100%;
+  width: 100%;
+  padding-top: 80px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .event-container {

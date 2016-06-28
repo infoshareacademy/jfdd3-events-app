@@ -38,8 +38,9 @@ body {
 }
 
 .banner-container {
-  height: 100vh;
+  height: 100%;
   text-align: center;
+  padding-top: -100px !important;
 }
 
 .banner-title {
