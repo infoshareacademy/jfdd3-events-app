@@ -55,11 +55,9 @@
     display: inline;
 }
 
-.event-img {
-    width: 70px;
-    height: auto;
-    display: inline;
-}
+
+
+
 
 .eventInfo {
     margin: 0;
@@ -80,11 +78,27 @@
     height: 10px;
 }
 
+.eventBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.event-img {
+    width: 10em;
+    height: 10em;
+    order: 1;
+    padding: 1em;
+}
+
 .eventTitle {
     color: white;
+    order: 2;
+    font-size: 2em;
 }
 .eventDate {
     color:white;
+    order: 3;
+    font-size: 2em;
 }
 .event-main {
     overflow-y: scroll;
