@@ -2,14 +2,16 @@
     #mapa {
         overflow-y: visible;
         max-height: 40vh;
-        /*position: fixed;
-        top: 0;*/
+
     }
     #clubInfo {
         max-height: 40vh;
     }
-    .eventInfo {
+    /*.eventInfo {
         padding-top: -0.5em;
+    }*/
+    .event-body {
+        max-height: 35vh;
     }
 }
 
@@ -34,7 +36,7 @@
     margin-bottom: 20px;
     /*border: 1px solid white;*/
     color: white;
-    height: 100vh;
+    height: 83vh;
     overflow-y: scroll;
 
 }
