@@ -1,9 +1,13 @@
 <div class="container-fluid event-main-container">
-    <div class="col-xs-4">
-        <select class="form-control"
+
+    <div class="container-row">
+        <p class="search-for-club">Wyszukaj lokal:</p>
+        <select class="form-control navbar-inverse"
                 ng-options="item as item.name for item in clubsWithEvents track by item.name"
                 ng-change="updateClubs()"
-                ng-model="club"></select>
+                ng-model="club">
+
+        </select>
     </div>
 
     <!--<div class="event-container col-xs-4 extraScroll" id="idScroll"">-->
@@ -13,25 +17,18 @@
                 <!--</div>-->
             <!--</div>-->
 
-    <div class="col-xs-6" ng-show="club">
-        <p class="event-title">hej</p>
+    <div class="list-of-events container-row extraScroll" ng-show="club">
 
-        <div>
-            <p class="event-title">{{club.name}}</p>
-            <p class="event-date">
-                //{{club.city}}<br>//{{club.position}}</p><br>
-            <img src="{{club.photoClub}}" class="img-responsive">
-        </div>
+            <!--<img src="{{club.photoClub}}" class="img-responsive">-->
 
-        <div class="extraScroll">
-            <div ng-repeat="event in club.events">
-                <p class="event-title">//{{event.nameEvent}}</p>
+            <!--<p class="event">{{club.name}} / {{club.city}}</p>-->
 
-                <p class="event-date">//{{event.dateEvent}}<br></p>
-                <img src="{{event.photoEvent}}" class="img-responsive">
+
+            <div class="event-grids col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="event in club.events">
+
+                <img src="{{event.photoEvent}}" class="event-grid">
+                <p class="event-list-title">{{event.nameEvent}}</p>
+                <p class="event-list-date">{{event.dateEvent}}</p>
             </div>
-        </div>
     </div>
-
 </div>
-

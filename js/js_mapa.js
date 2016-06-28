@@ -52,10 +52,10 @@ function initMap() {
                 $('#clubInfo').empty().append($header).append($eventsContainer);
 
                 place.events.forEach(function (event) {
-                    var $event = $('<div>')
+                    var $event = $('<div class="eventBox">')
                         .append($('<img class="event-img">').attr('src', event.photoEvent))
-                        .append($('<h3 class="eventTitle">').text(event.nameEvent))
-                        .append($('<p class="eventDate">').text(event.dateEvent));
+                        .append($('<div class="eventTitle">').text(event.nameEvent))
+                        .append($('<div class="eventDate">').text(event.dateEvent));
 
                     $eventsContainer.append($event);
 

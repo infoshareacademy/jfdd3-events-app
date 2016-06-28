@@ -1,11 +1,6 @@
 .header-container {
   width: 100%; }
 
-.calendar-title {
-  float: right;
-  font-size: 1.4em;
-  padding-right: 0.5em; }
-
 .menu-months {
   font-size: 1.5em;
   color: #b4b4b4;
@@ -63,20 +58,6 @@
   height: 100vh; }
 
 /*event*/
-.event-title {
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
-  font-size: 4em;
-  background-color: rgba(0, 0, 0, 0.4); }
-
-.event-date {
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 400;
-  font-size: 2em;
-  background-color: rgba(0, 0, 0, 0.4); }
-
 .event-description {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;

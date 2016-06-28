@@ -1,8 +1,8 @@
 body {
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 40px;
-  height: 100vh; }
+  height: 100vh;
+  background-color: black; }
 
 .footer {
   position: absolute;
@@ -12,58 +12,43 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding-left: 2em; }
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: black; }
+  .footer i {
+    padding-top: 0.35em;
+    color: white;
+    font-size: 2.5em;
+    margin-right: 0.5em; }
+  .footer .fa-facebook-square:hover {
+    color: #3b5998; }
+  .footer .fa-twitter:hover {
+    color: #55acee; }
+  .footer .fa-instagram:hover {
+    background: linear-gradient(45deg, red, yellow, blue);
+    border-radius: 5px;
+    padding: 2px; }
 
 .banner-container {
-  height: 100vh;
+  height: 100%;
   text-align: center;
-  padding-top: 25vh; }
+  padding-top: -100px !important; }
 
-@media screen and (max-width: 768px) {
-  .banner-container {
-    padding-top: 5vh; } }
 .banner-title {
   color: white;
   padding: 0.4em;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 10em;
-  background-color: rgba(0, 0, 0, 0.5); }
+  font-size: 5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20%; }
 
+@media screen and (min-width: 790px) {
+  .banner-title {
+    font-size: 8em; }
+
+  .banner-container {
+    margin-top: 10%; } }
 .banner-title2 {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5em; }
-
-.banner-button {
-  color: white;
-  background-color: black;
-  font-size: 1em;
-  padding: 1em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Open Sans', sans-serif; }
-
-.banner-button-big {
-  font-size: 1.3em; }
-
-.banner-button:hover {
-  color: white; }
-
-.banner-button-big:hover {
-  background-color: black; }
-  .banner-button-big:hover a {
-    color: white;
-    text-decoration: none; }
-
-.footer i {
-  padding-top: 0.35em;
-  color: white;
-  font-size: 2.5em;
-  margin-right: 0.5em; }
 
 .footer-right {
   position: absolute;
@@ -71,17 +56,6 @@ body {
   right: 2em;
   font-size: 1.2em;
   font-style: italic; }
-
-.footer .fa-facebook-square:hover {
-  color: #3b5998; }
-
-.footer .fa-twitter:hover {
-  color: #55acee; }
-
-.footer .fa-instagram:hover {
-  background: linear-gradient(45deg, red, yellow, blue);
-  border-radius: 5px;
-  padding: 2px; }
 
 .event-thumbnail {
   background-size: 100% 100%;

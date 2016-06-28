@@ -1,10 +1,10 @@
 'use strict';
-var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar']);
+var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate' ]);
 
 eventCalendarApp.config(['$routeProvider', function($routeProvider){
 
     $routeProvider
-        .when('/home',{
+        .when('/',{
             templateUrl:'ng-views/home.html'
         })
         .when('/calendar',{
@@ -19,7 +19,7 @@ eventCalendarApp.config(['$routeProvider', function($routeProvider){
             templateUrl:'ng-views/map.html'
         })
         .otherwise({
-            redirectTo:'/home.html'
+            redirectTo:'/calendar.html'
         });
 }]);
 

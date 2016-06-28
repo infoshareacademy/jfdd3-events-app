@@ -1,43 +1,29 @@
 .event-main-container {
-  height: 100vh;
-  background-image: url("../img/foto-event/3.jpg");
+  background-image: url("../img/foto-event/8.jpg");
   background-size: 100% auto;
-  /*position: absolute;*/ }
-
-.header-container {
-  background-color: rgba(0, 0, 0, 0.3); }
-
-.banner-button {
-  background-color: transparent; }
+  height: 100vh;
+  width: 100%;
+  padding-top: 80px;
+  position: absolute;
+  left: 0;
+  top: 0; }
 
 .event-container {
   padding: 3em; }
 
-.event-title {
+.event-list-title {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 2em;
   background-color: rgba(0, 0, 0, 0.4); }
 
-.event-date {
+.event-list-date {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 2em;
   background-color: rgba(0, 0, 0, 0.4); }
-
-.event-description {
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
-  font-size: 1.5em;
-  background-color: rgba(0, 0, 0, 0.4);
-  text-align: right;
-  margin-top: 2vh;
-  padding: 0.6em; }
-  .event-description:hover {
-    background-color: rgba(0, 0, 0, 0.5); }
 
 .event-date:hover, .event-title:hover {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -46,4 +32,56 @@
   overflow-y: scroll;
   height: 80vh; }
 
+ul {
+  margin-bottom: 0; }
+
+.form-control {
+  color: white !important;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400; }
+
+.list-of-events {
+  padding-bottom: 1em;
+  padding-right: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.event-grid {
+  width: 100%;
+  position: relative; }
+
+.event-list-title {
+  position: absolute !important;
+  font-size: 3em;
+  padding: 0.5em;
+  top: 20px;
+  left: 7px;
+  z-index: 100; }
+
+.event-list-date {
+  position: absolute !important;
+  padding: 0.5em;
+  top: 120px;
+  left: 7px;
+  z-index: 100; }
+
+.search-for-club {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2.3em; }
+
+.event-grids {
+  margin-bottom: 10px; }
+
 /*# sourceMappingURL=event.css.map */
+
+.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+}
+
+/* The finishing CSS styles for the enter animation */
+.ng-enter.ng-enter-active {
+  opacity:1;
+}

@@ -1,27 +1,42 @@
-<ul>
-    <li class="banner-button banner-button-big"><a href="#/home">HOME</a></li>
-    <li class="banner-button banner-button-big"><a href="#/calendar">KALENDARZ EVENTÓW</a></li>
-    <li class="banner-button banner-button-big"><a href="#/event">CLUBS</a></li>
-    <li class="banner-button banner-button-big"><a href="#/map">MAPA LOKALI</a></li>
-    <li class="banner-button banner-button-big"><a href="#">ZALOGUJ SIĘ</a></li>
-    <!--<li class="banner-button google-button g-signin2" data-onsuccess="onSignIn"></li>-->
-    <!--<li class="banner-button banner-button-big" onclick="signOut();">sign out</li>-->
+<nav class="navbar navbar-inverse navbar-static-top nav-big" role="navigation">
 
-    <li class="banner-button calendar-title">KALENDARZ EVENTÓW</li>
-</ul>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
 
-<!--<div class="banner-button banner-button-big"><a href="#/home">HOME</a></div>-->
-<!--<div class="banner-button banner-button-big"><a href="#/calendar">KALENDARZ EVENTÓW</a></div>-->
-<!--<div class="banner-button banner-button-big"><a href="#/event">CLUBS</a></div>-->
-<!--<div class="banner-button banner-button-big"><a href="#/map">MAPA LOKALI</a></div>-->
-<!--<div class="g-signin2" data-onsuccess="onSignIn"></div>-->
-<!--<div class="banner-button banner-button-big" onclick="signOut();">sign out</div>-->
-
-
-
-
-
+        <div class="collapse navbar-collapse nav-big" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-button"><a href="#/calendar">KALENDARZ</a></li>
+                <li class="nav-button"><a href="#/event">KLUBY</a></li>
+                <li class="nav-button"><a href="#/map">MAPA LOKALI</a></li>
+                <li type="button" data-toggle="modal" data-target="#myModal" class="nav-button"><a href="#">ZALOGUJ
+                    SIĘ</a></li>
+            </ul>
+        </div>
+</nav>
 
 
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Zaloguj się</h4>
+            </div>
+            <div class="modal-body">
+
+                <button class="btn btn-default g-signin2" data-onsuccess="onSignIn"></button>
+                <button class="btn btn-default" onclick="signOut();">sign out</button>
+
+            </div>
+        </div>
+    </div>
+</div>
 
 

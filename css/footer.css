@@ -6,40 +6,30 @@
   height: 40px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  padding-left: 2em;
-  i {
+  padding-left: 2em; }
+  .footer i {
     padding-top: 0.35em;
     color: white;
     font-size: 2.5em;
-    margin-right: 0.5em;
-  }
-  .fa-facebook-square:hover {
-    color: #3b5998;
-    background-color: white;
-    border-radius: 5px;
-  }
-  .fa-twitter:hover {
-    color: #55acee;
-    background-color: white;
-    border-radius: 5px;
-  }
-  .fa-instagram:hover {
+    margin-right: 0.5em; }
+  .footer .fa-facebook-square:hover {
+    color: #3b5998; }
+  .footer .fa-twitter:hover {
+    color: #55acee; }
+  .footer .fa-instagram:hover {
     background: linear-gradient(45deg, red, yellow, blue);
     border-radius: 5px;
-    padding: 2px;
-  }
-}
+    padding: 2px; }
 
 .footer-right {
   position: absolute;
   bottom: 0;
   right: 2em;
   font-size: 1.2em;
-  font-style: italic;
-}
+  font-style: italic; }
 
 @media screen and (max-width: 768px) {
   .footer {
-    position: absolute !important;
-  }
-}
+    position: absolute !important; } }
+
+/*# sourceMappingURL=footer.css.map */
