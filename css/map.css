@@ -1,6 +1,15 @@
 @media screen and (max-width: 768px) {
-    .map-body {
+    #mapa {
         overflow-y: visible;
+        max-height: 40vh;
+        /*position: fixed;
+        top: 0;*/
+    }
+    #clubInfo {
+        max-height: 40vh;
+    }
+    .eventInfo {
+        padding-top: -0.5em;
     }
 }
 
