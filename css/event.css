@@ -7,9 +7,6 @@
 .header-container {
   background-color: rgba(0, 0, 0, 0.3); }
 
-.banner-button {
-  background-color: transparent; }
-
 .event-container {
   padding: 3em; }
 
@@ -45,5 +42,8 @@
 .extraScroll {
   overflow-y: scroll;
   height: 80vh; }
+
+ul {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=event.css.map */
