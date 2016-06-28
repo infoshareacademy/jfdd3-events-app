@@ -8,18 +8,20 @@
   color: white;
   padding-left: 2em; }
   .footer i {
-    padding-top: 0.35em;
     color: white;
     font-size: 2.5em;
-    margin-right: 0.5em; }
-  .footer .fa-facebook-square:hover {
-    color: #3b5998; }
-  .footer .fa-twitter:hover {
-    color: #55acee; }
-  .footer .fa-instagram:hover {
-    background: linear-gradient(45deg, red, yellow, blue);
+    margin-right: 0.5em;
+    padding: 2px;
     border-radius: 5px;
-    padding: 2px; }
+    margin-top: 5px; }
+  .footer .fa-facebook-square:hover {
+    color: #3b5998;
+    background-color: white; }
+  .footer .fa-twitter:hover {
+    color: #55acee;
+    background-color: white; }
+  .footer .fa-instagram:hover {
+    background: linear-gradient(45deg, red, yellow, blue); }
 
 .footer-right {
   position: absolute;

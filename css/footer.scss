@@ -8,25 +8,23 @@
   color: white;
   padding-left: 2em;
   i {
-    padding-top: 0.35em;
     color: white;
     font-size: 2.5em;
     margin-right: 0.5em;
+    padding: 2px;
+    border-radius: 5px;
+    margin-top: 5px;
   }
   .fa-facebook-square:hover {
     color: #3b5998;
     background-color: white;
-    border-radius: 5px;
   }
   .fa-twitter:hover {
     color: #55acee;
     background-color: white;
-    border-radius: 5px;
   }
   .fa-instagram:hover {
     background: linear-gradient(45deg, red, yellow, blue);
-    border-radius: 5px;
-    padding: 2px;
   }
 }
 

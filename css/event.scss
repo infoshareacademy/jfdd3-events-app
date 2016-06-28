@@ -1,5 +1,5 @@
 .event-main-container {
-  background-image: url("../img/foto-event/8.jpg");
+  background-image: url("../img/event-bg2.jpg");
   background-size: 100% auto;
   height: 100vh;
   width: 100%;
@@ -74,6 +74,11 @@ ul {
   width: 100%;
   //height: auto;
   position: relative;
+  -webkit-filter: grayscale(50%);
+}
+
+.event-grid:hover {
+  -webkit-filter: grayscale(0%) drop-shadow(5px 5px 5px 5px black);
 }
 
 .event-list-title {

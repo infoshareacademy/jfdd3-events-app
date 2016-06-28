@@ -1,5 +1,5 @@
 .event-main-container {
-  background-image: url("../img/foto-event/8.jpg");
+  background-image: url("../img/event-bg2.jpg");
   background-size: 100% auto;
   height: 100vh;
   width: 100%;
@@ -48,7 +48,11 @@ ul {
 
 .event-grid {
   width: 100%;
-  position: relative; }
+  position: relative;
+  -webkit-filter: grayscale(50%); }
+
+.event-grid:hover {
+  -webkit-filter: grayscale(0%) drop-shadow(5px 5px 5px 5px black); }
 
 .event-list-title {
   position: absolute !important;
@@ -75,13 +79,3 @@ ul {
   margin-bottom: 10px; }
 
 /*# sourceMappingURL=event.css.map */
-
-.ng-enter {
-  transition:0.5s linear all;
-  opacity:0;
-}
-
-/* The finishing CSS styles for the enter animation */
-.ng-enter.ng-enter-active {
-  opacity:1;
-}
