@@ -54,8 +54,8 @@ function initMap() {
                 place.events.forEach(function (event) {
                     var $event = $('<div class="eventBox">')
                         .append($('<img class="event-img">').attr('src', event.photoEvent))
-                        .append($('<div class="eventTitle">').text(event.nameEvent))
-                        .append($('<div class="eventDate">').text(event.dateEvent));
+                        .append($('<p class="eventTitle">').text(event.nameEvent))
+                        .append($('<p class="eventDate">').text(event.dateEvent));
 
                     $eventsContainer.append($event);
 

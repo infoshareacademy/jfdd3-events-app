@@ -1,5 +1,5 @@
-.event-main-container {
-  background-image: url("../img/event-bg2.jpg");
+.clubs-background {
+  background-image: url("../img/event-bg5.jpg");
   background-size: 100% auto;
   height: 100vh;
   width: 100%;
@@ -7,6 +7,12 @@
   position: absolute;
   left: 0;
   top: 0;
+}
+
+@media screen and (max-width: 1225px) {
+  .clubs-background {
+    background-size: auto 100%;
+  }
 }
 
 .event-container {
@@ -18,7 +24,7 @@
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 800;
   font-size: 2em;
-  background-color: rgba(0, 0, 0, 0.4);
+  //background-color: rgba(0, 0, 0, 0.4);
 }
 
 .event-list-date {
@@ -26,22 +32,8 @@
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 2em;
-  background-color: rgba(0, 0, 0, 0.4);
+  //background-color: rgba(0, 0, 0, 0.4);
 }
-
-//.event-description {
-//  color: white;
-//  font-family: 'Open Sans Condensed', sans-serif;
-//  font-weight: 300;
-//  font-size: 1.5em;
-//  background-color: rgba(0, 0, 0, 0.4);
-//  text-align: right;
-//  margin-top: 2vh;
-//  padding: 0.6em;
-//  &:hover {
-//    background-color: rgba(0, 0, 0, 0.5);
-//  }
-//}
 
 .event-date:hover, .event-title:hover {
   background-color: rgba(0, 0, 0, 0.5);
@@ -49,7 +41,7 @@
 
 .extraScroll {
   overflow-y: scroll;
-  height: 80vh;
+  height: 73vh;
 }
 
 ul {
@@ -78,33 +70,37 @@ ul {
 }
 
 .event-grid:hover {
-  -webkit-filter: grayscale(0%) drop-shadow(5px 5px 5px black);
+  -webkit-filter: grayscale(0%) brightness(20%);
 }
 
 .event-list-title {
   position: absolute !important;
   font-size: 3em;
-  padding: 0.5em;
-  top: 20px;
-  left: 7px;
+  padding: 15px;
+  bottom: 0;
   z-index: 100;
 }
 
 .event-list-date {
   position: absolute !important;
-  padding: 0.5em;
-  top: 120px;
-  left: 7px;
+  padding: 15px;
+  bottom: 50px;
   z-index: 100;
 }
 
 .search-for-club {
   color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
-  font-size: 2.3em;
+  font-size: 2em;
+  padding: 0.3em;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .event-grids {
   margin-bottom: 10px;
+}
+
+.clubs-container {
+  position: relative;
+  margin-top: 20px;
 }
