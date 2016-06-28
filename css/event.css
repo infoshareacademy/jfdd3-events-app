@@ -1,5 +1,5 @@
 .event-main-container {
-  background-image: url("../img/foto-event-size/6.jpg");
+  background-image: url("../img/foto-event-size/8.jpg");
   background-size: 100% auto;
   height: 100%;
   width: 100%;
@@ -11,31 +11,19 @@
 .event-container {
   padding: 3em; }
 
-.event-title {
+.event-list-title {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 2em;
   background-color: rgba(0, 0, 0, 0.4); }
 
-.event-date {
+.event-list-date {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 2em;
   background-color: rgba(0, 0, 0, 0.4); }
-
-.event-description {
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
-  font-size: 1.5em;
-  background-color: rgba(0, 0, 0, 0.4);
-  text-align: right;
-  margin-top: 2vh;
-  padding: 0.6em; }
-  .event-description:hover {
-    background-color: rgba(0, 0, 0, 0.5); }
 
 .event-date:hover, .event-title:hover {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -49,5 +37,37 @@ ul {
 
 .form-control {
   color: white !important; }
+
+.list-of-events {
+  padding-bottom: 1em;
+  padding-right: 1em;
+  margin-top: 2em; }
+
+.event-grid {
+  width: 100%;
+  position: relative; }
+
+.event-list-title {
+  position: absolute !important;
+  padding: 0.5em;
+  top: 20px;
+  left: 7px;
+  z-index: 100; }
+
+.event-list-date {
+  position: absolute !important;
+  padding: 0.5em;
+  top: 70px;
+  left: 7px;
+  z-index: 100; }
+
+.search-for-club {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2em; }
+
+.event-grids {
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=event.css.map */

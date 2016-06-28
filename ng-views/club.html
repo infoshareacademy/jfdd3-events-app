@@ -1,7 +1,7 @@
 <div class="container-fluid event-main-container">
 
-    <div>
-        <p>Wyszukaj lokal:</p>
+    <div class="container-row">
+        <p class="search-for-club">Wyszukaj lokal:</p>
         <select class="form-control navbar-inverse"
                 ng-options="item as item.name for item in clubsWithEvents track by item.name"
                 ng-change="updateClubs()"
@@ -17,21 +17,20 @@
                 <!--</div>-->
             <!--</div>-->
 
-    <div class="extraScroll" ng-show="club">
-        <div>
+    <div class="list-of-events container-row extraScroll" ng-show="club">
+
             <!--<img src="{{club.photoClub}}" class="img-responsive">-->
 
-            <p class="event">{{club.name}} / {{club.city}}</p>
+            <!--<p class="event">{{club.name}} / {{club.city}}</p>-->
 
-            <br>
-            <div ng-repeat="event in club.events">
+
+            <div class="event-grids col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="event in club.events">
 
                 <img src="{{event.photoEvent}}" class="event-grid">
-                <p class="event-title">{{event.nameEvent}}</p>
-
-                <p class="event-date">{{event.dateEvent}}</p>
+                <p class="event-list-title">{{event.nameEvent}}</p>
+                <p class="event-list-date">{{event.dateEvent}}</p>
             </div>
-        </div>
+
 
 
 
