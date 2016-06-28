@@ -1,6 +1,6 @@
 <div class="container-fluid event-main-container">
     <div class="col-xs-4">
-        <select class="form-control"
+        <select class="form-control navbar-inverse"
                 ng-options="item as item.name for item in clubsWithEvents track by item.name"
                 ng-change="updateClubs()"
                 ng-model="club"></select>

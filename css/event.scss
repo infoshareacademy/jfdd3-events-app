@@ -1,8 +1,8 @@
 .event-main-container {
-  height: 100vh;
   background-image: url("../img/foto-event/3.jpg");
-  background-size: 100% auto;
-  /*position: absolute;*/
+  background-size: cover;
+  height: 100vh;
+  padding-top: 20px;
 }
 
 .header-container {
