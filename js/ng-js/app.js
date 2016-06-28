@@ -19,7 +19,7 @@ eventCalendarApp.config(['$routeProvider', function($routeProvider){
             templateUrl:'ng-views/map.html'
         })
         .otherwise({
-            redirectTo:'/home.html'
+            redirectTo:'/calendar.html'
         });
 }]);
 

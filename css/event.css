@@ -49,7 +49,7 @@ ul {
 /*# sourceMappingURL=event.css.map */
 
 .ng-enter {
-  transition:1s linear all;
+  transition:0.5s linear all;
   opacity:0;
 }
 
