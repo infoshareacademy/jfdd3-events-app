@@ -1,5 +1,5 @@
 'use strict';
-var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar']);
+var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate' ]);
 
 eventCalendarApp.config(['$routeProvider', function($routeProvider){
 
