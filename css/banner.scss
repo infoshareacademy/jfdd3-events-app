@@ -20,14 +20,13 @@ body {
 .banner-container {
   height: 100vh;
   text-align: center;
-  padding-top: 25vh;
 }
-
-@media screen and (max-width: 768px) {
-  .banner-container {
-    padding-top: 5vh;
-  }
-}
+//
+//@media screen and (max-width: 768px) {
+//  .banner-container {
+//    margin-top: 2vh;
+//  }
+//}
 
 .banner-title {
   color: white;
@@ -38,12 +37,15 @@ body {
   margin-top: 20%
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 790px) {
   .banner-title {
-    font-size: 10em;
-    margin-top: 0;
+    font-size: 8em;
   }
-}
+    .banner-container {
+      margin-top: 10%;
+    }
+  }
+
 
 .banner-title2 {
   color: white;

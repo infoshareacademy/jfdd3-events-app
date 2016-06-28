@@ -16,12 +16,8 @@ body {
 
 .banner-container {
   height: 100vh;
-  text-align: center;
-  padding-top: 25vh; }
+  text-align: center; }
 
-@media screen and (max-width: 768px) {
-  .banner-container {
-    padding-top: 5vh; } }
 .banner-title {
   color: white;
   padding: 0.4em;
@@ -30,10 +26,12 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 20%; }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 790px) {
   .banner-title {
-    font-size: 10em;
-    margin-top: 0; } }
+    font-size: 8em; }
+
+  .banner-container {
+    margin-top: 10%; } }
 .banner-title2 {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
