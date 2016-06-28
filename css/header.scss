@@ -5,7 +5,7 @@
 }
 
 .navbar-nav > li > a {
-  padding: 12px 20px !important;
+  padding: 15px 20px !important;
   color: white !important;
 }
 
@@ -14,9 +14,7 @@
   background-color: black;
   font-size: 1.1em;
   padding: 0.3em;
-  //text-align: center;
   text-decoration: none;
-  //display: inline-block;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -44,26 +42,3 @@
 .navbar-toggle {
   border-color: transparent;
 }
-//.nav-right {
-//  float: right !important;
-//  font-size: 1em;
-//  padding-right: 0.5em;
-//}
-
-//@media screen and (max-width: 845px) {
-//  .nav-big {
-//    display: none;
-//  }
-//  .nav-small {
-//    display: block;
-//  }
-//}
-//
-//@media screen and (min-width: 501px) {
-//  .nav-small {
-//    display: none;
-//  }
-//  .nav-big {
-//    display: block;
-//  }
-//}
