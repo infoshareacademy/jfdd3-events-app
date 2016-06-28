@@ -4,7 +4,7 @@ var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-lo
 eventCalendarApp.config(['$routeProvider', function($routeProvider){
 
     $routeProvider
-        .when('/home',{
+        .when('/',{
             templateUrl:'ng-views/home.html'
         })
         .when('/calendar',{
