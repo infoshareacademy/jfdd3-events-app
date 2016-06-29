@@ -1,5 +1,5 @@
 'use strict';
-var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate' ]);
+var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate']);
 
 eventCalendarApp.config(['$routeProvider', function($routeProvider){
 
@@ -10,6 +10,7 @@ eventCalendarApp.config(['$routeProvider', function($routeProvider){
         .when('/calendar',{
             template: '<appcalendar></appcalendar>'
             //templateUrl:'ng-views/calendar.html'
+            controller:'gridCtrl'
         })
         .when('/event',{
             templateUrl:'ng-views/club.html',
@@ -35,7 +36,6 @@ eventCalendarApp.controller('eventController', function($scope, $http){
     }
 
 });
-
 
 
 

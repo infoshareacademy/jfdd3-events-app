@@ -124,15 +124,15 @@ events.forEach(function (event) {
 });
 
 
-$(function () {
-
-
-    $(".gridster > ul").gridster({
-        widget_margins: [0, 0],
-        widget_base_dimensions: [180, 180],
-        min_cols: 10
-    });
-});
+//$(function () {
+//
+//
+//    $(".gridster > ul").gridster({
+//        widget_margins: [0, 0],
+//        widget_base_dimensions: [180, 180],
+//        min_cols: 10
+//    });
+//});
 
 
 
