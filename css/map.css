@@ -7,9 +7,7 @@
     #clubInfo {
         max-height: 40vh;
     }
-    /*.eventInfo {
-        padding-top: -0.5em;
-    }*/
+
     .event-body {
         max-height: 35vh;
     }
@@ -24,17 +22,13 @@
  background-color: black;
     padding: 2em;
     margin-bottom: 20px;
-    /*border: 1px solid white;*/
     color: white;
     height: 80vh;
-    /*overflow-y: scroll;*/
-
-}
+   }
 .event-body {
     background-color: black;
     padding: 2em;
     margin-bottom: 20px;
-    /*border: 1px solid white;*/
     color: white;
     height: 83vh;
     overflow-y: scroll;
@@ -48,16 +42,6 @@
     text-transform: uppercase;
     color: black;
 }
-
-.pull-right2 {
-    float: right;
-    padding-bottom: 20px;
-    display: inline;
-}
-
-
-
-
 
 .eventInfo {
     margin: 0;
