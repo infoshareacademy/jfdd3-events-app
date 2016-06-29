@@ -51,6 +51,7 @@ eventCalendarApp.controller('gridsterCalendarController', function($scope, $http
                     sizeY: 1,
                     row: index % 4,
                     col: index % 15
+
                 };
             });
         });
