@@ -2,6 +2,23 @@
   width: 100%;
 }
 
+.calendar-background {
+  background-image: url("../img/event-bg5.jpg");
+  background-size: 100% auto;
+  height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 1225px) {
+  .calendar-background {
+    background-size: auto 100%;
+  }
+}
+
 .menu-months {
   font-size: 1.5em;
   color: rgb(180, 180, 180);
@@ -33,7 +50,6 @@
   text-align: center;
   display: inline-block;
   vertical-align: middle;
-  //float: none;
   padding-top: 20px;
   &:hover {
     color: white;
@@ -44,13 +60,13 @@
   background-color: orange;
 }
 
-.show {
-  display: block;
-}
-
-.hide {
-  display: none;
-}
+//.show {
+//  display: block;
+//}
+//
+//.hide {
+//  display: none;
+//}
 
 .backward-button {
   border: none;
@@ -75,57 +91,6 @@
   height: 100vh;
 }
 
-/*event*/
-
-//.event-title {
-//  color: white;
-//  font-family: 'Open Sans Condensed', sans-serif;
-//  font-weight: 700;
-//  font-size: 4em;
-//  background-color: rgba(0, 0, 0, 0.4);
-//}
-//
-//.event-date {
-//  color: white;
-//  font-family: 'Open Sans Condensed', sans-serif;
-//  font-weight: 400;
-//  font-size: 2em;
-//  background-color: rgba(0, 0, 0, 0.4);
-//}
-
-.event-description {
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
-  font-size: 1.5em;
-  background-color: rgba(0, 0, 0, 0.4);
-  text-align: right;
-  margin-top: 2vh;
-  padding: 0.6em;
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-}
-
 .event-date:hover, .event-title:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
-
-.e1 {
-  margin-top: 8%;
-}
-
-.e2 {
-  margin-top: 25%;
-}
-
-//.block {
-//  position: relative;
-//  z-index: 90;
-//}
-//#left, #right {
-//  position: relative;
-//  z-index: 103;
-//  height: 100%;
-//  background-color: black;
-//}
