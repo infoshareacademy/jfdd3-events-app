@@ -24,7 +24,8 @@ eventCalendarApp.directive('appcalendar', function() {
                     .addClass(buttonClasses)
                     .append( $('<button>')
                         .addClass('calendar-button')
-                        .text(date)
+                        .text(date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate())
+                        .attr('data-cleardate', date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate())
                     )
                     .click(function() {
                         console.log('date click');
@@ -48,6 +49,38 @@ eventCalendarApp.directive('appcalendar', function() {
             return date;
         }).slice(begin, howMany);
     }
+
+
+    $.getJSON('data/clubsWithEvents.json', function(data){
+        var dateEvents = [];
+        $.each(data, function(key, value) {
+            for (var i=0; i<value.events.length; i++) {
+                //if (value.events[i].dateEvent)
+                console.log(value.events[i].dateEvent);
+                if(dateEvent === data-cleardate){
+                        data.push( "<li id='" + key + "'>" + val + "</li>" );
+                    }
+            }
+
+        })
+            //if(dateEvent === data-cleardate){
+            //    dateEvents.push
+            //}
+    //}
+        dataEvent.forEach(function(data){
+           var $events = $('<div class="events">');
+        })
+    })
+
+   /* function showEventsData() {
+
+        $('.event-thumbnail').empty().append($events);
+
+        place.events.forEach(function (data) {
+            .append($('<img class="event-img">').attr('src', event.photoEvent))
+                .append($('<p class="eventTitle">').text(event.nameEvent))
+                .append($('<p class="eventDate">').text(event.dateEvent))
+        }*/
 
     var pos = 0;
 
