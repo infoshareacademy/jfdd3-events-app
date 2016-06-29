@@ -1,3 +1,4 @@
+<div class="calendar-background">
 <div class="menu-months container-row">
     <div id="left" class="col-xs-3 col-sm-2 col-md-2 col-lg-1 calendar-arrow" ng-click="moveLeft()">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -15,7 +16,6 @@
 
 
 <div gridster>
-    <ul>
         <li
             gridster-item="event"
             ng-repeat="event in events"
@@ -24,4 +24,3 @@
         </li>
     </ul>
 </div>
-
