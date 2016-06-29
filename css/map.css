@@ -15,14 +15,21 @@
   .map-body {
     overflow-y: visible; } }
 .map-container {
-  height: 83vh;
+  height: 81vh;
   margin-bottom: 60px; }
 
 .events-container {
   padding-top: 40px; }
 
 .event-panel-heading {
-  background-color: rgba(0, 0, 0, 0.1);
+  background: -webkit-linear-gradient(left, black, transparent);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, black, transparent);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, black, transparent);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, black, transparent);
+  /* Standard syntax */
   font-family: 'Open Sans', sans serif;
   width: 31%;
   font-size: 1.5em;
@@ -32,10 +39,10 @@
   position: absolute; }
 
 .event-panel-body {
-  background-color: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.2);
   /*border: 1px solid white;*/
   color: white;
-  height: 83vh;
+  height: 81vh;
   padding-top: 40px; }
 
 .pull-right2 {
@@ -71,7 +78,7 @@
   padding-top: 4em; }
 
 #clubInfo {
-  height: 83vh;
+  height: 81vh;
   overflow-y: scroll;
   padding-top: 0; }
 
@@ -83,10 +90,16 @@
 
 .eventTitle {
   font-size: 1.5em;
+  text-transform: uppercase;
   float: right; }
 
+@media screen and (max-width: 960px) {
+  .eventTitle {
+    font-size: 1.2em; } }
 .eventDate {
   font-size: 1em;
-  float: right; }
+  text-align: right;
+  margin-left: 50px;
+  margin-top: -30px; }
 
 /*# sourceMappingURL=map.css.map */
