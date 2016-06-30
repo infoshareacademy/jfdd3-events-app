@@ -84,7 +84,7 @@ eventCalendarApp.directive('appcalendar', function() {
             }
 
             function getCalendarDays(begin, howMany) {
-                return getDates(new Date(Date.now()), new Date('2016-07-30')).map(function (date, index) {
+                return getDates(new Date(Date.now()), new Date('2016-08-20')).map(function (date, index) {
 
                     function createButton(buttonClasses) {
                         return $('<div>')
