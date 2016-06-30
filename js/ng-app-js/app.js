@@ -1,6 +1,63 @@
+'use strict';
+var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate','gridster' ]);
+
+eventCalendarApp.config(['$routeProvider', function($routeProvider){
+
+    $routeProvider
+        .when('/',{
+            templateUrl:'ng-views/home.html'
+        })
+        .when('/calendar',{
+            template: '<appcalendar></appcalendar>',
+            //templateUrl:'ng-views/calendar.html'
+            controller: 'gridsterCalendarController'
+        })
+        .when('/event',{
+            templateUrl:'ng-views/club.html',
+            controller: 'eventController'
+        })
+        .when('/map',{
+            templateUrl:'ng-views/map.html'
+        })
+        .otherwise({
+            redirectTo:'/calendar.html'
+        });
+}]);
+
+eventCalendarApp.controller('eventController', function($scope, $http){
+    $http.get('data/clubsWithEvents.json')
+        .then(function(res){
+            $scope.clubsWithEvents = res.data;
+        });
+
+    $scope.updateClubs = function () {
+        console.log($scope);
+        //$scope.club = club;
+    }
+
+});
+
+eventCalendarApp.controller('gridsterCalendarController', function($scope, $http) {
+    $http.get('data/clubsWithEvents.json')
+        .then(function (response) {
+            $scope.events = Array.prototype.concat.apply([], response.data.map(function (club) {
+                return club.events;
+            })).slice().map(function (event, index) {
+                return {
+                    nameEvent: event.nameEvent,
+                    dateEvent: event.dateEvent,
+                    photoEvent: event.photoEvent,
+                    sizeX: 1,
+                    sizeY: 1,
+                    row: index % 1,
+                    col: index % 8
+                };
+            });
+            console.log($scope.events.length);
+        });
+});
+
 eventCalendarApp.directive('appcalendar', function() {
-
-
 
     var pos = 0;
 
@@ -27,7 +84,7 @@ eventCalendarApp.directive('appcalendar', function() {
             }
 
             function getCalendarDays(begin, howMany) {
-                return getDates(new Date('2016-07-01'), new Date('2016-07-31')).map(function (date, index) {
+                return getDates(new Date(Date.now()), new Date('2016-07-30')).map(function (date, index) {
 
                     function createButton(buttonClasses) {
                         return $('<div>')
@@ -68,7 +125,7 @@ eventCalendarApp.directive('appcalendar', function() {
                     for (var i=0; i<value.events.length; i++) {
                         //if (value.events[i].dateEvent)
                         console.log(value.events[i].dateEvent);
-                        if(dateEvent === data-cleardate){
+                        if(dataEvent === data-cleardate){
                             data.push( "<li id='" + key + "'>" + val + "</li>" );
                         }
                     }
@@ -110,3 +167,6 @@ eventCalendarApp.directive('appcalendar', function() {
         }
     }
 });
+
+
+

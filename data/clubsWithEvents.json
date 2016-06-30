@@ -2,56 +2,27 @@
   {
     "name": "Bunkier",
     "city": "Gdansk",
-    "photoClub": "img/foto-club1.jpg",
+    "photoClub": "",
     "position": {
       "lat": 54.35475,
       "lng": 18.654678
     },
+    "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/17.jpg",
-        "dateEvent": "2016-7-25"
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24"
       },
       {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-7-15"
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
       },
       {
         "nameEvent": "House Time",
         "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-7-23"
+        "dateEvent": "2016-7-11"
       },
       {
         "nameEvent": "Garden party",
@@ -59,64 +30,33 @@
         "dateEvent": "2016-7-8"
       },
       {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-17"
-      }
-    ]
-  },
-  {
-    "name": "Mewa Towarzyska",
-    "city": "Sopot",
-    "photoClub": "img/foto-club2.jpg",
-    "position": {
-      "lat": 54.443701,
-      "lng": 18.567403
-    },
-    "events": [
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-15"
+        "nameEvent": "Ziemia to za mało",
+        "photoEventt": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6"
       },
       {
         "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-8-13"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-8-4"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-8-16"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEventt": "img/foto-event-mini/12.jpg",
         "dateEvent": "2016-7-12"
       },
       {
@@ -125,146 +65,1511 @@
         "dateEvent": "2016-7-2"
       },
       {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-15"
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-8-10"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEventt": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-8-10"
       },
       {
         "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-23"
-      },
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-8-13"
+      }
+    ]
+  },
+  {
+    "name": "Mewa Towarzyska",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.443701,
+      "lng": 18.567403
+    },
+    "icon": "img/map-ping.png",
+    "events": [
       {
         "nameEvent": "Wieczór",
         "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-7-10"
+        "dateEvent": "2016-8-12"
       },
       {
-        "nameEvent": "Ziemia to za mało",
-        "photoEvent": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/21.jpg",
+        "dateEvent": "2016-7-21"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-8-15"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-20"
+      },
+      {
+        "nameEvent": "Pozytwynie",
+        "photoEventt": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5"
+      },
+      {
+        "nameEvent": "Zaćmienie",
+        "photoEventt": "img/foto-event-mini/3.jpg",
+        "dateEvent": "2016-7-3"
+      },
+      {
+        "nameEvent": "Zaćmienie",
+        "photoEventt": "img/foto-event-mini/3.jpg",
+        "dateEvent": "2016-7-3"
+      },
+      {
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEventt": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-8-5"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-8-9"
+      },
+      {
+        "nameEvent": "Zaćmienie",
+        "photoEventt": "img/foto-event-mini/3.jpg",
+        "dateEvent": "2016-7-3"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEventt": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEventt": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "Cudawianki",
+        "photoEventt": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4"
       },
       {
         "nameEvent": "Boat Party",
         "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
+        "dateEvent": "2016-7-22"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10"
       },
       {
         "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-18"
+        "photoEventt": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12"
+      },
+      {
+        "nameEvent": "Koncert na dachu",
+        "photoEvent": "img/foto-event-mini/38.jpg",
+        "dateEvent": "2016-8-8"
       }
     ]
   },
   {
     "name": "Absinthe",
     "city": "Gdansk",
-    "photoClub": "img/foto-club3.jpg",
+    "photoClub": "",
     "position": {
       "lat": 54.351231,
       "lng": 18.648594
     },
+    "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Pozytwynie",
-        "photoEvent": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/50.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
         "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/21.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-14"
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-8-12"
       },
       {
         "nameEvent": "Rozpoczecie seonu",
         "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-20"
+        "dateEvent": "2016-7-14"
       },
       {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/36.jpg",
-        "dateEvent": "2016-7-21"
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-8-17"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-8-4"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-8-13"
       },
       {
         "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
+        "photoEvent": "img/foto-event-mini/0.jpg",
+        "dateEvent": "2016-8-20"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-8-15"
+      },
+      {
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/15.jpg",
         "dateEvent": "2016-7-15"
       },
       {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-29"
+        "nameEvent": "Wieczor piwa ",
+        "photoEventt": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-8-16"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-8-17"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-8-5"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/31.jpg",
+        "dateEvent": "2016-8-1"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/44.jpg",
+        "dateEvent": "2016-8-14"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEventt": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12"
       }
     ]
   },
   {
     "name": "Sfinks 700",
     "city": "Sopot",
-    "photoClub": "img/foto-club4.jpg",
+    "photoClub": "",
     "position": {
       "lat": 54.448606,
       "lng": 18.56771
     },
+    "icon": "img/map-ping.png",
     "events": [
       {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-8-15"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-8-9"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-8-11"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-8-17"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24"
+      },
+      {
         "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/7.jpg",
+        "photoEventt": "img/foto-event-mini/7.jpg",
         "dateEvent": "2016-7-7"
+      },
+      {
+        "nameEvent": "Blow party",
+        "photoEvent": "img/foto-event-mini/26.jpg",
+        "dateEvent": "2016-7-26"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEventt": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-8-12"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-8-5"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-8-16"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/29.jpg",
+        "dateEvent": "2016-7-29"
+      },
+      {
+        "nameEvent": "Ziemia to za mało",
+        "photoEventt": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6"
+      }
+    ]
+  },
+  {
+    "name": "Kwadratowa",
+    "city": "Gdansk",
+    "photoClub": "",
+    "position": {
+      "lat": 54.370941,
+      "lng": 18.615147
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/23.jpg",
+        "dateEvent": "2016-7-23"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-8-17"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/29.jpg",
+        "dateEvent": "2016-7-29"
+      },
+      {
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/15.jpg",
+        "dateEvent": "2016-7-15"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-8-11"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/44.jpg",
+        "dateEvent": "2016-8-14"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/37.jpg",
+        "dateEvent": "2016-8-7"
+      }
+    ]
+  },
+  {
+    "name": "Dream Club",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.444478,
+      "lng": 18.566645
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24"
+      },
+      {
+        "nameEvent": "Zaćmienie",
+        "photoEventt": "img/foto-event-mini/3.jpg",
+        "dateEvent": "2016-7-3"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/29.jpg",
+        "dateEvent": "2016-7-29"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-8-15"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-8-4"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "Pozytwynie",
+        "photoEventt": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-8-10"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-8-5"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/44.jpg",
+        "dateEvent": "2016-8-14"
       },
       {
         "nameEvent": "Festiwal trafik",
         "photoEvent": "img/foto-event-mini/25.jpg",
+        "dateEvent": "2016-7-25"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/31.jpg",
+        "dateEvent": "2016-8-1"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-8-5"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-8-9"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/49.jpg",
+        "dateEvent": "2016-8-19"
+      }
+    ]
+  },
+  {
+    "name": "Bunkier",
+    "city": "Gdansk",
+    "photoClub": "",
+    "position": {
+      "lat": 54.35475,
+      "lng": 18.654678
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24"
+      },
+      {
+        "nameEvent": "Ziemia to za mało",
+        "photoEventt": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6"
+      },
+      {
+        "nameEvent": "Ziemia to za mało",
+        "photoEventt": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6"
+      },
+      {
+        "nameEvent": "Koncert na dachu",
+        "photoEvent": "img/foto-event-mini/17.jpg",
+        "dateEvent": "2016-7-17"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-8-16"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10"
+      },
+      {
+        "nameEvent": "Pozytwynie",
+        "photoEventt": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/27.jpg",
+        "dateEvent": "2016-7-27"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-8-2"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8"
+      },
+      {
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEventt": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-8-12"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-8-13"
+      }
+    ]
+  },
+  {
+    "name": "B90",
+    "city": "Gdansk",
+    "photoClub": "",
+    "position": {
+      "lat": 54.35475,
+      "lng": 18.654678
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Ludzie ulicy",
+        "photoEvent": "img/foto-event-mini/1.jpg",
+        "dateEventEvent": "2016-7-1"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/0.jpg",
+        "dateEvent": "2016-8-20"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEventt": "img/foto-event-mini/9.jpg",
         "dateEvent": "2016-7-9"
       },
       {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-8-13"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Ziemia to za mało",
+        "photoEventt": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
         "dateEvent": "2016-7-10"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-8-16"
+      }
+    ]
+  },
+  {
+    "name": "Czekoladowa",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.454168,
+      "lng": 18.554595
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/49.jpg",
+        "dateEvent": "2016-8-19"
       },
       {
         "nameEvent": "Blow party",
         "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-10"
+        "dateEvent": "2016-7-26"
+      },
+      {
+        "nameEvent": "Cudawianki",
+        "photoEventt": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-20"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEventt": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-8-17"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-8-11"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-8-11"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/31.jpg",
+        "dateEvent": "2016-8-1"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-8-9"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/14.jpg",
+        "dateEvent": "2016-7-14"
+      }
+    ]
+  },
+  {
+    "name": "SPATiF",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.444402,
+      "lng": 18.567747
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/15.jpg",
+        "dateEvent": "2016-7-15"
+      },
+      {
+        "nameEvent": "Blow party",
+        "photoEvent": "img/foto-event-mini/26.jpg",
+        "dateEvent": "2016-7-26"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-8-16"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-8-4"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/49.jpg",
+        "dateEvent": "2016-8-19"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-8-9"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/23.jpg",
+        "dateEvent": "2016-7-23"
+      },
+      {
+        "nameEvent": "Pozytwynie",
+        "photoEventt": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-8-17"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/37.jpg",
+        "dateEvent": "2016-8-7"
       },
       {
         "nameEvent": "Zaćmienie",
-        "photoEvent": "img/foto-event-mini/3.jpg",
+        "photoEventt": "img/foto-event-mini/3.jpg",
         "dateEvent": "2016-7-3"
+      },
+      {
+        "nameEvent": "Cudawianki",
+        "photoEventt": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-8-11"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-8-3"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEventt": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-8-16"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEventt": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13"
+      }
+    ]
+  },
+  {
+    "name": "Protokultura",
+    "city": "Gdansk",
+    "photoClub": "",
+    "position": {
+      "lat": 54.443701,
+      "lng": 18.567403
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-8-11"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24"
+      },
+      {
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/36.jpg",
+        "dateEvent": "2016-8-6"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-20"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-8-9"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-8-2"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-8-15"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-8-11"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEventt": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-8-4"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-8-4"
+      }
+    ]
+  },
+  {
+    "name": "Atelier",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.448602,
+      "lng": 18.568387
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-8-10"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-8-10"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-8-12"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEventt": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEventt": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEventt": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-8-3"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/27.jpg",
+        "dateEvent": "2016-7-27"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-8-2"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-8-3"
+      }
+    ]
+  },
+  {
+    "name": "HAH",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.453064,
+      "lng": 18.564116
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Blow party",
+        "photoEvent": "img/foto-event-mini/26.jpg",
+        "dateEvent": "2016-7-26"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/25.jpg",
+        "dateEvent": "2016-7-25"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/23.jpg",
+        "dateEvent": "2016-7-23"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/49.jpg",
+        "dateEvent": "2016-8-19"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-8-5"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30"
+      },
+      {
+        "nameEvent": "Pozytwynie",
+        "photoEventt": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-8-3"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-8-3"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22"
+      }
+    ]
+  },
+  {
+    "name": "Wtedy",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.441044,
+      "lng": 18.563498
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-8-13"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEventt": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9"
+      },
+      {
+        "nameEvent": "Ziemia to za mało",
+        "photoEventt": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-8-10"
+      },
+      {
+        "nameEvent": "Cudawianki",
+        "photoEventt": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEventt": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/25.jpg",
+        "dateEvent": "2016-7-25"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEventt": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-8-13"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/44.jpg",
+        "dateEvent": "2016-8-14"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "Ziemia to za mało",
+        "photoEventt": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-8-3"
+      },
+      {
+        "nameEvent": "Pozytwynie",
+        "photoEventt": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5"
+      },
+      {
+        "nameEvent": "Blow party",
+        "photoEvent": "img/foto-event-mini/26.jpg",
+        "dateEvent": "2016-7-26"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/44.jpg",
+        "dateEvent": "2016-8-14"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-20"
+      }
+    ]
+  },
+  {
+    "name": "Dwie zmiany",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.443651,
+      "lng": 18.5643276
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-8-2"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-8-12"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "Cudawianki",
+        "photoEventt": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16"
+      },
+      {
+        "nameEvent": "Pozytwynie",
+        "photoEventt": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-8-3"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30"
+      },
+      {
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/15.jpg",
+        "dateEvent": "2016-7-15"
+      },
+      {
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/36.jpg",
+        "dateEvent": "2016-8-6"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/14.jpg",
+        "dateEvent": "2016-7-14"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/37.jpg",
+        "dateEvent": "2016-8-7"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEventt": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28"
+      }
+    ]
+  },
+  {
+    "name": "Scena",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.448498,
+      "lng": 18.568309
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-8-13"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEventt": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/44.jpg",
+        "dateEvent": "2016-8-14"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-8-3"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-8-18"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/21.jpg",
+        "dateEvent": "2016-7-21"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/14.jpg",
+        "dateEvent": "2016-7-14"
+      },
+      {
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/44.jpg",
+        "dateEvent": "2016-8-14"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/0.jpg",
+        "dateEvent": "2016-8-20"
+      },
+      {
+        "nameEvent": "Koncert na dachu",
+        "photoEvent": "img/foto-event-mini/38.jpg",
+        "dateEvent": "2016-8-8"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEventt": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/25.jpg",
+        "dateEvent": "2016-7-25"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-8-12"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8"
+      }
+    ]
+  },
+  {
+    "name": "TAN",
+    "city": "Sopot",
+    "photoClub": "",
+    "position": {
+      "lat": 54.445276,
+      "lng": 18.567748
+    },
+    "icon": "img/map-ping.png",
+    "events": [
+      {
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/15.jpg",
+        "dateEvent": "2016-7-15"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/27.jpg",
+        "dateEvent": "2016-7-27"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEventt": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-20"
+      },
+      {
+        "nameEvent": "Zaćmienie",
+        "photoEventt": "img/foto-event-mini/3.jpg",
+        "dateEvent": "2016-7-3"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-8-15"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/14.jpg",
+        "dateEvent": "2016-7-14"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
       },
       {
         "nameEvent": "Ludzie ulicy",
@@ -272,832 +1577,24 @@
         "dateEventEvent": "2016-7-1"
       },
       {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/21.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/36.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-27"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/25.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/36.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEvent": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-7-20"
-      }
-    ]
-  },
-  {
-    "name": "Kwadratowa",
-    "city": "Gdansk",
-    "photoClub": "img/foto-club5.jpg",
-    "position": {
-      "lat": 54.370941,
-      "lng": 18.615147
-    },
-    "events": [
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/21.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEvent": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEvent": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-7-10"
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-8-4"
       },
       {
         "nameEvent": "Disco 80",
         "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Pozytwynie",
-        "photoEvent": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEvent": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      }
-    ]
-  },
-  {
-    "name": "Dream Club",
-    "city": "Sopot",
-    "photoClub": "img/foto-club6.jpg",
-    "position": {
-      "lat": 54.444478,
-      "lng": 18.566645
-    },
-    "events": [
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEvent": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
+        "dateEvent": "2016-7-23"
       },
       {
         "nameEvent": "House Time",
         "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEvent": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/9.jpg",
-        "dateEvent": "2016-7-11"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEvent": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/25.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/17.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-7"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-7-12"
-      }
-    ]
-  },
-  {
-    "name": "Bunkier",
-    "city": "Gdansk",
-    "photoClub": "img/foto-club7.jpg",
-    "position": {
-      "lat": 54.35475,
-      "lng": 18.654678
-    },
-    "events": [
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/21.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/21.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-10"
-      }
-    ]
-  },
-  {
-    "name": "B90",
-    "city": "Gdansk",
-    "photoClub": "img/foto-club8.jpg",
-    "position": {
-      "lat": 54.35475,
-      "lng": 18.654678
-    },
-    "events": [
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/9.jpg",
-        "dateEvent": "2016-7-11"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Pozytwynie",
-        "photoEvent": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/49.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/40.jpg",
         "dateEvent": "2016-7-29"
       },
       {
         "nameEvent": "Wieczor piwa ",
         "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/44.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEvent": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/27.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-14"
-      }
-    ]
-  },
-  {
-    "name": "Czekoladowa",
-    "city": "Sopot",
-    "photoClub": "img/foto-club9.jpg",
-    "position": {
-      "lat": 54.454168,
-      "lng": 18.554595
-    },
-    "events": [
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/38.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/38.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-7-27"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEvent": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-7-27"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-21"
-      }
-    ]
-  },
-  {
-    "name": "SPATiF",
-    "city": "Sopot",
-    "photoClub": "img/foto-club10.jpg",
-    "position": {
-      "lat": 54.444402,
-      "lng": 18.567747
-    },
-    "events": [
-      {
-        "nameEvent": "Cudawianki",
-        "photoEvent": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEvent": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/27.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-18"
-      }
-    ]
-  },
-  {
-    "name": "Protokultura",
-    "city": "Gdansk",
-    "photoClub": "img/foto-club11.jpg",
-    "position": {
-      "lat": 54.443701,
-      "lng": 18.567403
-    },
-    "events": [
-      {
-        "nameEvent": "Pozytwynie",
-        "photoEvent": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/49.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/36.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/36.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEvent": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEvent": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-7-19"
-      }
-    ]
-  },
-  {
-    "name": "Atelier",
-    "city": "Sopot",
-    "photoClub": "img/foto-club12.jpg",
-    "position": {
-      "lat": 54.448602,
-      "lng": 18.568387
-    },
-    "events": [
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/25.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/38.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/21.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-7"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-14"
+        "dateEvent": "2016-8-18"
       },
       {
         "nameEvent": "Otwarcie ogródka",
@@ -1105,495 +1602,106 @@
         "dateEvent": "2016-7-2"
       },
       {
-        "nameEvent": "Cudawianki",
-        "photoEvent": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-30"
-      }
-    ]
-  },
-  {
-    "name": "HAH",
-    "city": "Sopot",
-    "photoClub": "img/foto-club13.jpg",
-    "position": {
-      "lat": 54.453064,
-      "lng": 18.564116
-    },
-    "events": [
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/49.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/27.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-27"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-27"
-      },
-      {
         "nameEvent": "Ziemia to za mało",
-        "photoEvent": "img/foto-event-mini/6.jpg",
+        "photoEventt": "img/foto-event-mini/6.jpg",
         "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-7-20"
-      }
-    ]
-  },
-  {
-    "name": "Wtedy",
-    "city": "Sopot",
-    "photoClub": "img/foto-club14.jpg",
-    "position": {
-      "lat": 54.441044,
-      "lng": 18.563498
-    },
-    "events": [
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEvent": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/25.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Pozytwynie",
-        "photoEvent": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
-      }
-    ]
-  },
-  {
-    "name": "Dwie zmiany",
-    "city": "Sopot",
-    "photoClub": "img/foto-club15.jpg",
-    "position": {
-      "lat": 54.443651,
-      "lng": 18.5643276
-    },
-    "events": [
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEvent": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-27"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-20"
-      }
-    ]
-  },
-  {
-    "name": "Scena",
-    "city": "Sopot",
-    "photoClub": "img/foto-club16.jpg",
-    "position": {
-      "lat": 54.448498,
-      "lng": 18.568309
-    },
-    "events": [
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEvent": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-7"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/25.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Pozytwynie",
-        "photoEvent": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEvent": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/21.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEvent": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
-      }
-    ]
-  },
-  {
-    "name": "TAN",
-    "city": "Sopot",
-    "photoClub": "img/foto-club17.jpg",
-    "position": {
-      "lat": 54.445276,
-      "lng": 18.567748
-    },
-    "events": [
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/27.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/38.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-7-29"
       }
     ]
   },
   {
     "name": "Libation ",
     "city": "Sopot",
-    "photoClub": "img/foto-club18.jpg",
+    "photoClub": "",
     "position": {
       "lat": 54.444583,
       "lng": 18.568565
     },
+    "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-17"
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-8-9"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEventt": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13"
       },
       {
         "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/49.jpg",
-        "dateEvent": "2016-7-14"
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28"
       },
       {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-7-15"
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-8-15"
+      },
+      {
+        "nameEvent": "Cudawianki",
+        "photoEventt": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18"
+      },
+      {
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/44.jpg",
+        "dateEvent": "2016-8-14"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-8-10"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-8-15"
+      },
+      {
+        "nameEvent": "Ludzie ulicy",
+        "photoEvent": "img/foto-event-mini/1.jpg",
+        "dateEventEvent": "2016-7-1"
       },
       {
         "nameEvent": "Scena odkryć",
         "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-7-27"
+        "dateEvent": "2016-8-9"
       },
       {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-7"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/17.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEvent": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEvent": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Pozytwynie",
-        "photoEvent": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/9.jpg",
-        "dateEvent": "2016-7-11"
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-8-12"
       }
     ]
   }

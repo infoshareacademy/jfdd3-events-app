@@ -7,29 +7,13 @@
                 ng-options="item as item.name for item in clubsWithEvents track by item.name"
                 ng-change="updateClubs()"
                 ng-model="club">
-
         </select>
     </div>
-
-    <!--<div class="event-container col-xs-4 extraScroll" id="idScroll"">-->
-                <!--<div ng-repeat="club in clubsWithEvents" ng-click="updateClubs(club)">-->
-                    <!--<p class="event-title">//{{club.name}}</p>-->
-
-                <!--</div>-->
-            <!--</div>-->
-
     <div class="list-of-events container-row extraScroll" ng-show="club">
-
-            <!--<img src="{{club.photoClub}}" class="img-responsive">-->
-
-            <!--<p class="event">{{club.name}} / {{club.city}}</p>-->
-
-
-            <div class="event-grids col-xs-6 col-sm-4 col-md-3 col-lg-2" ng-repeat="event in club.events">
-
-                <img src="{{event.photoEvent}}" class="event-grid">
-                <p class="event-list-title">{{event.nameEvent}}</p>
-                <p class="event-list-date">{{event.dateEvent}}</p>
-            </div>
+        <div class="event-grids col-xs-6 col-sm-4 col-md-3 col-lg-2" ng-repeat="event in club.events">
+            <img src="{{event.photoEvent}}" class="event-grid">
+            <p class="event-list-title">{{event.nameEvent}}</p>
+            <p class="event-list-date">{{event.dateEvent}}</p>
+        </div>
     </div>
 </div>
