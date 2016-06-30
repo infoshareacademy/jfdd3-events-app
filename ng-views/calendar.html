@@ -19,7 +19,7 @@
     <ul>
         <li
             gridster-item="event"
-            ng-repeat="event in events"
+            ng-repeat="event in events | filter: {dateEvent: currentDate}"
             style="background-image: url('{{event.photoEvent}}');">
             <p class="halo"><span>{{event.nameEvent}}<br></span>//{{event.dateEvent}}</p>
         </li>
