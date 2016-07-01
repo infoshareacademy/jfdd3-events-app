@@ -27,7 +27,7 @@ eventCalendarApp.directive('appcalendar', function() {
             }
 
             function getCalendarDays(begin, howMany) {
-                return getDates(new Date('2016-07-01'), new Date('2016-07-31')).map(function (date, index) {
+                return getDates(new Date().addDays(0), new Date().addDays(25)).map(function (date, index) {
 
                     function createButton(buttonClasses) {
                         return $('<div>')
@@ -62,26 +62,26 @@ eventCalendarApp.directive('appcalendar', function() {
             }
 
 
-            $.getJSON('data/clubsWithEvents.json', function(data){
-                var dateEvents = [];
-                $.each(data, function(key, value) {
-                    for (var i=0; i<value.events.length; i++) {
-                        //if (value.events[i].dateEvent)
-                        console.log(value.events[i].dateEvent);
-                        if(dateEvent === data-cleardate){
-                            data.push( "<li id='" + key + "'>" + val + "</li>" );
-                        }
-                    }
-
-                });
-                //if(dateEvent === data-cleardate){
-                //    dateEvents.push
-                //}
-                //}
-                dataEvent.forEach(function(data){
-                    var $events = $('<div class="events">');
-                })
-            });
+            //$.getJSON('data/clubsWithEvents.json', function(data){
+            //    var dateEvents = [];
+            //    $.each(data, function(key, value) {
+            //        for (var i=0; i<value.events.length; i++) {
+            //            //if (value.events[i].dateEvent)
+            //            console.log(value.events[i].dateEvent);
+            //            if(dateEvent === data-cleardate){
+            //                data.push( "<li id='" + key + "'>" + val + "</li>" );
+            //            }
+            //        }
+            //
+            //    });
+            //    //if(dateEvent === data-cleardate){
+            //    //    dateEvents.push
+            //    //}
+            //    //}
+            //    dataEvent.forEach(function(data){
+            //        var $events = $('<div class="events">');
+            //    })
+            //});
 
             /* function showEventsData() {
 

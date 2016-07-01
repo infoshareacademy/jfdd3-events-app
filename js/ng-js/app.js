@@ -42,7 +42,7 @@ eventCalendarApp.controller('gridsterCalendarController', function($scope, $http
         .then(function (response) {
             $scope.events = Array.prototype.concat.apply([], response.data.map(function (club) {
                 return club.events;
-            })).slice(250).map(function (event, index) {
+            })).slice().map(function (event, index) {
                 return {
                     nameEvent: event.nameEvent,
                     dateEvent: event.dateEvent,
@@ -58,7 +58,16 @@ eventCalendarApp.controller('gridsterCalendarController', function($scope, $http
         });
 });
 
+eventCalendarApp.filter('customDate', function () {
+   return function (events, date) {
+       console.log(events, date);
+       return events.filter(function (event) {
+           console.log(event.dateEvent);
+           return event.dateEvent === date;
+       });
+   }
+});
 
 
 
-
+//(new Date().addDays(0), new Date().addDays(10)

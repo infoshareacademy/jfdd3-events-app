@@ -17,9 +17,10 @@
 
 <div gridster>
     <ul>
-        <li
+        <li class="event-thumbnail"
             gridster-item="event"
-            ng-repeat="event in events | filter: {dateEvent: currentDate}"
+
+            ng-repeat="event in events | customDate: currentDate"
             style="background-image: url('{{event.photoEvent}}');">
             <p class="halo"><span>{{event.nameEvent}}<br></span>//{{event.dateEvent}}</p>
             <!--<img ng-src="{{event.photoEvent}}">-->
