@@ -87,8 +87,34 @@ var clubsWithEvents = allClubs.map(function (club) {
 
     for (var i = 0; i < howMany; i += 1){
         clubWithEvents.events.push(allEvents[Math.round(Math.random()*(allEvents.length - 1))]);
+        console.log(clubWithEvents);
     }
 
     return clubWithEvents;
 });
+
+
+
+//function generateEvents (findEvents, findClub) {
+//    var newEvents = [];
+//
+//    for (var i = 0; i < 25; i++) {
+//        var club = Math.round(Math.random() * allClubs.length - 1);
+//        var event = Math.round(Math.random() * allEvents.length - 1);
+//
+//        club.eventName = event.name;
+//        club.eventPhoto = event.photo;
+//        club.eventData = event.data;
+//
+//        newEvents.push(club);
+//
+//
+//    }
+//    console.log(newEvents);
+//    return newEvents;
+//}
+//var clubWithEventsN=[];
+//for (var i = 0; i < howMany; i++) {
+//    var randomEvent = Math.round(Math.random() * allClubs.length - 1);
+//
 
