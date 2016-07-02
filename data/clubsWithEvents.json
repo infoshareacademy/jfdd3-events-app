@@ -1,5 +1,4 @@
-[
-  {
+[  {
     "name": "Bunkier",
     "city": "Gdansk",
     "photoClub": "",
@@ -10,79 +9,94 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-24"
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "34 zł"
       },
       {
-        "nameEvent": "Wieczor piwa ",
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7",
+        "priceEvent": "48 zł"
+      },
+      {
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12",
+        "priceEvent": "19 zł"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-20",
+        "priceEvent": "61 zł"
+      },
+      {
+        "nameEvent": "Opener ",
         "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
+        "dateEvent": "2016-7-18",
+        "priceEvent": "37 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/49.jpg",
+        "dateEvent": "2016-7-19",
+        "priceEvent": "52 zł"
       },
       {
         "nameEvent": "House Time",
         "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-11"
+        "dateEvent": "2016-7-11",
+        "priceEvent": "46 zł"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-7-12",
+        "priceEvent": "98 zł"
+      },
+      {
+        "nameEvent": "Pinacolada party",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "43 zł"
       },
       {
         "nameEvent": "Garden party",
         "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
+        "dateEvent": "2016-7-8",
+        "priceEvent": "29 zł"
       },
       {
-        "nameEvent": "Ziemia to za mało",
-        "photoEventt": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-8-13"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-8-4"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-16"
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "44 zł"
       },
       {
         "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-8-16"
+        "photoEvent": "img/foto-event-mini/25.jpg",
+        "dateEvent": "2016-7-25",
+        "priceEvent": "32 zł"
       },
       {
         "nameEvent": "Muzyka elektroniczna",
-        "photoEventt": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-12"
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12",
+        "priceEvent": "33 zł"
       },
       {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/15.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "2 zł"
       },
       {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-8-10"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEventt": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-7"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/49.jpg",
-        "dateEvent": "2016-8-10"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-8-13"
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-7-12",
+        "priceEvent": "91 zł"
       }
     ]
   },
@@ -97,104 +111,112 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-8-12"
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-7-5",
+        "priceEvent": "95 zł"
       },
       {
         "nameEvent": "Wieczór",
         "photoEvent": "img/foto-event-mini/21.jpg",
-        "dateEvent": "2016-7-21"
+        "dateEvent": "2016-7-21",
+        "priceEvent": "88 zł"
       },
       {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-8-15"
+        "nameEvent": "Flow Mind",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-7-17",
+        "priceEvent": "9 zł"
       },
       {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-20"
+        "nameEvent": "Opener ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "88 zł"
       },
       {
-        "nameEvent": "Pozytwynie",
-        "photoEventt": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19",
+        "priceEvent": "91 zł"
       },
       {
-        "nameEvent": "Zaćmienie",
-        "photoEventt": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/29.jpg",
+        "dateEvent": "2016-7-29",
+        "priceEvent": "63 zł"
       },
       {
-        "nameEvent": "Zaćmienie",
-        "photoEventt": "img/foto-event-mini/1.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEventt": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-7"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-8-5"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-8-9"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEventt": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEventt": "img/foto-event-mini/9.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEventt": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEventt": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-4"
+        "nameEvent": "Pinacolada party",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "68 zł"
       },
       {
         "nameEvent": "Boat Party",
         "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-22"
+        "dateEvent": "2016-7-22",
+        "priceEvent": "68 zł"
       },
       {
         "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-10"
+        "photoEvent": "img/foto-event-mini/31.jpg",
+        "dateEvent": "2016-7-1",
+        "priceEvent": "35 zł"
       },
       {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEventt": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-12"
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "59 zł"
       },
       {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/38.jpg",
-        "dateEvent": "2016-8-8"
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "74 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "33 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "88 zł"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22",
+        "priceEvent": "40 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/50.jpg",
+        "dateEvent": "2016-7-20",
+        "priceEvent": "0 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "73 zł"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7",
+        "priceEvent": "86 zł"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "47 zł"
       }
     ]
   },
@@ -209,84 +231,100 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-8-12"
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "44 zł"
       },
       {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-14"
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "89 zł"
       },
       {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-8-17"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-8-4"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-8-13"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/50.jpg",
-        "dateEvent": "2016-8-20"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-8-15"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEventt": "img/foto-event-mini/9.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-8-16"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-8-17"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-8-5"
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "77 zł"
       },
       {
         "nameEvent": "Techno Night",
         "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-8-1"
+        "dateEvent": "2016-7-1",
+        "priceEvent": "61 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "56 zł"
+      },
+      {
+        "nameEvent": "Pozytwynie",
+        "photoEvent": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5",
+        "priceEvent": "56 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "64 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "48 zł"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22",
+        "priceEvent": "30 zł"
       },
       {
         "nameEvent": "Wystywa Fotografi",
         "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-16"
+        "dateEvent": "2016-7-16",
+        "priceEvent": "58 zł"
       },
       {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/44.jpg",
-        "dateEvent": "2016-8-14"
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28",
+        "priceEvent": "62 zł"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "48 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "5 zł"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/25.jpg",
+        "dateEvent": "2016-7-25",
+        "priceEvent": "17 zł"
+      },
+      {
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "58 zł"
       },
       {
         "nameEvent": "Muzyka elektroniczna",
-        "photoEventt": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-12"
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-12",
+        "priceEvent": "75 zł"
       }
     ]
   },
@@ -301,99 +339,82 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-8-15"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-8-9"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-8-11"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-8-17"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/17.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-24"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEventt": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-7"
-      },
-      {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-26"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEventt": "img/foto-event-mini/27.jpg",
-        "dateEvent": "2016-7-7"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-8-12"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-8-5"
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "7 zł"
       },
       {
         "nameEvent": "Garden party",
         "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
+        "dateEvent": "2016-7-8",
+        "priceEvent": "25 zł"
       },
       {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-8-16"
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "46 zł"
       },
       {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-29"
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/27.jpg",
+        "dateEvent": "2016-7-27",
+        "priceEvent": "42 zł"
       },
       {
-        "nameEvent": "Ziemia to za mało",
-        "photoEventt": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-7-5",
+        "priceEvent": "73 zł"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-20",
+        "priceEvent": "81 zł"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/14.jpg",
+        "dateEvent": "2016-7-14",
+        "priceEvent": "41 zł"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-7-5",
+        "priceEvent": "57 zł"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "99 zł"
+      },
+      {
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "37 zł"
+      },
+      {
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "0 zł"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9",
+        "priceEvent": "6 zł"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-7-12",
+        "priceEvent": "11 zł"
       }
     ]
   },
@@ -408,59 +429,70 @@
     "icon": "img/map-ping.png",
     "events": [
       {
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "3 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28",
+        "priceEvent": "17 zł"
+      },
+      {
         "nameEvent": "Disco 80",
         "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-23"
+        "dateEvent": "2016-7-23",
+        "priceEvent": "13 zł"
       },
       {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-8-17"
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/14.jpg",
+        "dateEvent": "2016-7-14",
+        "priceEvent": "12 zł"
       },
       {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-16"
+        "nameEvent": "Ziemia to za mało",
+        "photoEvent": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6",
+        "priceEvent": "18 zł"
       },
       {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-15"
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "33 zł"
       },
       {
         "nameEvent": "Scena odkryć",
         "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
+        "dateEvent": "2016-7-18",
+        "priceEvent": "67 zł"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/27.jpg",
+        "dateEvent": "2016-7-27",
+        "priceEvent": "6 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "48 zł"
       },
       {
         "nameEvent": "CD HEAVEN",
         "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-8-11"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/44.jpg",
-        "dateEvent": "2016-8-14"
+        "dateEvent": "2016-7-11",
+        "priceEvent": "27 zł"
       },
       {
         "nameEvent": "Dance Time",
         "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-24"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-8-7"
+        "dateEvent": "2016-7-24",
+        "priceEvent": "3 zł"
       }
     ]
   },
@@ -475,104 +507,81 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-24"
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-7-5",
+        "priceEvent": "14 zł"
       },
       {
-        "nameEvent": "Zaćmienie",
-        "photoEventt": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22",
+        "priceEvent": "20 zł"
       },
       {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-29"
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "68 zł"
       },
       {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-8-15"
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7",
+        "priceEvent": "73 zł"
       },
       {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-8-4"
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "54 zł"
       },
       {
         "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
+        "photoEvent": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9",
+        "priceEvent": "34 zł"
       },
       {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Pozytwynie",
-        "photoEventt": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "3 zł"
       },
       {
         "nameEvent": "VHS HELL",
         "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-8-10"
+        "dateEvent": "2016-7-10",
+        "priceEvent": "17 zł"
       },
       {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-8-5"
+        "nameEvent": "Flow Mind",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-7-17",
+        "priceEvent": "71 zł"
       },
       {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/44.jpg",
-        "dateEvent": "2016-8-14"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/25.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-8-1"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-11"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-8-5"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-8-9"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
+        "nameEvent": "Opener ",
         "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
+        "dateEvent": "2016-7-18",
+        "priceEvent": "15 zł"
       },
       {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/49.jpg",
-        "dateEvent": "2016-8-19"
+        "nameEvent": "Ludzie ulicy",
+        "photoEvent": "img/foto-event-mini/1.jpg",
+        "priceEvent": "30 zł"
+      },
+      {
+        "nameEvent": "Cudawianki",
+        "photoEvent": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "46 zł"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/21.jpg",
+        "dateEvent": "2016-7-21",
+        "priceEvent": "52 zł"
       }
     ]
   },
@@ -587,89 +596,100 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-24"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEventt": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEventt": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/17.jpg",
-        "dateEvent": "2016-7-17"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-8-16"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Pozytwynie",
-        "photoEventt": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/27.jpg",
-        "dateEvent": "2016-7-27"
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/23.jpg",
+        "dateEvent": "2016-7-23",
+        "priceEvent": "36 zł"
       },
       {
         "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-8-2"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-22"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "28 zł"
       },
       {
         "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEventt": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-13"
+        "photoEvent": "img/foto-event-mini/31.jpg",
+        "dateEvent": "2016-7-1",
+        "priceEvent": "80 zł"
       },
       {
         "nameEvent": "Wieczór",
         "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-8-12"
+        "dateEvent": "2016-7-12",
+        "priceEvent": "74 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "85 zł"
+      },
+      {
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "72 zł"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "81 zł"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-7-9",
+        "priceEvent": "16 zł"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "45 zł"
+      },
+      {
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "71 zł"
+      },
+      {
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "52 zł"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "10 zł"
       },
       {
         "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-8-13"
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22",
+        "priceEvent": "78 zł"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/21.jpg",
+        "dateEvent": "2016-7-21",
+        "priceEvent": "79 zł"
+      },
+      {
+        "nameEvent": "Opener ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "44 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/31.jpg",
+        "dateEvent": "2016-7-1",
+        "priceEvent": "25 zł"
       }
     ]
   },
@@ -684,64 +704,64 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Ludzie ulicy",
-        "photoEvent": "img/foto-event-mini/1.jpg",
-        "dateEventEvent": "2016-7-1"
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/14.jpg",
+        "dateEvent": "2016-7-14",
+        "priceEvent": "23 zł"
       },
       {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/50.jpg",
-        "dateEvent": "2016-8-20"
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-7-5",
+        "priceEvent": "48 zł"
       },
       {
-        "nameEvent": "Wieczor piwa ",
-        "photoEventt": "img/foto-event-mini/9.jpg",
-        "dateEvent": "2016-7-9"
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "30 zł"
       },
       {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-19"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-24"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-8-13"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEventt": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "47 zł"
       },
       {
         "nameEvent": "Techno Night",
         "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-10"
+        "dateEvent": "2016-7-10",
+        "priceEvent": "4 zł"
       },
       {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-8-16"
+        "nameEvent": "Zaćmienie",
+        "photoEvent": "img/foto-event-mini/3.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "1 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "75 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "71 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/49.jpg",
+        "dateEvent": "2016-7-19",
+        "priceEvent": "25 zł"
+      },
+      {
+        "nameEvent": "Ziemia to za mało",
+        "photoEvent": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6",
+        "priceEvent": "59 zł"
       }
     ]
   },
@@ -756,84 +776,88 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/49.jpg",
-        "dateEvent": "2016-8-19"
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "71 zł"
       },
       {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-26"
+        "nameEvent": "Opener ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "31 zł"
       },
       {
         "nameEvent": "Cudawianki",
-        "photoEventt": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEventt": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-7"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-8-17"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-11"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-8-11"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-8-11"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-24"
+        "photoEvent": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "65 zł"
       },
       {
         "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/31.jpg",
-        "dateEvent": "2016-8-1"
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28",
+        "priceEvent": "60 zł"
+      },
+      {
+        "nameEvent": "Koncert na dachu",
+        "photoEvent": "img/foto-event-mini/38.jpg",
+        "dateEvent": "2016-7-8",
+        "priceEvent": "67 zł"
+      },
+      {
+        "nameEvent": "Pozytwynie",
+        "photoEvent": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5",
+        "priceEvent": "78 zł"
+      },
+      {
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/15.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "4 zł"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "59 zł"
+      },
+      {
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22",
+        "priceEvent": "93 zł"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "93 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "90 zł"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/27.jpg",
+        "dateEvent": "2016-7-27",
+        "priceEvent": "48 zł"
       },
       {
         "nameEvent": "Scena odkryć",
         "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-8-9"
+        "dateEvent": "2016-7-9",
+        "priceEvent": "75 zł"
       },
       {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-14"
+        "nameEvent": "Opener ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "46 zł"
       }
     ]
   },
@@ -848,94 +872,112 @@
     "icon": "img/map-ping.png",
     "events": [
       {
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "55 zł"
+      },
+      {
         "nameEvent": "Zmiana miejsc",
         "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-15"
+        "dateEvent": "2016-7-15",
+        "priceEvent": "75 zł"
       },
       {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-26"
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8",
+        "priceEvent": "79 zł"
       },
       {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-8-16"
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "32 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/29.jpg",
+        "dateEvent": "2016-7-29",
+        "priceEvent": "15 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "97 zł"
+      },
+      {
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/15.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "28 zł"
+      },
+      {
+        "nameEvent": "Cudawianki",
+        "photoEvent": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "46 zł"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "18 zł"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "16 zł"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "16 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "94 zł"
+      },
+      {
+        "nameEvent": "Opener ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "62 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "87 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "53 zł"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-7-12",
+        "priceEvent": "5 zł"
       },
       {
         "nameEvent": "Destroy music",
         "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-8-4"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/49.jpg",
-        "dateEvent": "2016-8-19"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-8-9"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-23"
+        "dateEvent": "2016-7-4",
+        "priceEvent": "61 zł"
       },
       {
         "nameEvent": "Pozytwynie",
-        "photoEventt": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/47.jpg",
-        "dateEvent": "2016-8-17"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-8-7"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEventt": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEventt": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-8-11"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-8-3"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEventt": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/46.jpg",
-        "dateEvent": "2016-8-16"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEventt": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-13"
+        "photoEvent": "img/foto-event-mini/5.jpg",
+        "dateEvent": "2016-7-5",
+        "priceEvent": "85 zł"
       }
     ]
   },
@@ -950,94 +992,118 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-8-11"
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "32 zł"
       },
       {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-24"
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/37.jpg",
+        "dateEvent": "2016-7-7",
+        "priceEvent": "21 zł"
+      },
+      {
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "74 zł"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/27.jpg",
+        "dateEvent": "2016-7-27",
+        "priceEvent": "47 zł"
+      },
+      {
+        "nameEvent": "Blow party",
+        "photoEvent": "img/foto-event-mini/26.jpg",
+        "dateEvent": "2016-7-26",
+        "priceEvent": "65 zł"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9",
+        "priceEvent": "63 zł"
+      },
+      {
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "25 zł"
       },
       {
         "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/36.jpg",
-        "dateEvent": "2016-8-6"
+        "photoEvent": "img/foto-event-mini/15.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "79 zł"
       },
       {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-28"
+        "nameEvent": "Koncert na dachu",
+        "photoEvent": "img/foto-event-mini/38.jpg",
+        "dateEvent": "2016-7-8",
+        "priceEvent": "83 zł"
       },
       {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-20"
+        "nameEvent": "Pinacolada party",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "15 zł"
       },
       {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-8-9"
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/37.jpg",
+        "dateEvent": "2016-7-7",
+        "priceEvent": "93 zł"
       },
       {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-22"
+        "nameEvent": "Disco 90",
+        "photoEvent": "img/foto-event-mini/44.jpg",
+        "dateEvent": "2016-7-14",
+        "priceEvent": "9 zł"
       },
       {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-8-2"
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13",
+        "priceEvent": "17 zł"
       },
       {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-8-15"
+        "nameEvent": "Koncert na dachu",
+        "photoEvent": "img/foto-event-mini/17.jpg",
+        "dateEvent": "2016-7-17",
+        "priceEvent": "76 zł"
       },
       {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
+        "nameEvent": "Zmiana miejsc",
+        "photoEvent": "img/foto-event-mini/15.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "38 zł"
       },
       {
         "nameEvent": "House Time",
         "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-11"
+        "dateEvent": "2016-7-11",
+        "priceEvent": "50 zł"
       },
       {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/41.jpg",
-        "dateEvent": "2016-8-11"
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/14.jpg",
+        "dateEvent": "2016-7-14",
+        "priceEvent": "86 zł"
       },
       {
-        "nameEvent": "Wieczor piwa ",
-        "photoEventt": "img/foto-event-mini/9.jpg",
-        "dateEvent": "2016-7-9"
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/45.jpg",
+        "dateEvent": "2016-7-15",
+        "priceEvent": "58 zł"
       },
       {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-8-4"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/10.jpg",
-        "dateEvent": "2016-7-10"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-11"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-8-4"
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "85 zł"
       }
     ]
   },
@@ -1052,74 +1118,76 @@
     "icon": "img/map-ping.png",
     "events": [
       {
+        "nameEvent": "Opener ",
+        "photoEvent": "img/foto-event-mini/48.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "46 zł"
+      },
+      {
         "nameEvent": "VHS HELL",
         "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-8-10"
+        "dateEvent": "2016-7-10",
+        "priceEvent": "39 zł"
       },
       {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-8-10"
+        "nameEvent": "Blow party",
+        "photoEvent": "img/foto-event-mini/26.jpg",
+        "dateEvent": "2016-7-26",
+        "priceEvent": "35 zł"
       },
       {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-8-12"
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/29.jpg",
+        "dateEvent": "2016-7-29",
+        "priceEvent": "99 zł"
       },
       {
-        "nameEvent": "Destroy music",
-        "photoEventt": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-13"
+        "nameEvent": "Cudawianki",
+        "photoEvent": "img/foto-event-mini/4.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "95 zł"
       },
       {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7",
+        "priceEvent": "99 zł"
       },
       {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEventt": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-12"
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/22.jpg",
+        "dateEvent": "2016-7-22",
+        "priceEvent": "78 zł"
       },
       {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-28"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEventt": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-8-3"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/27.jpg",
-        "dateEvent": "2016-7-27"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "53 zł"
       },
       {
         "nameEvent": "House Time",
         "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-8-2"
+        "dateEvent": "2016-7-2",
+        "priceEvent": "6 zł"
       },
       {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-8-3"
+        "nameEvent": "Otwarcie ogródka",
+        "photoEvent": "img/foto-event-mini/2.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "41 zł"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/42.jpg",
+        "dateEvent": "2016-7-12",
+        "priceEvent": "97 zł"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9",
+        "priceEvent": "40 zł"
       }
     ]
   },
@@ -1134,74 +1202,105 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "87 zł"
       },
       {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-26"
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-7-13",
+        "priceEvent": "85 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28",
+        "priceEvent": "18 zł"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-7-9",
+        "priceEvent": "44 zł"
       },
       {
         "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-19"
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "14 zł"
       },
       {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/25.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-23"
+        "nameEvent": "Ziemia to za mało",
+        "photoEvent": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6",
+        "priceEvent": "90 zł"
       },
       {
         "nameEvent": "Techno Night",
         "photoEvent": "img/foto-event-mini/49.jpg",
-        "dateEvent": "2016-8-19"
+        "dateEvent": "2016-7-19",
+        "priceEvent": "30 zł"
       },
       {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "61 zł"
       },
       {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/35.jpg",
-        "dateEvent": "2016-8-5"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
+        "nameEvent": "Muzyka Fun",
         "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-30"
+        "dateEvent": "2016-7-30",
+        "priceEvent": "96 zł"
       },
       {
-        "nameEvent": "Pozytwynie",
-        "photoEventt": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
+        "nameEvent": "Ludzie ulicy",
+        "photoEvent": "img/foto-event-mini/1.jpg",
+        "priceEvent": "78 zł"
       },
       {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-8-3"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-8-3"
+        "nameEvent": "Boat Party",
+        "photoEvent": "img/foto-event-mini/43.jpg",
+        "dateEvent": "2016-7-13",
+        "priceEvent": "17 zł"
       },
       {
         "nameEvent": "Boat Party",
         "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-22"
+        "dateEvent": "2016-7-22",
+        "priceEvent": "72 zł"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-20",
+        "priceEvent": "56 zł"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/25.jpg",
+        "dateEvent": "2016-7-25",
+        "priceEvent": "36 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "70 zł"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/21.jpg",
+        "dateEvent": "2016-7-21",
+        "priceEvent": "79 zł"
+      },
+      {
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "88 zł"
       }
     ]
   },
@@ -1216,99 +1315,118 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
+        "nameEvent": "Blow party",
+        "photoEvent": "img/foto-event-mini/26.jpg",
+        "dateEvent": "2016-7-26",
+        "priceEvent": "41 zł"
       },
       {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-8-13"
+        "nameEvent": "Pinacolada party",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "35 zł"
       },
       {
-        "nameEvent": "Wieczor piwa ",
-        "photoEventt": "img/foto-event-mini/9.jpg",
-        "dateEvent": "2016-7-9"
-      },
-      {
-        "nameEvent": "Ziemia to za mało",
-        "photoEventt": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
-      },
-      {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-8-10"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEventt": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/29.jpg",
+        "dateEvent": "2016-7-29",
+        "priceEvent": "82 zł"
       },
       {
         "nameEvent": "Destroy music",
-        "photoEventt": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-13"
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "99 zł"
       },
       {
         "nameEvent": "Festiwal trafik",
         "photoEvent": "img/foto-event-mini/25.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEventt": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-8-13"
+        "dateEvent": "2016-7-25",
+        "priceEvent": "55 zł"
       },
       {
         "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/44.jpg",
-        "dateEvent": "2016-8-14"
+        "photoEvent": "img/foto-event-mini/23.jpg",
+        "dateEvent": "2016-7-23",
+        "priceEvent": "4 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "76 zł"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7",
+        "priceEvent": "51 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28",
+        "priceEvent": "50 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "21 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "45 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "82 zł"
       },
       {
         "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
+        "photoEvent": "img/foto-event-mini/39.jpg",
+        "dateEvent": "2016-7-9",
+        "priceEvent": "69 zł"
       },
       {
-        "nameEvent": "Ziemia to za mało",
-        "photoEventt": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/40.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "28 zł"
       },
       {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-8-3"
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28",
+        "priceEvent": "65 zł"
       },
       {
-        "nameEvent": "Pozytwynie",
-        "photoEventt": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9",
+        "priceEvent": "75 zł"
       },
       {
-        "nameEvent": "Blow party",
-        "photoEvent": "img/foto-event-mini/26.jpg",
-        "dateEvent": "2016-7-26"
+        "nameEvent": "Koncert na dachu",
+        "photoEvent": "img/foto-event-mini/17.jpg",
+        "dateEvent": "2016-7-17",
+        "priceEvent": "12 zł"
       },
       {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
+        "nameEvent": "Muzyka Fun",
+        "photoEvent": "img/foto-event-mini/30.jpg",
+        "dateEvent": "2016-7-30",
+        "priceEvent": "70 zł"
       },
       {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/44.jpg",
-        "dateEvent": "2016-8-14"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-20"
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19",
+        "priceEvent": "64 zł"
       }
     ]
   },
@@ -1323,89 +1441,70 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/32.jpg",
-        "dateEvent": "2016-8-2"
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/25.jpg",
+        "dateEvent": "2016-7-25",
+        "priceEvent": "28 zł"
       },
       {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-11"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-8-12"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEventt": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/16.jpg",
-        "dateEvent": "2016-7-16"
-      },
-      {
-        "nameEvent": "Pozytwynie",
-        "photoEventt": "img/foto-event-mini/5.jpg",
-        "dateEvent": "2016-7-5"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-8-3"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-30"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-15"
-      },
-      {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/36.jpg",
-        "dateEvent": "2016-8-6"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Wystywa Fotografi",
-        "photoEvent": "img/foto-event-mini/37.jpg",
-        "dateEvent": "2016-8-7"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-11"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEventt": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-13"
+        "nameEvent": "Ziemia to za mało",
+        "photoEvent": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6",
+        "priceEvent": "33 zł"
       },
       {
         "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-28"
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "90 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "14 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "59 zł"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "87 zł"
+      },
+      {
+        "nameEvent": "Wieczor piwa ",
+        "photoEvent": "img/foto-event-mini/9.jpg",
+        "dateEvent": "2016-7-9",
+        "priceEvent": "40 zł"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "39 zł"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8",
+        "priceEvent": "45 zł"
+      },
+      {
+        "nameEvent": "Garden party",
+        "photoEvent": "img/foto-event-mini/8.jpg",
+        "dateEvent": "2016-7-8",
+        "priceEvent": "66 zł"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/23.jpg",
+        "dateEvent": "2016-7-23",
+        "priceEvent": "76 zł"
       }
     ]
   },
@@ -1420,94 +1519,70 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-30"
+        "nameEvent": "Zaćmienie",
+        "photoEvent": "img/foto-event-mini/3.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "22 zł"
       },
       {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/43.jpg",
-        "dateEvent": "2016-8-13"
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/12.jpg",
+        "dateEvent": "2016-7-20",
+        "priceEvent": "80 zł"
       },
       {
-        "nameEvent": "Festiwal trafik",
-        "photoEventt": "img/foto-event-mini/7.jpg",
-        "dateEvent": "2016-7-7"
+        "nameEvent": "Zaćmienie",
+        "photoEvent": "img/foto-event-mini/3.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "50 zł"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13",
+        "priceEvent": "33 zł"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/35.jpg",
+        "dateEvent": "2016-7-5",
+        "priceEvent": "44 zł"
       },
       {
         "nameEvent": "House Time",
         "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-11"
+        "dateEvent": "2016-7-11",
+        "priceEvent": "15 zł"
       },
       {
-        "nameEvent": "Disco 80",
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/29.jpg",
+        "dateEvent": "2016-7-29",
+        "priceEvent": "38 zł"
+      },
+      {
+        "nameEvent": "Disco 90",
         "photoEvent": "img/foto-event-mini/44.jpg",
-        "dateEvent": "2016-8-14"
+        "dateEvent": "2016-7-14",
+        "priceEvent": "56 zł"
       },
       {
         "nameEvent": "Muzyka elektroniczna",
         "photoEvent": "img/foto-event-mini/33.jpg",
-        "dateEvent": "2016-8-3"
+        "dateEvent": "2016-7-3",
+        "priceEvent": "72 zł"
       },
       {
-        "nameEvent": "VHS HELL",
-        "photoEvent": "img/foto-event-mini/19.jpg",
-        "dateEvent": "2016-7-19"
+        "nameEvent": "Wystywa Fotografi",
+        "photoEvent": "img/foto-event-mini/16.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "8 zł"
       },
       {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/21.jpg",
-        "dateEvent": "2016-7-21"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/44.jpg",
-        "dateEvent": "2016-8-14"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/50.jpg",
-        "dateEvent": "2016-8-20"
-      },
-      {
-        "nameEvent": "Koncert na dachu",
-        "photoEvent": "img/foto-event-mini/38.jpg",
-        "dateEvent": "2016-8-8"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEventt": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "Festiwal trafik",
-        "photoEvent": "img/foto-event-mini/25.jpg",
-        "dateEvent": "2016-7-25"
-      },
-      {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-8-12"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/13.jpg",
+        "dateEvent": "2016-7-13",
+        "priceEvent": "34 zł"
       }
     ]
   },
@@ -1522,89 +1597,112 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Zmiana miejsc",
-        "photoEvent": "img/foto-event-mini/15.jpg",
-        "dateEvent": "2016-7-15"
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/21.jpg",
+        "dateEvent": "2016-7-21",
+        "priceEvent": "86 zł"
+      },
+      {
+        "nameEvent": "Flow Mind",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-7-17",
+        "priceEvent": "59 zł"
       },
       {
         "nameEvent": "House Time",
         "photoEvent": "img/foto-event-mini/11.jpg",
-        "dateEvent": "2016-7-11"
+        "dateEvent": "2016-7-11",
+        "priceEvent": "71 zł"
       },
       {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/27.jpg",
-        "dateEvent": "2016-7-27"
-      },
-      {
-        "nameEvent": "Muzyka elektroniczna",
-        "photoEventt": "img/foto-event-mini/12.jpg",
-        "dateEvent": "2016-7-12"
-      },
-      {
-        "nameEvent": "CD HEAVEN",
-        "photoEvent": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-20"
-      },
-      {
-        "nameEvent": "Zaćmienie",
-        "photoEventt": "img/foto-event-mini/3.jpg",
-        "dateEvent": "2016-7-3"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-8-15"
-      },
-      {
-        "nameEvent": "Rozpoczecie seonu",
-        "photoEvent": "img/foto-event-mini/14.jpg",
-        "dateEvent": "2016-7-14"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/24.jpg",
-        "dateEvent": "2016-7-24"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Ludzie ulicy",
-        "photoEvent": "img/foto-event-mini/1.jpg",
-        "dateEventEvent": "2016-7-1"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEvent": "img/foto-event-mini/34.jpg",
-        "dateEvent": "2016-8-4"
-      },
-      {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/23.jpg",
-        "dateEvent": "2016-7-23"
-      },
-      {
-        "nameEvent": "House Time",
-        "photoEvent": "img/foto-event-mini/29.jpg",
-        "dateEvent": "2016-7-29"
-      },
-      {
-        "nameEvent": "Wieczor piwa ",
-        "photoEvent": "img/foto-event-mini/48.jpg",
-        "dateEvent": "2016-8-18"
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/7.jpg",
+        "dateEvent": "2016-7-7",
+        "priceEvent": "37 zł"
       },
       {
         "nameEvent": "Otwarcie ogródka",
         "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
+        "dateEvent": "2016-7-2",
+        "priceEvent": "60 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/10.jpg",
+        "dateEvent": "2016-7-10",
+        "priceEvent": "37 zł"
+      },
+      {
+        "nameEvent": "Flow Mind",
+        "photoEvent": "img/foto-event-mini/47.jpg",
+        "dateEvent": "2016-7-17",
+        "priceEvent": "19 zł"
+      },
+      {
+        "nameEvent": "Wieczór",
+        "photoEvent": "img/foto-event-mini/21.jpg",
+        "dateEvent": "2016-7-21",
+        "priceEvent": "83 zł"
       },
       {
         "nameEvent": "Ziemia to za mało",
-        "photoEventt": "img/foto-event-mini/6.jpg",
-        "dateEvent": "2016-7-6"
+        "photoEvent": "img/foto-event-mini/6.jpg",
+        "dateEvent": "2016-7-6",
+        "priceEvent": "72 zł"
+      },
+      {
+        "nameEvent": "Destroy music",
+        "photoEvent": "img/foto-event-mini/34.jpg",
+        "dateEvent": "2016-7-4",
+        "priceEvent": "13 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "36 zł"
+      },
+      {
+        "nameEvent": "Scena odkryć",
+        "photoEvent": "img/foto-event-mini/18.jpg",
+        "dateEvent": "2016-7-18",
+        "priceEvent": "1 zł"
+      },
+      {
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/31.jpg",
+        "dateEvent": "2016-7-1",
+        "priceEvent": "52 zł"
+      },
+      {
+        "nameEvent": "Disco 80",
+        "photoEvent": "img/foto-event-mini/23.jpg",
+        "dateEvent": "2016-7-23",
+        "priceEvent": "3 zł"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19",
+        "priceEvent": "39 zł"
+      },
+      {
+        "nameEvent": "CD HEAVEN",
+        "photoEvent": "img/foto-event-mini/41.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "24 zł"
+      },
+      {
+        "nameEvent": "VHS HELL",
+        "photoEvent": "img/foto-event-mini/19.jpg",
+        "dateEvent": "2016-7-19",
+        "priceEvent": "93 zł"
+      },
+      {
+        "nameEvent": "Festiwal trafik",
+        "photoEvent": "img/foto-event-mini/25.jpg",
+        "dateEvent": "2016-7-25",
+        "priceEvent": "98 zł"
       }
     ]
   },
@@ -1619,89 +1717,82 @@
     "icon": "img/map-ping.png",
     "events": [
       {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-8-9"
-      },
-      {
-        "nameEvent": "Garden party",
-        "photoEvent": "img/foto-event-mini/8.jpg",
-        "dateEvent": "2016-7-8"
-      },
-      {
-        "nameEvent": "Boat Party",
-        "photoEvent": "img/foto-event-mini/22.jpg",
-        "dateEvent": "2016-7-22"
-      },
-      {
-        "nameEvent": "Destroy music",
-        "photoEventt": "img/foto-event-mini/13.jpg",
-        "dateEvent": "2016-7-13"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-28"
-      },
-      {
-        "nameEvent": "Dance Time",
-        "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-8-15"
-      },
-      {
-        "nameEvent": "Cudawianki",
-        "photoEventt": "img/foto-event-mini/4.jpg",
-        "dateEvent": "2016-7-4"
-      },
-      {
-        "nameEvent": "Scena odkryć",
-        "photoEvent": "img/foto-event-mini/18.jpg",
-        "dateEvent": "2016-7-18"
-      },
-      {
-        "nameEvent": "Otwarcie ogródka",
-        "photoEvent": "img/foto-event-mini/2.jpg",
-        "dateEvent": "2016-7-2"
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/11.jpg",
+        "dateEvent": "2016-7-11",
+        "priceEvent": "80 zł"
       },
       {
         "nameEvent": "Muzyka elektroniczna",
-        "photoEvent": "img/foto-event-mini/30.jpg",
-        "dateEvent": "2016-7-30"
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "13 zł"
       },
       {
-        "nameEvent": "Disco 80",
-        "photoEvent": "img/foto-event-mini/44.jpg",
-        "dateEvent": "2016-8-14"
-      },
-      {
-        "nameEvent": "Techno Night",
-        "photoEvent": "img/foto-event-mini/28.jpg",
-        "dateEvent": "2016-7-28"
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "76 zł"
       },
       {
         "nameEvent": "VHS HELL",
         "photoEvent": "img/foto-event-mini/40.jpg",
-        "dateEvent": "2016-8-10"
+        "dateEvent": "2016-7-10",
+        "priceEvent": "90 zł"
       },
       {
         "nameEvent": "Dance Time",
         "photoEvent": "img/foto-event-mini/45.jpg",
-        "dateEvent": "2016-8-15"
+        "dateEvent": "2016-7-15",
+        "priceEvent": "99 zł"
       },
       {
-        "nameEvent": "Ludzie ulicy",
-        "photoEvent": "img/foto-event-mini/1.jpg",
-        "dateEventEvent": "2016-7-1"
+        "nameEvent": "Techno Night",
+        "photoEvent": "img/foto-event-mini/28.jpg",
+        "dateEvent": "2016-7-28",
+        "priceEvent": "23 zł"
+      },
+      {
+        "nameEvent": "Pinacolada party",
+        "photoEvent": "img/foto-event-mini/46.jpg",
+        "dateEvent": "2016-7-16",
+        "priceEvent": "60 zł"
+      },
+      {
+        "nameEvent": "Rozpoczecie seonu",
+        "photoEvent": "img/foto-event-mini/14.jpg",
+        "dateEvent": "2016-7-14",
+        "priceEvent": "33 zł"
       },
       {
         "nameEvent": "Scena odkryć",
         "photoEvent": "img/foto-event-mini/39.jpg",
-        "dateEvent": "2016-8-9"
+        "dateEvent": "2016-7-9",
+        "priceEvent": "23 zł"
       },
       {
-        "nameEvent": "Wieczór",
-        "photoEvent": "img/foto-event-mini/42.jpg",
-        "dateEvent": "2016-8-12"
+        "nameEvent": "Muzyka elektroniczna",
+        "photoEvent": "img/foto-event-mini/33.jpg",
+        "dateEvent": "2016-7-3",
+        "priceEvent": "78 zł"
+      },
+      {
+        "nameEvent": "Blow party",
+        "photoEvent": "img/foto-event-mini/26.jpg",
+        "dateEvent": "2016-7-26",
+        "priceEvent": "77 zł"
+      },
+      {
+        "nameEvent": "Dance Time",
+        "photoEvent": "img/foto-event-mini/24.jpg",
+        "dateEvent": "2016-7-24",
+        "priceEvent": "86 zł"
+      },
+      {
+        "nameEvent": "House Time",
+        "photoEvent": "img/foto-event-mini/32.jpg",
+        "dateEvent": "2016-7-2",
+        "priceEvent": "83 zł"
       }
     ]
   }
