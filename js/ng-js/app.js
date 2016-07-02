@@ -1,5 +1,5 @@
 'use strict';
-var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate','gridster']);
+var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate','gridster' ]);
 
 eventCalendarApp.config(['$routeProvider', function($routeProvider){
 
@@ -49,12 +49,23 @@ eventCalendarApp.controller('gridsterCalendarController', function($scope, $http
                     photoEvent: event.photoEvent,
                     sizeX: 1,
                     sizeY: 1,
-                    row: index % 1,
-                    col: index % 8
+                    row: index % 9,
+                    col: index % 6
+
                 };
             });
             console.log($scope.events.length);
         });
+});
+
+eventCalendarApp.filter('customDate', function () {
+   return function (events, date) {
+       console.log(events, date);
+       return events.filter(function (event) {
+           console.log(event.dateEvent);
+           return event.dateEvent === date;
+       });
+   }
 });
 
 eventCalendarApp.directive('appcalendar', function() {
@@ -81,10 +92,10 @@ eventCalendarApp.directive('appcalendar', function() {
                     currentDate = currentDate.addDays(1);
                 }
                 return dateArray;
-            };
+            }
 
             function getCalendarDays(begin, howMany) {
-                return getDates(new Date(Date.now()), new Date('2016-07-30')).map(function (date, index) {
+                return getDates(new Date('2016-07-01'), new Date('2016-07-31')).map(function (date, index) {
 
                     function createButton(buttonClasses) {
                         return $('<div>')
@@ -125,7 +136,7 @@ eventCalendarApp.directive('appcalendar', function() {
             //         for (var i=0; i<value.events.length; i++) {
             //             //if (value.events[i].dateEvent)
             //             console.log(value.events[i].dateEvent);
-            //             if(dataEvent === data-cleardate){
+            //             if(dateEvent === data-cleardate){
             //                 data.push( "<li id='" + key + "'>" + val + "</li>" );
             //             }
             //         }
@@ -167,4 +178,3 @@ eventCalendarApp.directive('appcalendar', function() {
         }
     }
 });
-
