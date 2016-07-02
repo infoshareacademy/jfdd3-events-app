@@ -1,5 +1,5 @@
 'use strict';
-var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate','gridster' ]);
+var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate','gridster']);
 
 eventCalendarApp.config(['$routeProvider', function($routeProvider){
 
@@ -81,10 +81,10 @@ eventCalendarApp.directive('appcalendar', function() {
                     currentDate = currentDate.addDays(1);
                 }
                 return dateArray;
-            }
+            };
 
             function getCalendarDays(begin, howMany) {
-                return getDates(new Date(Date.now()), new Date('2016-08-20')).map(function (date, index) {
+                return getDates(new Date(Date.now()), new Date('2016-07-30')).map(function (date, index) {
 
                     function createButton(buttonClasses) {
                         return $('<div>')
@@ -119,26 +119,26 @@ eventCalendarApp.directive('appcalendar', function() {
             }
 
 
-            $.getJSON('data/clubsWithEvents.json', function(data){
-                var dateEvents = [];
-                $.each(data, function(key, value) {
-                    for (var i=0; i<value.events.length; i++) {
-                        //if (value.events[i].dateEvent)
-                        console.log(value.events[i].dateEvent);
-                        if(dataEvent === data-cleardate){
-                            data.push( "<li id='" + key + "'>" + val + "</li>" );
-                        }
-                    }
-
-                });
-                //if(dateEvent === data-cleardate){
-                //    dateEvents.push
-                //}
-                //}
-                dataEvent.forEach(function(data){
-                    var $events = $('<div class="events">');
-                })
-            });
+            // $.getJSON('data/clubsWithEvents.json', function(data){
+            //     var dateEvents = [];
+            //     $.each(data, function(key, value) {
+            //         for (var i=0; i<value.events.length; i++) {
+            //             //if (value.events[i].dateEvent)
+            //             console.log(value.events[i].dateEvent);
+            //             if(dataEvent === data-cleardate){
+            //                 data.push( "<li id='" + key + "'>" + val + "</li>" );
+            //             }
+            //         }
+            //
+            //     });
+            //     //if(dateEvent === data-cleardate){
+            //     //    dateEvents.push
+            //     //}
+            //     //}
+            //     dataEvent.forEach(function(data){
+            //         var $events = $('<div class="events">');
+            //     })
+            // });
 
             /* function showEventsData() {
 
@@ -167,6 +167,4 @@ eventCalendarApp.directive('appcalendar', function() {
         }
     }
 });
-
-
 
