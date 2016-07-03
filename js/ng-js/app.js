@@ -1,32 +1,32 @@
 'use strict';
-var eventCalendarApp= angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar','ngAnimate','gridster' ]);
+var eventCalendarApp = angular.module('eventCalendarApp', ['ngRoute', 'angular-loading-bar', 'ngAnimate', 'gridster']);
 
-eventCalendarApp.config(['$routeProvider', function($routeProvider){
+eventCalendarApp.config(['$routeProvider', function ($routeProvider) {
 
     $routeProvider
-        .when('/',{
-            templateUrl:'ng-views/home.html'
+        .when('/', {
+            templateUrl: 'ng-views/home.html'
         })
-        .when('/calendar',{
+        .when('/calendar', {
             template: '<appcalendar></appcalendar>',
             //templateUrl:'ng-views/calendar.html'
             controller: 'gridsterCalendarController'
         })
-        .when('/event',{
-            templateUrl:'ng-views/club.html',
+        .when('/event', {
+            templateUrl: 'ng-views/club.html',
             controller: 'eventController'
         })
-        .when('/map',{
-            templateUrl:'ng-views/map.html'
+        .when('/map', {
+            templateUrl: 'ng-views/map.html'
         })
         .otherwise({
-            redirectTo:'/calendar.html'
+            redirectTo: '/calendar.html'
         });
 }]);
 
-eventCalendarApp.controller('eventController', function($scope, $http){
+eventCalendarApp.controller('eventController', function ($scope, $http) {
     $http.get('data/clubsWithEvents.json')
-        .then(function(res){
+        .then(function (res) {
             $scope.clubsWithEvents = res.data;
         });
 
@@ -37,7 +37,7 @@ eventCalendarApp.controller('eventController', function($scope, $http){
 
 });
 
-eventCalendarApp.controller('gridsterCalendarController', function($scope, $http) {
+eventCalendarApp.controller('gridsterCalendarController', function ($scope, $http) {
     $http.get('data/clubsWithEvents.json')
         .then(function (response) {
             $scope.events = Array.prototype.concat.apply([], response.data.map(function (club) {
@@ -47,28 +47,35 @@ eventCalendarApp.controller('gridsterCalendarController', function($scope, $http
                     nameEvent: event.nameEvent,
                     dateEvent: event.dateEvent,
                     photoEvent: event.photoEvent,
+                    priceEvent: event.priceEvent,
                     sizeX: 1,
-                    sizeY: 1,
+                    sizeY: 2,
                     row: index % 9,
-                    col: index % 6
+                    col: index % 6,
+                    minSizeY: 1,
+                    maxSizeY: 1
 
                 };
             });
+
             console.log($scope.events.length);
         });
+
+
+
 });
 
 eventCalendarApp.filter('customDate', function () {
-   return function (events, date) {
-       console.log(events, date);
-       return events.filter(function (event) {
-           console.log(event.dateEvent);
-           return event.dateEvent === date;
-       });
-   }
+    return function (events, date) {
+        console.log(events, date);
+        return events.filter(function (event) {
+            console.log(event.dateEvent);
+            return event.dateEvent === date;
+        });
+    }
 });
 
-eventCalendarApp.directive('appcalendar', function() {
+eventCalendarApp.directive('appcalendar', function () {
 
     var pos = 0;
 
@@ -76,9 +83,9 @@ eventCalendarApp.directive('appcalendar', function() {
         templateUrl: 'ng-views/calendar.html',
         scope: false,
 
-        link: function($scope, element, attribute) {
+        link: function ($scope, element, attribute) {
 
-            Date.prototype.addDays = function(days) {
+            Date.prototype.addDays = function (days) {
                 var dat = new Date(this.valueOf());
                 dat.setDate(dat.getDate() + days);
                 return dat;
@@ -100,12 +107,12 @@ eventCalendarApp.directive('appcalendar', function() {
                     function createButton(buttonClasses) {
                         return $('<div>')
                             .addClass(buttonClasses)
-                            .append( $('<button>')
+                            .append($('<button>')
                                 .addClass('calendar-button')
-                                .text(date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate())
-                                .attr('data-cleardate', date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate())
+                                .text(date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate())
+                                .attr('data-cleardate', date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate())
                             )
-                            .click(function() {
+                            .click(function () {
                                 $scope.currentDate = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
                                 $scope.$apply();
                             });
@@ -116,11 +123,11 @@ eventCalendarApp.directive('appcalendar', function() {
                         return createButton('col-xs-3 col-sm-2 col-md-2 col-lg-1');
 
                     }
-                    if (index >=2 + begin && index < 4 + begin) {
+                    if (index >= 2 + begin && index < 4 + begin) {
                         return createButton('hidden-xs col-sm-2 col-md-2 col-lg-1');
 
                     }
-                    if (index >=4 + begin && index < 10 + begin) {
+                    if (index >= 4 + begin && index < 10 + begin) {
 
                         return createButton('hidden-xs hidden-sm hidden-md col-lg-1');
 
@@ -169,7 +176,7 @@ eventCalendarApp.directive('appcalendar', function() {
 
             $scope.moveRight = function () {
                 pos += 1;
-                $('main div.block').empty().append(getCalendarDays(pos, pos +  10));
+                $('main div.block').empty().append(getCalendarDays(pos, pos + 10));
             };
 
             //scope.calendarDays = ['one', 'two', 'three'];
@@ -178,3 +185,33 @@ eventCalendarApp.directive('appcalendar', function() {
         }
     }
 });
+
+
+eventCalendarApp.controller('MainController', ['$scope',
+    function ($scope) {
+        //for more options visit https://developers.google.com/identity/sign-in/web/reference#gapisignin2renderwzxhzdk114idwzxhzdk115_wzxhzdk116optionswzxhzdk117
+        $scope.options = {
+            'onsuccess': function (response) {
+                console.log(response);
+            },
+            'onfailure': function (response) {
+                console.log(response);
+            }
+        }
+    }
+])
+    .directive('googleSignInButton', function () {
+        return {
+            scope: {
+                buttonId: '@',
+                options: '&'
+            },
+            template: '<div></div>',
+            link: function (scope, element, attrs) {
+                var div = element.find('div')[0];
+                div.id = attrs.buttonId;
+                gapi.signin2.render(div.id, scope.options()); //render a google button, first argument is an id, second options
+            }
+            
+        };
+    });

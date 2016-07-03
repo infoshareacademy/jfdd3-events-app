@@ -14,6 +14,7 @@
                 <li class="nav-button"><a href="#/calendar">KALENDARZ</a></li>
                 <li class="nav-button"><a href="#/event">KLUBY</a></li>
                 <li class="nav-button"><a href="#/map">MAPA LOKALI</a></li>
+
                 <li type="button" data-toggle="modal" data-target="#myModal" class="nav-button"><a>ZALOGUJ
                     SIĘ</a></li>
             </ul>
@@ -30,9 +31,7 @@
                 <h4 class="modal-title" id="myModalLabel">Zaloguj się</h4>
             </div>
             <div class="modal-body">
-
-                <button class="btn btn-default g-signin2" data-onsuccess="onSignIn"></button>
-                <button class="btn btn-default" onclick="signOut();">sign out</button>
+                <google-sign-in-button button-id="nav-button" options="options"></google-sign-in-button>
 
             </div>
         </div>
