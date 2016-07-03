@@ -130,9 +130,9 @@ var allClubs = [
     }
 ];
 var allEvents = [
-    {nameEvent: 'Ludzie ulicy', photoEvent: 'img/foto-event-mini/1.jpg', dateEventEvent: '2016-7-1'},
-    {nameEvent: 'Otwarcie ogródka', photoEvent: 'img/foto-event-mini/2.jpg', dateEvent: '2016-7-2'},
-    {nameEvent: 'Zaćmienie', photoEvent: 'img/foto-event-mini/3.jpg', dateEvent: '2016-7-3'},
+    {nameEvent: 'Ludzie ulicy', photoEvent: 'img/foto-event-mini/1.jpg', dateEventEvent: '2016-7-4'},
+    {nameEvent: 'Otwarcie ogródka', photoEvent: 'img/foto-event-mini/2.jpg', dateEvent: '2016-7-5'},
+    {nameEvent: 'Zaćmienie', photoEvent: 'img/foto-event-mini/3.jpg', dateEvent: '2016-7-6'},
     {nameEvent: 'Cudawianki', photoEvent: 'img/foto-event-mini/4.jpg', dateEvent: '2016-7-4'},
     {nameEvent: 'Pozytwynie', photoEvent: 'img/foto-event-mini/5.jpg', dateEvent: '2016-7-5'},
     {nameEvent: 'Ziemia to za mało', photoEvent: 'img/foto-event-mini/6.jpg', dateEvent: '2016-7-6'},
