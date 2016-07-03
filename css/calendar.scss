@@ -19,6 +19,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  #background {
+    background-size: auto 100vh;
+  }
+}
+
 .menu-months {
   font-size: 1.5em;
   color: rgb(180, 180, 180);
@@ -26,7 +32,7 @@
   width: 100%;
   //padding-top: 1%;
   //padding-bottom: 2%;
-}
+  }
 
 .calendar-button {
   border: 2px solid white;
@@ -86,12 +92,6 @@
 
 #left {
   color: white;
-}
-
-@media screen and (max-width: 768px) {
-  #background {
-    background-size: auto 100vh;
-  }
 }
 
 .event-info {

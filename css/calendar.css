@@ -14,6 +14,9 @@
 @media screen and (max-width: 1225px) {
   .calendar-background {
     background-size: auto 100%; } }
+@media screen and (max-width: 768px) {
+  #background {
+    background-size: auto 100vh; } }
 .menu-months {
   font-size: 1.5em;
   color: #b4b4b4;
@@ -60,9 +63,6 @@
 #left {
   color: white; }
 
-@media screen and (max-width: 768px) {
-  #background {
-    background-size: auto 100vh; } }
 .event-info {
   height: 100vh; }
 
