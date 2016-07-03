@@ -35,9 +35,9 @@
   border-top-right-radius: 1px; }
 #loading-bar .peg {
   position: absolute;
-  width: 70px;
-  right: 0;
-  top: 0;
+  width: 570px;
+  right: 50%;
+  top: 50%;
   height: 2px;
   opacity: .45;
   -moz-box-shadow: #29d 1px 0 6px 1px;
@@ -53,13 +53,13 @@
   display: block;
   position: fixed;
   z-index: 10002;
-  top: 10px;
-  left: 10px; }
+  top: 50%;
+  left: 50%; }
   #loading-bar-spinner .spinner-icon {
-    width: 14px;
-    height: 14px;
+    width: 80px;
+    height: 80px;
     border: solid 2px transparent;
-    border-top-color: #29d;
+    border-top-color: #ffffff;
     border-left-color: #29d;
     border-radius: 50%;
     -webkit-animation: loading-bar-spinner 400ms linear infinite;
