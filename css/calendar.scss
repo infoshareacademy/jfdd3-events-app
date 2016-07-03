@@ -7,7 +7,7 @@
   background-size: 100% auto;
   height: 100vh;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 60px;
   position: absolute;
   left: 0;
   top: 0;
@@ -29,10 +29,9 @@
 }
 
 .calendar-button {
-  border: 2px solid;
-  border-color: rgb(180, 180, 180);
-  background-color: black;
-  color: rgb(180, 180, 180);
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
   font-size: 1em;
   padding: 0.5em 1em;
   margin: 0.6em;
@@ -56,9 +55,9 @@
   }
 }
 
-.calendar-description {
-  background-color: orange;
-}
+//.calendar-description {
+//  background-color: orange;
+//}
 
 //.show {
 //  display: block;
@@ -81,6 +80,14 @@
   background-size: 100vw auto;
 }
 
+#right {
+  color: white;
+}
+
+#left {
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   #background {
     background-size: auto 100vh;
@@ -93,4 +100,8 @@
 
 .event-date:hover, .event-title:hover {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.block {
+  text-align: center;
 }

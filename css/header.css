@@ -1,8 +1,3 @@
-.nav-button {
-  background-color: transparent;
-  padding: 0;
-  margin: 0; }
-
 .navbar {
   margin-bottom: 0 !important; }
 
@@ -35,5 +30,10 @@
 
 .navbar-toggle {
   border-color: transparent; }
+
+header {
+  top: 0 !important;
+  position: absolute;
+  width: 100%; }
 
 /*# sourceMappingURL=header.css.map */
