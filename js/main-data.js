@@ -154,27 +154,27 @@ var allEvents = [
     {nameEvent: 'Boat Party', photoEvent: 'img/foto-event-mini/22.jpg', dateEvent: '2016-7-22'},
     {nameEvent: 'Disco 80', photoEvent: 'img/foto-event-mini/23.jpg', dateEvent: '2016-7-23'},
     {nameEvent: 'Dance Time', photoEvent: 'img/foto-event-mini/24.jpg', dateEvent: '2016-7-24'},
-    {nameEvent: 'Festiwal trafik', photoEvent: 'img/foto-event-mini/25.jpg', dateEvent: '2016-7-25'},
+    {nameEvent: 'Escape to freedom', photoEvent: 'img/foto-event-mini/25.jpg', dateEvent: '2016-7-25'},
     {nameEvent: 'Blow party', photoEvent: 'img/foto-event-mini/26.jpg', dateEvent: '2016-7-26'},
-    {nameEvent: 'Wieczor piwa ', photoEvent: 'img/foto-event-mini/27.jpg', dateEvent: '2016-7-27'},
-    {nameEvent: 'Techno Night', photoEvent: 'img/foto-event-mini/28.jpg', dateEvent: '2016-7-28'},
+    {nameEvent: 'Sensation ', photoEvent: 'img/foto-event-mini/27.jpg', dateEvent: '2016-7-27'},
+    {nameEvent: 'Tech-time', photoEvent: 'img/foto-event-mini/28.jpg', dateEvent: '2016-7-28'},
     {nameEvent: 'House Time', photoEvent: 'img/foto-event-mini/29.jpg', dateEvent: '2016-7-29'},
     {nameEvent: 'Muzyka Fun', photoEvent: 'img/foto-event-mini/30.jpg', dateEvent: '2016-7-30'},
-    {nameEvent: 'Techno Night', photoEvent: 'img/foto-event-mini/31.jpg', dateEvent: '2016-7-1'},
-    {nameEvent: 'House Time', photoEvent: 'img/foto-event-mini/32.jpg', dateEvent: '2016-7-2'},
-    {nameEvent: 'Muzyka elektroniczna', photoEvent: 'img/foto-event-mini/33.jpg', dateEvent: '2016-7-3'},
-    {nameEvent: 'Destroy music', photoEvent: 'img/foto-event-mini/34.jpg', dateEvent: '2016-7-4'},
-    {nameEvent: 'Rozpoczecie seonu', photoEvent: 'img/foto-event-mini/35.jpg', dateEvent: '2016-7-5'},
-    {nameEvent: 'Zmiana miejsc', photoEvent: 'img/foto-event-mini/36.jpg', dateEvent: '2016-7-6'},
-    {nameEvent: 'Wystywa Fotografi', photoEvent: 'img/foto-event-mini/37.jpg', dateEvent: '2016-7-7'},
-    {nameEvent: 'Koncert na dachu', photoEvent: 'img/foto-event-mini/38.jpg', dateEvent: '2016-7-8'},
-    {nameEvent: 'Scena odkryć', photoEvent: 'img/foto-event-mini/39.jpg', dateEvent: '2016-7-9'},
-    {nameEvent: 'VHS HELL', photoEvent: 'img/foto-event-mini/40.jpg', dateEvent: '2016-7-10'},
-    {nameEvent: 'CD HEAVEN', photoEvent: 'img/foto-event-mini/41.jpg', dateEvent: '2016-7-11'},
-    {nameEvent: 'Wieczór', photoEvent: 'img/foto-event-mini/42.jpg', dateEvent: '2016-7-12'},
-    {nameEvent: 'Boat Party', photoEvent: 'img/foto-event-mini/43.jpg', dateEvent: '2016-7-13'},
-    {nameEvent: 'Disco 90', photoEvent: 'img/foto-event-mini/44.jpg', dateEvent: '2016-7-14'},
-    {nameEvent: 'Dance Time', photoEvent: 'img/foto-event-mini/45.jpg', dateEvent: '2016-7-15'},
+    {nameEvent: 'Stereo Beats', photoEvent: 'img/foto-event-mini/31.jpg', dateEvent: '2016-7-1'},
+    {nameEvent: 'Hard Sound', photoEvent: 'img/foto-event-mini/32.jpg', dateEvent: '2016-7-2'},
+    {nameEvent: 'Vinyl sets', photoEvent: 'img/foto-event-mini/33.jpg', dateEvent: '2016-7-3'},
+    {nameEvent: 'Funky split', photoEvent: 'img/foto-event-mini/34.jpg', dateEvent: '2016-7-4'},
+    {nameEvent: 'Rio Carnival', photoEvent: 'img/foto-event-mini/35.jpg', dateEvent: '2016-7-5'},
+    {nameEvent: 'Holi fest', photoEvent: 'img/foto-event-mini/36.jpg', dateEvent: '2016-7-6'},
+    {nameEvent: 'Day off', photoEvent: 'img/foto-event-mini/37.jpg', dateEvent: '2016-7-7'},
+    {nameEvent: 'Fusion', photoEvent: 'img/foto-event-mini/38.jpg', dateEvent: '2016-7-8'},
+    {nameEvent: 'Balaton Sound', photoEvent: 'img/foto-event-mini/39.jpg', dateEvent: '2016-7-9'},
+    {nameEvent: 'Exit', photoEvent: 'img/foto-event-mini/40.jpg', dateEvent: '2016-7-10'},
+    {nameEvent: 'Secret Party', photoEvent: 'img/foto-event-mini/41.jpg', dateEvent: '2016-7-11'},
+    {nameEvent: 'Creamfields', photoEvent: 'img/foto-event-mini/42.jpg', dateEvent: '2016-7-12'},
+    {nameEvent: 'Mysteryland', photoEvent: 'img/foto-event-mini/43.jpg', dateEvent: '2016-7-13'},
+    {nameEvent: 'Time Out', photoEvent: 'img/foto-event-mini/44.jpg', dateEvent: '2016-7-14'},
+    {nameEvent: 'Jungle Boogie', photoEvent: 'img/foto-event-mini/45.jpg', dateEvent: '2016-7-15'},
     {nameEvent: 'Pinacolada party', photoEvent: 'img/foto-event-mini/46.jpg', dateEvent: '2016-7-16'},
     {nameEvent: 'Flow Mind', photoEvent: 'img/foto-event-mini/47.jpg', dateEvent: '2016-7-17'},
     {nameEvent: 'Opener ', photoEvent: 'img/foto-event-mini/48.jpg', dateEvent: '2016-7-18'},
@@ -199,11 +199,8 @@ var clubsWithEvents = allClubs.map(function (club) {
     for (var i = 0; i < howMany; i += 1) {
 
         var randomIndex=Math.round(Math.random() * (allEvents.length - 1));
-        console.log(randomIndex);
         var randomIndex1=Math.round(Math.random() * (allEvents.length - 1));
-        console.log(randomIndex1);
         var randomIndex2=Math.round(Math.random() * (allEvents.length - 1));
-        console.log(randomIndex2);
         var randomPrice= (Math.round(Math.random()*100));
         var randomEvent={};
 
