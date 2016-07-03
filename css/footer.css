@@ -7,14 +7,14 @@
   height: 40px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  padding-left: 2em; }
+  padding-left: 2em;
+  padding-top: 4px; }
   .footer i {
     color: white;
     font-size: 2.5em;
-    margin-right: 0.5em;
-    padding: 2px;
+    padding-top: 0 2px;
     border-radius: 5px;
-    margin-top: 5px; }
+    bottom: 5px; }
   .footer .fa-facebook-square:hover {
     color: #3b5998;
     background-color: white; }

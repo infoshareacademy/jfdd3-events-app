@@ -65,20 +65,20 @@ body {
   .event-thumbnail p {
     opacity: 0;
     color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
-    font-weight: 700; }
+    font-weight: 400; }
   .event-thumbnail:hover {
     opacity: 1; }
     .event-thumbnail:hover span {
       opacity: 1;
       font-size: 2em;
       text-transform: uppercase;
-      font-family: 'Open Sans Condensed', sans-serif;
-      font-weight: 700; }
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400; }
     .event-thumbnail:hover p {
       opacity: 1;
-      background-color: rgba(0, 0, 0, 0.4); }
+      background-color: rgba(0, 0, 0, 0.6); }
 
 @media screen and (max-width: 500px) {
   .event-thumbnail {

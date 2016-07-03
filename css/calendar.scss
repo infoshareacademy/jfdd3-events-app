@@ -30,8 +30,6 @@
   color: rgb(180, 180, 180);
   display: inline-block;
   width: 100%;
-  //padding-top: 1%;
-  //padding-bottom: 2%;
   }
 
 .calendar-button {
@@ -46,8 +44,7 @@
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   &:hover {
-    border-color: white;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -56,31 +53,17 @@
   display: inline-block;
   vertical-align: middle;
   padding-top: 20px;
-  &:hover {
-    color: white;
-  }
+ color: white;
 }
 
-//.calendar-description {
-//  background-color: orange;
+//.backward-button {
+//  border: none;
+//  float: left;
+//  background: rgb(0, 0, 0);
+//  color: white;
+//  font-size: 6em;
+//  margin-left: 1em;
 //}
-
-//.show {
-//  display: block;
-//}
-//
-//.hide {
-//  display: none;
-//}
-
-.backward-button {
-  border: none;
-  float: left;
-  background: rgb(0, 0, 0);
-  color: white;
-  font-size: 6em;
-  margin-left: 1em;
-}
 
 #background {
   background-size: 100vw auto;
